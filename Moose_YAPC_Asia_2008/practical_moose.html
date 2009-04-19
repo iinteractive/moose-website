@@ -1,0 +1,1275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Moose</title>
+<!-- metadata -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="generator" content="TextMate/S5" />
+<meta name="version" content="S5 1.2a2" />
+<meta name="presdate" content="2008" />
+<meta name="author" content="Yuval Kogman" />
+<meta name="company" content="" />
+<!-- configuration parameters -->
+<meta name="defaultView" content="slideshow" />
+<meta name="controlVis" content="visible" />
+<!-- style sheet links -->
+<link rel="stylesheet" href="./ui/moose/slides.css" type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="./ui/moose/outline.css" type="text/css" media="screen" id="outlineStyle" />
+<link rel="stylesheet" href="./ui/moose/print.css" type="text/css" media="print" id="slidePrint" />
+<link rel="stylesheet" href="./ui/moose/opera.css" type="text/css" media="projection" id="operaFix" />
+<!-- embedded styles -->
+<style type="text/css" media="all">
+.imgcon {width: 525px; margin: 0 auto; padding: 0; text-align: center;}
+#anim {width: 270px; height: 320px; position: relative; margin-top: 0.5em;}
+#anim img {position: absolute; top: 42px; left: 24px;}
+img#me01 {top: 0; left: 0;}
+img#me02 {left: 23px;}
+img#me04 {top: 44px;}
+img#me05 {top: 43px;left: 36px;}
+</style>
+<!-- S5 JS -->
+<script src="./ui/moose/slides.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div class="layout">
+<div id="controls"><!-- DO NOT EDIT --></div>
+<div id="currentSlide"><!-- DO NOT EDIT --></div>
+<div id="header"></div>
+<div id="footer">
+<h1>YAPC::Asia::2008</h1>
+<h2>Moose</h2>
+</div>
+<div class="topleft"></div>
+<div class="topright"></div>
+<div class="bottomleft"></div>
+<div class="bottomright"></div>
+</div>
+
+<div class="presentation">
+
+<div class="slide">
+<h1>Moose</h1>
+<h2></h2>
+<h3>Yuval Kogman</h3>
+<h4></h4>
+</div>
+
+
+<div class="slide">
+<h1>Moose Is Not</h1>
+
+<ul>
+<li>Experimental</li>
+<li>A toy</li>
+<li>Just another accessor builder</li>
+<li>A source filter</li>
+<li>Perl black magic</li>
+<li>Perl 6 in Perl 5</li>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>Moose Is</h1>
+
+<ul>
+<li>A complete modern object framework for Perl</li>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>Moose Is</h1>
+
+<ul>
+<li>Syntactic Sugar for <code>Class::MOP</code></li>
+<li>Rich ancestry
+<ul>
+<li>CLOS (Common Lisp Object System)</li>
+<li>Smalltalk</li>
+<li>Alces latifrons</li>
+<li>Perl 6</li>
+<li>…</li>
+</ul></li>
+<li>Stable &amp; Production ready</li>
+<li>Polite, incremental</li>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>A Simple Example</h1>
+
+<pre><code>
+package Person;
+
+use strict;
+use warnings;
+
+sub new {
+    my ( $class, @args ) = @_;
+
+    @args = %{$args[0]} if @args == 1;
+
+    return bless {
+        @args,
+    }, $class;
+}
+
+sub name {
+    my ($self, @args) = @_;
+    $self->{name} = $args[0] if @args;
+    return $self->{name};
+}
+
+sub age {
+    my ($self, @args) = @_;
+    $self->{age} = $args[0] if @args;
+    return $self->{age}; 
+}
+
+1;
+</code></pre>
+
+</div>
+
+<div class="slide">
+<h1>A Simple Moose Example</h1>
+
+<pre><code>
+package Person;
+use Moose;
+
+has name => (is => 'rw');
+has age  => (is => 'rw');
+
+1;
+</code></pre>
+
+</div>
+
+<div class="slide">
+<h1>A Simple Moose Example (cont.)</h1>
+
+<ul>
+<li><code>use Moose;</code> 
+<ul>
+<li>imports keywords</li>
+<li><code>use strict; use warnings;</code></li>
+<li><code>@ISA = qw(Moose::Object) unless @ISA</code></li>
+</ul></li>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>A Simple Moose Example (cont.)</h1>
+
+<ul>
+<li><p><code>has</code> declares attributes</p>
+
+<ul>
+<li>generates accessors</li>
+<li><code>is =&gt; 'rw'</code> → read/write accessor</li>
+<li><code>is =&gt; 'ro'</code> → read only accessor</li>
+<li><code>writer</code>, <code>reader</code></li>
+</ul></li>
+<li><p><code>new</code> inherited from <code>Moose::Object</code></p></li>
+</ul>
+
+<div class="notes">
+<p>Now we&#8217;re going to discuss more features of the attributes</p>
+</div>
+</div>
+
+<div class="slide">
+<h1>Variations on a Moose Example</h1>
+
+<pre><code>
+package Manager;
+use Moose;
+
+has name => (
+    is  => 'rw',
+    isa => 'Str',
+    default => 'Bob'
+);
+
+has staff => (
+    is      => 'ro',
+    isa     => 'ArrayRef',
+    lazy    => 1,
+    default => sub { [qw(Bob Alice Tim)] },
+);
+</code></pre>
+
+<div class="notes">
+<p>Adds default, isa</p>
+</div>
+</div>
+
+<div class="slide">
+<h1>Variations on a Moose Example (cont.)</h1>
+
+<ul>
+<li><p><code>default</code> is a</p>
+
+<ul>
+<li>code reference</li>
+<li>or non-reference (numbers, strings)</li>
+<li>used when no parameter is given to <code>new</code></li>
+</ul></li>
+<li><p><code>lazy</code> delays <code>default</code></p>
+
+<ul>
+<li>called on first usage of <code>$object-&gt;staff</code></li>
+<li>not inside <code>new</code></li>
+</ul></li>
+</ul>
+
+<div class="notes">
+<p>discusses default</p>
+
+<p>non refs make accidental sharing hard</p>
+</div>
+</div>
+
+<div class="slide">
+<h1>Variations on a Moose Example (cont.)</h1>
+
+<ul>
+<li><code>isa</code> specifies a type
+<ul>
+<li><code>Moose::Util::TypeConstraints</code>
+<ul>
+<li><code>Any, Item, Bool, Undef, Defined, Value, Num, Int, Str, Ref, ScalarRef, ArrayRef, HashRef, CodeRef, RegexpRef, GlobRef, FileHandle, Object and Role</code></li>
+</ul></li>
+<li>Types don&#8217;t need to exist</li>
+</ul></li>
+</ul>
+
+<pre><code>
+            has 'date' => (isa => 'DateTime'); # DWIM
+</code></pre>
+
+<div class="notes">
+<p>isa, type constraints</p>
+</div>
+</div>
+
+<div class="slide">
+<h1>Typical Family</h1>
+
+<ul>
+<li>Types have a hierarchy
+<ul>
+<li><code>Item</code> ⊃ <code>Defined</code> ⊃ <code>Ref</code> ⊃ <code>Object</code></li>
+</ul></li>
+</ul>
+
+<pre><code>
+        subtype 'Ref'
+            => as 'Defined'
+            => where {  ref($_) };
+
+        subtype 'Object'
+            => as 'Ref'
+            => where { blessed($_) }
+</code></pre>
+
+<div class="notes">
+<p>type hierarchy</p>
+</div>
+</div>
+
+<div class="slide">
+<h1>Conventional Delegates</h1>
+
+<pre><code>
+package Employee;
+use Moose;
+extends qw(Person);
+
+has manager =>  (
+    is  => 'ro',
+    isa => 'Manager',
+    handles => {
+        manager_name => 'name',
+        coworkers    => 'staff',
+    }
+);
+</code></pre>
+
+<ul>
+<li>manager <code>handles</code> certain methods for <code>Employee</code>
+<ul>
+<li><code>$emp-&gt;coworkers</code> == <code>$emp-&gt;manager-&gt;staff</code></li>
+</ul></li>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>Conventional Delegates (cont.)</h1>
+
+<pre><code>
+has phone => (
+    ...
+    handles => [qw(number extension)],
+);
+</code></pre>
+
+</div>
+
+<div class="slide">
+<h1>Conventional Delegates (cont.)</h1>
+
+<pre><code>
+has phone => (
+    ...
+    isa     => "Phone",
+    handles => qr/^[a-z]w+$/,
+);
+</code></pre>
+
+</div>
+
+<div class="slide">
+<h1>Conventional Delegates (cont.)</h1>
+
+<pre><code>
+has phone => (
+    ...
+    handles => "Dialing", # a role
+);
+</code></pre>
+
+</div>
+
+<div class="slide">
+<h1>UnConventional Delegates</h1>
+
+<pre><code>
+package Company;
+use Moose;
+use MooseX::AttributeHelpers;
+
+has employees => (
+    metaclass => 'Collection::Array',
+    isa => 'ArrayRef[Employees]',
+    is  => 'rw',
+    provides => {
+        push  => 'add_employee',
+        pop   => 'remove_employee',
+        count => 'number_of_employees',
+        empty => 'any_employees',
+    },
+);
+</code></pre>
+
+</div>
+
+<div class="slide">
+<h1>Modified Methods</h1>
+
+<pre><code>
+before 'employees' => sub { warn 'calling employees' };
+
+after 'employees' => sub { warn 'finished calling employees' };
+</code></pre>
+
+<ul>
+<li>Pre/Post hooks
+<ul>
+<li>Get a copy of <code>@_</code></li>
+<li>Return value is ignored</li>
+</ul></li>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>Modified Methods (cont.)</h1>
+
+<pre><code>
+around 'employees' => sub { 
+    my ($next, $self, @args) = @_;
+    ...
+    my @return = $self->$next(@args);
+    ...
+    return @return;
+};
+</code></pre>
+
+</div>
+
+<div class="slide">
+<h1>Modified Methods (cont.)</h1>
+
+<pre><code>
+package Employee;
+use Moose;
+
+sub do_work {
+    my $self = shift;
+
+    $self->punch_in;
+
+    inner(); # call subclass here
+
+    $self->punch_out;
+}
+</code></pre>
+
+</div>
+
+<div class="slide">
+<h1>Modified Methods (cont.)</h1>
+
+<pre><code>
+package Employee::Chef;
+use Moose;
+
+extends qw(Employee);
+
+augment do_work => sub {
+    my $self = shift;
+
+    while ( @burgers ) {
+        $self->flip_burger(shift @burgers);
+    }
+};
+
+$chef->do_work; # punch in, flip burgers, punch out
+</code></pre>
+
+</div>
+
+<div class="slide">
+<h1>Some Type of Coercion</h1>
+
+<pre><code>
+package Employee;
+use Moose;
+use Moose::Util::TypeConstraints;
+extends qw(Person);
+
+class_type 'Manager';
+
+coerce 'Manager' => (
+    from 'Str' => via { Manager->new( name => $_ ) },
+);
+
+has manager => (
+    is => 'ro',
+    isa => 'Manager',
+    required => 1, 
+    coerce => 1,
+);
+</code></pre>
+
+</div>
+
+<div class="slide">
+<h1>Some Type of Coercion (cont.)</h1>
+
+<pre><code>
+# import type constraint keywords
+use Moose::Util::TypeConstraints;
+
+
+# define Manager, a subtype of Object
+class_type "Manager";
+
+
+# define the conversion
+... via { Manager->new( name => $_ ) }
+
+
+# enable it per attribute
+has manager => (
+    ...
+    coerce => 1,
+);
+</code></pre>
+
+<div class="notes">
+<p>breakdown of the example</p>
+
+<p>class types are automatically created for all Moose classes</p>
+</div>
+</div>
+
+<div class="slide">
+<h1>Some Type of Digression</h1>
+
+<pre><code>
+has employees => (
+    is => 'rw',
+    isa => 'ArrayRef[Employee]',
+);
+
+has shopping_carts => (
+    is => 'rw',
+    isa => 'ArrayRef[ArrayRef[ShinyBead]]'
+);
+</code></pre>
+
+<div class="notes">
+<p>Going to go into features of the type system for a bit</p>
+
+<p>Parametrized types</p>
+</div>
+</div>
+
+<div class="slide">
+<h1>Some Type of Digression (cont.)</h1>
+
+<pre><code>
+has language => (
+    is => 'rw',
+    isa => 'English | Welsh | Scots | Gaelic',
+);  
+
+has member => (
+    is => 'rw',
+    isa => 'Employee | ArrayRef[ Employee | Group ]',
+);
+</code></pre>
+
+<div class="notes">
+<p>Union types</p>
+</div>
+</div>
+
+<div class="slide">
+<h1>Some Type of Digression (cont.)</h1>
+
+<pre><code>
+package Foo;
+use Moose;
+use Moose::Util::TypeConstraints;
+
+use Test::Deep qw(eq_deeply ...);
+
+type 'SomethingTricky' => where {
+    eq_deeply( $_, ... );
+};
+
+has 'bar' => (
+    is  => 'rw',
+    isa => 'SomethingTricky',
+);
+</code></pre>
+
+<div class="notes">
+<p>Test::Deep custom validator</p>
+
+<p>Can use any validation from the CPAN</p>
+</div>
+</div>
+
+<div class="slide">
+<h1>Some Parametrized Type of Coercion</h1>
+
+<pre><code>
+use Moose::Util::TypeConstraints;
+
+subtype 'ArrayRef[Employee]' => as 'ArrayRef';
+
+coerce 'ArrayRef[Employee]' => (
+    from 'ArrayRef[Str]' via {
+        [ map { Employee->new( name => $_ ) } @$_ ]
+    },
+);
+
+has staff => (
+    isa    => 'ArrayRef[Employee]',
+    coerce => 1,
+);
+</code></pre>
+
+<div class="notes">
+<p>coerce parametrized ArrayRef[Employee] from ArrayRef[Str]</p>
+</div>
+</div>
+
+<div class="slide">
+<h1>Role of the Moose </h1>
+
+<ul>
+<li>A role is like a…
+<ul>
+<li>Java Interface: safe</li>
+<li>mixin: useful</li>
+</ul></li>
+<li>A role is for small reusable behaviors
+<ul>
+<li>better than using a multiple inheritence</li>
+</ul></li>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>Role of the Moose (cont.)</h1>
+
+<ul>
+<li>Roles on the CPAN:
+<ul>
+<li><code>MooseX::Clone</code> - Flexible <code>clone</code> method</li>
+<li><code>MooseX::Storage</code> - Flexible serialization</li>
+<li><code>MooseX::Getopt</code> - <code>@ARGV</code> aware constructor</li>
+<li><code>MooseX::LogDispatch</code> - <code>$self-&gt;logger-&gt;info("something happenned")</code></li>
+<li><code>MooseX::Param</code> - <code>param</code> method like <code>CGI.pm</code>&#8217;s,</li>
+</ul></li>
+</ul>
+
+<div class="notes">
+<p>Some examples of small reusable behaviors</p>
+
+<p>Param is good for interacting with e.g. CGI::Expand or similar modules</p>
+</div>
+</div>
+
+<div class="slide">
+<h1>Role of the Moose (cont.)</h1>
+
+<pre><code>
+package Minion;
+use Moose;
+
+extends qw(Employee);
+
+with qw(Salaried::Hourly);
+
+
+package Boss;
+use Moose;
+
+extends qw(Employee);
+
+with qw(Salaried::Monthly);
+
+</code></pre>
+
+<ul>
+<li><code>with</code> adds roles into your class
+<ul>
+<li><code>Salaried::Hourly</code> was added to <code>Minion</code></li>
+</ul></li>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>Role of the Moose (cont.)</h1>
+
+<pre><code>
+package Salaried;
+use Moose::Role;
+
+requires 'paycheck_amount';
+</code></pre>
+
+<ul>
+<li>Just an interface</li>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>Role of the Moose (cont.)</h1>
+
+<pre><code>
+package Salaried::Hourly;
+use Moose::Role;
+
+with qw(Salaried);
+
+has hourly_rate => (
+    isa => "Num",
+    is  => "rw",
+    required => 1,
+);
+
+has logged_hours => (
+    isa => "Num",
+    is  => "rw",
+    default => 0,
+);
+
+# satisfy the Salaried interface:
+sub paycheck_amount {
+    my $self = shift;
+    $self->logged_hours * $self->hourly_rate;
+}
+
+</code></pre>
+
+<ul>
+<li>More than an interface</li>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>Role of the Moose (cont.)</h1>
+
+<ul>
+<li>More than Java Interfaces
+<ul>
+<li>Interfaces are behavior &#8220;contracts&#8221;</li>
+<li>Roles can also have code</li>
+</ul></li>
+</ul>
+
+<div class="notes">
+<p>roles can have attributes and methods
+roles provide behavior, not just interface</p>
+</div>
+</div>
+
+<div class="slide">
+<h1>Role of the Moose (cont.)</h1>
+
+<ul>
+<li>Role Composition
+<ul>
+<li>Not inheritence</li>
+<li>Symmetric</li>
+<li>Unordered</li>
+</ul></li>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>Role of the Moose (cont.)</h1>
+
+<ul>
+<li>Role Composition
+<ul>
+<li>Less ambiguity</li>
+<li>Compile time errors</li>
+<li>…And ways to fix them</li>
+</ul></li>
+</ul>
+
+<div class="notes">
+<p>symmetric composition means no precedence - if two roles try to define the same thing you get a compile time error that needs to be resolved
+multiple inheritence silently assumes you want the first class</p>
+
+<p>roles cause errors at compile time, unlike multiple inheritence</p>
+
+<p>roles also provide easy ways to fix the errors</p>
+</div>
+</div>
+
+<div class="slide">
+<h1>Role of the Moose (cont.)</h1>
+
+<pre><code>
+package Ballet;
+use Moose::Role;
+
+sub dance {
+    pirouette();
+}
+
+package Punk;
+use Moose::Role
+
+sub dance {
+    MOSH!!!11one();
+}
+
+package Foo;
+use Moose;
+
+# KABOOM:
+with qw(
+    Punk
+    Ballet
+);
+</code></pre>
+
+<div class="notes">
+<p>conflicts</p>
+</div>
+</div>
+
+<div class="slide">
+<h1>Role of the Moose (cont.)</h1>
+
+<pre><code>
+package Ent::Puppy;
+use Moose;
+
+with (
+    Tree => {
+        alias => {
+            bark => "tree_bark",
+        },
+    },
+    Dog => {
+        alias => {
+            bark => "bark_sound",
+        }
+    },
+);
+
+sub bark {
+    my $self = shift;
+
+    if ( $condition ) {
+        $self->tree_bark;
+    } else {
+        $self->bark_sound;
+    }
+}
+</code></pre>
+
+<ul>
+<li>Not that common in practice</li>
+</ul>
+
+<div class="notes">
+<p>Composition parameters
+Easier conflict resolution
+Finer grained control</p>
+</div>
+</div>
+
+<div class="slide">
+<h1>MOPs Mean Cleanliness</h1>
+
+<ul>
+<li>Moose is based on <code>Class::MOP</code>
+<ul>
+<li>Metaobject Protocol for Perl 5</li>
+<li>&#8220;makes an object for everything&#8221;</li>
+</ul></li>
+</ul>
+
+<pre><code>
+my $class = $obj->meta;       # $obj's metaclass
+my $meta  = MyApp->meta;      # MyApp's metaclass
+my $emo   = $obj->meta->meta; # even more meta!
+
+warn  $obj->meta->name;
+</code></pre>
+
+</div>
+
+<div class="slide">
+<h1>Looking in From the Inside</h1>
+
+<pre><code>
+my $metaclass = $self->meta; 
+
+$metaclass->superclasses;
+
+$metaclass->linearized_isa;
+
+$metaclass->has_method("foo");
+
+$metaclass->compute_all_applicable_attributes;
+
+# … lots more
+</code></pre>
+
+<div class="notes">
+<p>simple introspection</p>
+</div>
+</div>
+
+<div class="slide">
+<h1>Looking in From the Inside (cont.)</h1>
+
+<pre><code>
+Moose::Meta::Class->create( Bar =>
+      version      => '0.01',
+      superclasses => [ 'Foo' ],
+      attributes => [
+          Moose::Meta::Attribute->new( bar => ... ),
+          Moose::Meta::Attribute->new( baz => ... ),
+      ],
+      methods => {
+          calculate_bar => sub { ... },
+          construct_baz => sub { ... }
+      },
+);
+
+my $anon_meta = Moose::Meta::Class->create_anon_class( ... );
+</code></pre>
+
+<div class="notes">
+<p>Classes can be created programmatically</p>
+</div>
+</div>
+
+<div class="slide">
+<h1>Looking in From the Inside (cont.)</h1>
+
+<pre><code>
+has foo => ( is => "rw" );
+
+__PACKAGE__->meta->add_attribute(
+    "foo",  
+    is => "rw",
+);
+</code></pre>
+
+<ul>
+<li>Moose is just sugar
+<ul>
+<li>The MOP does the hard work</li>
+</ul></li>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>The Metaclass Tango</h1>
+
+<ul>
+<li>Metaclassses control class behavior</li>
+</ul>
+
+<pre><code>
+has employees => (
+    metaclass => 'Collection::Array',
+    ...
+);
+</code></pre>
+
+<ul>
+<li>custom attribute metaclasses
+<ul>
+<li>change how attributes work</li>
+</ul></li>
+<li>Many customizable parts
+<ul>
+<li><code>Moose::Meta::Class</code>, <code>Moose::Meta::Attribute,</code><code>Moose::Meta::Method</code>, <code>Moose::Meta::Method::Accessor</code> <code>Moose::Meta::Instance</code>, <code>Moose::Meta::Role</code>, <code>Moose::Meta::TypeConstraint</code>, …,</li>
+</ul></li>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>Working in the Meta Frame</h1>
+
+<ul>
+<li><code>$work</code> project:</li>
+<li>CMS for a flash website</li>
+<li>Content is in XML</li>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>Working in the Meta Frame (cont.)</h1>
+
+<ul>
+<li>Step 1. use Moose</li>
+<li>Step 2. ???</li>
+<li>Step 3. Profit!</li>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>Working in the Meta Frame (cont.)</h1>
+
+<ul>
+<li>Step 2.1. Client&#8217;s XML schemas → Moose classes
+<ul>
+<li>Automatic class definitions</li>
+<li>High level objects in runtime</li>
+<li>XML storage backed
+<ul>
+<li>SAX → Moose</li>
+<li>Moose → SAX</li>
+</ul></li>
+</ul></li>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>Working in the Meta Frame (cont.)</h1>
+
+<ul>
+<li>Step 2.2. Meta descriptions
+<ul>
+<li>Extend the metaclasses</li>
+<li>Embed additional information
+<ul>
+<li>field types</li>
+<li>access control</li>
+</ul></li>
+</ul></li>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>Working in the Meta Frame (cont.)</h1>
+
+<ul>
+<li>Step 2.3 Introspection goodness
+<ul>
+<li>Generic web frontend</li>
+<li>Object introspection based
+<ul>
+<li>HTML view</li>
+<li>Editing widgets</li>
+</ul></li>
+<li>Clean, extensible</li>
+</ul></li>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>Drawbacks of Moose</h1>
+
+<ul>
+<li>Load time
+<ul>
+<li><code>MooseX::Compile</code> is in the works</li>
+</ul></li>
+<li>Some features are slow
+<ul>
+<li>but you only pay for what you use</li>
+</ul></li>
+<li>Extending non-Hash based classes is tricky.
+<ul>
+<li>but possible: <code>MooseX::GlobRef::Object</code></li>
+</ul></li>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>Benefits of Moose</h1>
+
+<ul>
+<li>Less boilerplate
+<ul>
+<li>attribute storage/access</li>
+<li>construction</li>
+<li>destruction</li>
+<li>verification</li>
+<li>…</li>
+</ul></li>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>Benefits of Moose (cont.)</h1>
+
+<ul>
+<li>Shorter
+<ul>
+<li>less reading</li>
+<li>less writing</li>
+<li>less code means fewer bugs</li>
+</ul></li>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>Benefits of Moose (cont.)</h1>
+
+<ul>
+<li>Less testing
+<ul>
+<li>Moose is very well tested
+<ul>
+<li>no need to check accessor behavior, etc</li>
+</ul></li>
+<li>focus on your code&#8217;s purpose
+<ul>
+<li>not that it is &#8220;assembled&#8221; correctly</li>
+<li>http://c2.com/cgi/wiki?IntentionNotAlgorithm</li>
+</ul></li>
+</ul></li>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>Benefits of Moose (cont.)</h1>
+
+<ul>
+<li>More readable
+<ul>
+<li>declarative style is self documenting</li>
+<li>good signal to noise ratio</li>
+</ul></li>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>Benefits of Moose (cont.)</h1>
+
+<ul>
+<li>Meta object protocol
+<ul>
+<li>Cleans up Perl&#8217;s OO</li>
+<li>Provides introspection</li>
+<li>Enables powerful abstractions</li>
+</ul></li>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>Benefits of Moose (cont.)</h1>
+
+<ul>
+<li>It&#8217;s the new black
+<ul>
+<li>All the cool kids hang out on #moose</li>
+<li>Smart sounding buzzwords</li>
+<li>Chicks dig antlers</li>
+<li>Ruby is so 2007</li>
+</ul></li>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>Bonus Material</h1>
+
+</div>
+
+<div class="slide">
+<h1>Autobox</h1>
+
+<pre><code>
+package Units::Bytes;
+use Moose::Role;
+use Moose::Autobox;
+
+sub bytes     { $_[0]                   }
+sub kilobytes { $_[0] * 1024            }
+sub megabytes { $_[0] * 1024->kilobytes }
+sub gigabytes { $_[0] * 1024->megabytes }
+sub terabytes { $_[0] * 1024->gigabytes }
+
+Moose::Autobox->mixin_additional_role(
+    SCALAR => 'Units::Bytes',
+);
+</code></pre>
+
+</div>
+
+<div class="slide">
+<h1>Autobox (cont.)</h1>
+
+<pre><code>
+use Units::Bytes;
+use Moose::Autobox; # autoboxing is lexical
+
+is(5->bytes,     5,             '... got 5 bytes');
+is(5->kilobytes, 5120,          '... got 5 kilobytes');
+is(2->megabytes, 2097152,       '... got 2 megabytes');
+is(1->gigabytes, 1073741824,    '... got 1 gigabyte');
+is(2->terabytes, 2199023255552, '... got 2 terabytes');
+</code></pre>
+
+</div>
+
+<div class="slide">
+<h1>perl -Moose</h1>
+
+<ul>
+<li>Moose One Liners with <code>oose.pm</code></li>
+</ul>
+
+<pre><code>
+perl -Moose -e 'has foo => ( is=> "rw" ); Class->new( foo => 1 )'
+</code></pre>
+
+<ul>
+<li>Useful for testing if something works</li>
+<li>Helpful on IRC</li>
+<li><code>Devel::REPL</code> is cooler though ;-)</li>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>MooseX::POE</h1>
+
+<pre><code>
+package Counter;
+use MooseX::POE;
+use MooseX::AttributeHelpers;
+
+has count => (
+    traits => [qw(Counter)],
+    provides => { inc => "increment_count" },
+);
+
+sub START {
+    shift->yield('increment');
+}
+
+event increment => sub {
+    my $self = shift;
+
+    warn "Count is now " . $self->count;
+
+    $self->increment_count;
+    $self->yield('increment') unless $self->count > 3;
+};
+
+Counter->new( count => 0 );
+POE::Kernel->run();
+</code></pre>
+
+<ul>
+<li>PoCos made easy</li>
+<li>Every object has a <code>POE::Session</code></li>
+<li><code>event</code> declares POE object states</li>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>Fin</h1>
+
+<ul>
+<li><p>Slides written by:</p>
+
+<ul>
+<li>Chris Prather</li>
+<li>Stevan Little</li>
+<li>Robert Boone</li>
+</ul></li>
+<li><p>Slides deleted by:</p>
+
+<ul>
+<li>Yuval Kogman</li>
+</ul></li>
+</ul>
+
+</div>
+
+
+</div>
+
+</body>
+</html>
