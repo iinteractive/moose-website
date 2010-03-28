@@ -1,6 +1,15 @@
 [% WRAPPER 'wrapper/sub_page.tt' %]
 
-    <h2>[% loc('about title') %]</h2>
-    [% loc('about body') %]
+    <h2>[% loc('about header') %]</h2>
+    <p>[% loc('about body') %]</p>
+
+    <h3>[% loc('about company list header') %]</h3>
+    <p>[% loc('about company list body') %]</p>
+
+    <ul>
+        [% FOREACH company IN current_page.data.companies %]
+            <li><a href="[% company.url %]">[% company.name %]</a></li>
+        [% END %]
+    </ul>
 
 [% END %]

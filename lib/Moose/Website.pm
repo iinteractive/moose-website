@@ -2,6 +2,7 @@ package Moose::Website;
 use Moose;
 use MooseX::Types::Path::Class;
 
+use Path::Class;
 use Template;
 use YAML::XS 'LoadFile';
 use Moose::Website::I18N;
@@ -11,13 +12,6 @@ our $AUTHORITY = 'cpan:STEVAN';
 
 with 'MooseX::Getopt';
 
-has 'page_file' => (
-    is       => 'ro',
-    isa      => 'Path::Class::File',
-    coerce   => 1,
-    required => 1,
-);
-
 has 'outdir' => (
     is       => 'ro',
     isa      => 'Path::Class::Dir',
@@ -25,18 +19,22 @@ has 'outdir' => (
     required => 1,
 );
 
+has 'page_file' => (
+    is       => 'ro',
+    isa      => 'Path::Class::File',
+    coerce   => 1,
+    default  => sub {
+        file(__FILE__)->parent->parent->parent->file('data', 'pages.yml')
+    }
+);
+
 has 'template_root' => (
     is       => 'ro',
     isa      => 'Path::Class::Dir',
     coerce   => 1,
-    required => 1,
-);
-
-has 'template_config' => (
-    is      => 'ro',
-    isa     => 'HashRef',
-    lazy    => 1,
-    default => sub { +{} },
+    default  => sub {
+        file(__FILE__)->parent->parent->parent->subdir('templates')
+    }
 );
 
 has 'locale' => (
@@ -82,16 +80,29 @@ has 'tt' => (
     }
 );
 
+has 'template_config' => (
+    traits  => [ 'NoGetopt' ],
+    is      => 'ro',
+    isa     => 'HashRef',
+    lazy    => 1,
+    default => sub { +{} },
+);
+
 sub log { shift; warn @_, "\n" }
 
 sub run {
     my $self = shift;
 
     foreach my $page ( @{ $self->pages } ) {
+
+        my $outfile = $self->outdir->file( $page->{outfile} )->stringify;
+
+        $self->log( "Writing page " . $page->{name} . " to $outfile using template " . $page->{template} );
+
         $self->tt->process(
             $page->{template},
             $self->build_template_params( current_page => $page ),
-            $self->outdir->file( $page->{outfile} )->stringify
+            $outfile
         ) || confess $self->tt->error;
     }
 }

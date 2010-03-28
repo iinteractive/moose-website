@@ -1,8 +1,10 @@
 [% WRAPPER 'wrapper/sub_page.tt' %]
 
-    <h2>[% loc('download title') %]</h2>
+    <h2>[% loc('download header') %]</h2>
 
-    <h3>[% loc('cpan') %]<h3>
+    <h3>[% loc('download cpan header') %]<h3>
+
+    <p>[% loc('downlaod cpan body') %]<p>
 
     <ul>
         [% FOREACH module IN current_page.data.CPAN %]
@@ -10,14 +12,16 @@
         [% END %]
     </ul>
 
-    <h3>[% loc('git') %]<h3>
+    <h3>[% loc('download git header') %]<h3>
+
+    <p>[% loc('downlaod git body') %]<p>
 
     <ul>
-        <li>[% loc('git public') %] &mdash; [% current_page.data.git.public %]</li>
+        <li>[% loc('download git public') %] &mdash; [% current_page.data.git.public %]</li>
 
-        <li>[% loc('git commiter') %] &mdash; [% current_page.data.git.commiter %]</li>
+        <li>[% loc('download git commiter') %] &mdash; [% current_page.data.git.commiter %]</li>
 
-        <li><a href="[% current_page.data.git.web_view %]">[% loc('git web view') %]</a></li>
+        <li><a href="[% current_page.data.git.web_view %]">[% loc('download git web view') %]</a></li>
     </ul>
 
 

@@ -5,6 +5,66 @@
 - name     : about
   template : about.tt
   outfile  : about.html
+  data     :
+    companies:
+      - name : "Yahoo!"
+        url  : http://www.yahoo.com
+      - name : "Symatec"
+        url  : http://www.symatec.com
+      - name : "Cisco"
+        url  : http://www.cisco.com
+      - name : "IMDb"
+        url  : http://www.imdb.com
+      - name : "Pobox"
+        url  : http://www.pobox.com
+      - name : "Best Practical"
+        url  : http://www.bestpractical.com
+      - name : "Infinity Interactive"
+        url  : http://www.iinteractive.com
+      - name : "Shadowcat"
+        url  : http://www.shadowcat.co.uk
+      - name : "ValueClick"
+        url  : http://www.valueclick.com
+      - name : "Magazines.com"
+        url  : http://www.magazines.com
+      - name : "Takkle.com"
+        url  : http://www.takkle.com
+      - name : "BBC"
+        url  : http://www.bbc.co.uk
+      - name : "Hearst Corporation"
+        url  : ''
+      - name : "Omni Hotels"
+        url  : http://www.omnihotels.com
+      - name : "SocialText"
+        url  : http://www.socialtext.com
+      - name : "Napster"
+        url  : ''
+      - name : "Open Data"
+        url  : ''
+      - name : "Capitol Advantage"
+        url  : ''
+      - name : "Tamarou"
+        url  : http://www.tamarou.com
+      - name : "Cloudtone Studios"
+        url  : ''
+      - name : "Endeworks"
+        url  : ''
+      - name : "net-a-porter.com"
+        url  : http://www.net-a-porter.com
+      - name : "Shopzilla / BizRate"
+        url  : ''
+      - name : "SimplyClick"
+        url  : ''
+      - name : "MedTouch"
+        url  : ''
+      - name : "MusicBrainz"
+        url  : ''
+      - name : "Current TV"
+        url  : ''
+      - name : "The Genome Center at Washington University"
+        url  : ''
+      - name : "Bioinformatics Group at University College London (UCL)"
+        url  : ''
 - name     : download
   template : download.tt
   outfile  : download.html
@@ -24,6 +84,33 @@
       public   : git://git.moose.perl.org/Moose.git
       commiter : gitmo@git.moose.perl.org:Moose.git
       web_view : http://git.shadowcat.co.uk/gitweb/gitweb.cgi
+- name     : support
+  template : support.tt
+  outfile  : support.html
+  data     :
+    irc :
+      - '#moose@irc.perl.org'
+      - '#moose-dev@irc.perl.org'
+    mailing_list :
+      address : moose@perl.org
+      archive : http://news.gmane.org/gmane.comp.lang.perl.moose
+    training :
+      - name : Infinity Interactive
+        url  : http://www.iinteractive.com/moose/training
+      - name : Shadowcat Systems
+        url  : http://www.shadowcat.co.uk/training
+      - name : Dave Rolsky, Inc.
+        url  : http://www.rolsky.com/training_the_moose
+    consulting :
+      - name : Infinity Interactive
+        url  : http://www.iinteractive.com/moose/consulting
+      - name : Shadowcat Systems
+        url  : http://www.shadowcat.co.uk/consulting
+    misc :
+      - name : textmate bundle
+        url  : http://github.com/perigrin/perl-moose.tmbundle
+      - name : quickref card
+        url  : http://users.ox.ac.uk/~oliver/data/files/moose-quick-ref.pdf
 - name     : articles
   template : articles.tt
   outfile  : articles.html
@@ -33,11 +120,34 @@
           - title : Moose 1.00 is Released
             url   : http://stevan-little.blogspot.com/2010/03/moose-100-is-released.html
     - year     : 2009
-      articles : []
+      articles :
+          - title : David McLaughlin experiments with extending Moose for MooseX::ChainedAccessors
+            url   : http://www.dmclaughlin.com/2009/05/15/chained-accessors-in-moose/
+          - title : Shawn M Moore explains parameterized roles
+            url   : http://blog.sartak.org/2009/05/parameterized-roles.html
     - year     : 2008
-      articles : []
+      articles :
+          - title : chomatic suggests Moose and Mouse in his Beginners Introduction to Object-Oriented Programming with Perl article
+            url   : http://broadcast.oreilly.com/2008/11/beginners-introduction-to-obje.html
     - year     : 2007
-      articles : []
+      articles :
+          - title : Max Kanat-Alexander (of Bugzilla fame) has some nice things to say about Moose
+            url   : http://avatraxiom.livejournal.com/70947.html
     - year     : 2006
-      articles : []
+      articles :
+          - title : Class::MOP Review (OnLAMP)
+            url   : http://www.oreillynet.com/onlamp/blog/2006/06/cpan_module_review_classmop.html
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -1,0 +1,40 @@
+[% WRAPPER 'wrapper/sub_page.tt' %]
+
+    <h2>[% loc('support header') %]</h2>
+
+    <h3>[% loc('support irc header') %]</h3>
+    <ul>
+        [% FOREACH channel IN current_page.data.irc %]
+            <li>[% channel %]</li>
+        [% END %]
+    </ul>
+
+    <h3>[% loc('support mailing list header') %]</h3>
+    <a href="mailto:[% current_page.data.mailing_list.address %]">[% loc('support moose mailing list') %]</a>
+    <br/>
+    <a href="[% current_page.data.mailing_list.archives %]">[% loc('support moose mailing list archives') %]</a>
+
+    <h3>[% loc('support training header') %]</h3>
+    <p>[% loc('support training body') %]</p>
+    <ul>
+        [% FOREACH item IN current_page.data.training %]
+            <li><a href="[% item.url %]">[% item.name %]</a></li>
+        [% END %]
+    </ul>
+
+    <h3>[% loc('support consulting header') %]</h3>
+    <p>[% loc('support consulting body') %]</p>
+    <ul>
+        [% FOREACH item IN current_page.data.consulting %]
+            <li><a href="[% item.url %]">[% item.name %]</a></li>
+        [% END %]
+    </ul>
+
+    <h3>[% loc('support misc header') %]</h3>
+    <ul>
+        [% FOREACH item IN current_page.data.misc %]
+            <li><a href="[% item.url %]">[% loc('support ' _ item.name) %]</a></li>
+        [% END %]
+    </ul>
+
+[% END %]

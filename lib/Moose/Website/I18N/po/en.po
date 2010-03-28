@@ -27,9 +27,12 @@ msgstr "Articles"
 msgid "nav download"
 msgstr "Download"
 
+msgid "nav support"
+msgstr "Support"
+
 # about
 
-msgid "about title"
+msgid "about header"
 msgstr "About Moose"
 
 msgid "about body"
@@ -37,30 +40,82 @@ msgstr ""
 "<p>Moose is a postmodern object system for Perl 5 that takes the tedium out of writing object-oriented Perl. It borrows all the best features from Perl 6, CLOS (LISP), Smalltalk, Java, BETA, OCaml, Ruby and more, while still keeping true to its Perl 5 roots.</p>"
 "<p>Moose is 100% production ready and in heavy use in a number of systems and growing every day. Try it today!</p>"
 
+msgid "about company list header"
+msgstr "Companies that use Moose"
+
+msgid "about company list body"
+msgstr "Moose is used by a large number of companies around the world, here are a few of them."
+
 # articles
 
-msgid "articles title"
+msgid "articles header"
 msgstr "Articles About Moose"
 
 # download
 
-msgid "download title"
+msgid "download header"
 msgstr "Download"
 
-msgid "cpan"
+msgid "download cpan header"
 msgstr "CPAN"
 
-msgid "git"
+msgid "download cpan body"
+msgstr "Here are some CPAN modules related to Moose."
+
+msgid "download git header"
 msgstr "Git"
 
-msgid "git public"
+msgid "download git body"
+msgstr "Here is the information about the Moose git repositories."
+
+msgid "download git public"
 msgstr "Git Public Repo URL"
 
-msgid "git commiter"
+msgid "download git commiter"
 msgstr "Git URL for Commiters"
 
-msgid "git web view"
+msgid "download git web view"
 msgstr "Git Web View"
+
+# support
+
+msgid "support header"
+msgstr "Support"
+
+msgid "support irc header"
+msgstr "IRC Channels"
+
+msgid "support mailing list header"
+msgstr "Mailing List"
+
+msgid "support misc header"
+msgstr "Misc."
+
+msgid "support moose mailing list"
+msgstr "Moose mailing list"
+
+msgid "support moose mailing list archives"
+msgstr "Moose mailing list archives"
+
+msgid "support textmate bundle"
+msgstr "Moose TextMate Bundle"
+
+msgid "support quickref card"
+msgstr "Moose QuickRef Card"
+
+msgid "support training header"
+msgstr "Moose Training"
+
+msgid "support training body"
+msgstr "Several companies and individuals provide Moose training, here are a few."
+
+msgid "support consulting header"
+msgstr "Moose Consulting"
+
+msgid "support consulting body"
+msgstr "Several companies and individuals provide Moose consulting, here are a few."
+
+
 
 
 

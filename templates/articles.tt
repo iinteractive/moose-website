@@ -1,6 +1,6 @@
 [% WRAPPER 'wrapper/sub_page.tt' %]
 
-    <h2>[% loc('articles title') %]</h2>
+    <h2>[% loc('articles header') %]</h2>
 
     <ul>
     [% FOREACH item IN current_page.data %]
