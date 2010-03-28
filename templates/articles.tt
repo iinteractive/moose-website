@@ -1,0 +1,18 @@
+[% WRAPPER 'wrapper/sub_page.tt' %]
+
+    <h2>[% loc('articles title') %]</h2>
+
+    <ul>
+    [% FOREACH item IN current_page.data %]
+        <li>
+            [% loc(item.year) %]
+            <ul>
+                [% FOREACH article IN item.articles %]
+                    <li><a href="[% article.url %]">[% article.title %]</a></li>
+                [% END %]
+            </ul>
+        </li>
+    [% END %]
+    </ul>
+
+[% END %]

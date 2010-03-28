@@ -1,0 +1,6 @@
+[% WRAPPER 'wrapper/sub_page.tt' %]
+
+    <h2>[% loc('about title') %]</h2>
+    [% loc('about body') %]
+
+[% END %]

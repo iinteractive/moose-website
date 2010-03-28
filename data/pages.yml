@@ -1,0 +1,43 @@
+---
+- name     : home
+  template : index.tt
+  outfile  : index.html
+- name     : about
+  template : about.tt
+  outfile  : about.html
+- name     : download
+  template : download.tt
+  outfile  : download.html
+  data     :
+    CPAN:
+      - name : Moose
+        url  : http://search.cpan.org/dist/Moose/
+      - name : Class::MOP
+        url  : http://search.cpan.org/dist/Class-MOP/
+      - name : Task::Moose
+        url  : http://search.cpan.org/dist/Task-Moose/
+      - name : Task::Kensho
+        url  : http://search.cpan.org/dist/Task-Kensho/
+      - name : MooseX::*
+        url  : http://search.cpan.org/search?query=MooseX&mode=dist
+    git:
+      public   : git://git.moose.perl.org/Moose.git
+      commiter : gitmo@git.moose.perl.org:Moose.git
+      web_view : http://git.shadowcat.co.uk/gitweb/gitweb.cgi
+- name     : articles
+  template : articles.tt
+  outfile  : articles.html
+  data     :
+    - year     : 2010
+      articles :
+          - title : Moose 1.00 is Released
+            url   : http://stevan-little.blogspot.com/2010/03/moose-100-is-released.html
+    - year     : 2009
+      articles : []
+    - year     : 2008
+      articles : []
+    - year     : 2007
+      articles : []
+    - year     : 2006
+      articles : []
+

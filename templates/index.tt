@@ -1,0 +1,7 @@
+[% WRAPPER 'wrapper/root.tt' %]
+
+    <h1>[% loc('moose') %]</h1>
+    <h2>[% loc('moose subtitle') %]</h2>
+    [% INCLUDE 'shared/nav.tt' %]
+
+[% END %]

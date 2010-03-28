@@ -1,0 +1,24 @@
+[% WRAPPER 'wrapper/sub_page.tt' %]
+
+    <h2>[% loc('download title') %]</h2>
+
+    <h3>[% loc('cpan') %]<h3>
+
+    <ul>
+        [% FOREACH module IN current_page.data.CPAN %]
+        <li><a href="[% module.url %]">[% module.name %]</a></li>
+        [% END %]
+    </ul>
+
+    <h3>[% loc('git') %]<h3>
+
+    <ul>
+        <li>[% loc('git public') %] &mdash; [% current_page.data.git.public %]</li>
+
+        <li>[% loc('git commiter') %] &mdash; [% current_page.data.git.commiter %]</li>
+
+        <li><a href="[% current_page.data.git.web_view %]">[% loc('git web view') %]</a></li>
+    </ul>
+
+
+[% END %]

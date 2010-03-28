@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "global page title"
+msgstr "Moose - A Post Modern Object System for Perl"
+
+msgid "moose"
+msgstr "Moose"
+
+msgid "moose subtitle"
+msgstr "A Post Modern Object System for Perl"
+
+# nav
+
+msgid "nav home"
+msgstr "Home"
+
+msgid "nav about"
+msgstr "About"
+
+msgid "nav articles"
+msgstr "Articles"
+
+msgid "nav download"
+msgstr "Download"
+
+# about
+
+msgid "about title"
+msgstr "About Moose"
+
+msgid "about body"
+msgstr ""
+"<p>Moose is a postmodern object system for Perl 5 that takes the tedium out of writing object-oriented Perl. It borrows all the best features from Perl 6, CLOS (LISP), Smalltalk, Java, BETA, OCaml, Ruby and more, while still keeping true to its Perl 5 roots.</p>"
+"<p>Moose is 100% production ready and in heavy use in a number of systems and growing every day. Try it today!</p>"
+
+# articles
+
+msgid "articles title"
+msgstr "Articles About Moose"
+
+# download
+
+msgid "download title"
+msgstr "Download"
+
+msgid "cpan"
+msgstr "CPAN"
+
+msgid "git"
+msgstr "Git"
+
+msgid "git public"
+msgstr "Git Public Repo URL"
+
+msgid "git commiter"
+msgstr "Git URL for Commiters"
+
+msgid "git web view"
+msgstr "Git Web View"
+
+
+
+
+
+
+

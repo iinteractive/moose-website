@@ -1,0 +1,4 @@
+[% WRAPPER 'wrapper/root.tt' %]
+[% INCLUDE 'shared/nav.tt' %]
+[% content %]
+[% END %]
