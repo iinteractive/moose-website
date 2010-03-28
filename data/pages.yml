@@ -117,28 +117,50 @@
   data     :
     - year     : 2010
       articles :
-          - title : Moose 1.00 is Released
-            url   : http://stevan-little.blogspot.com/2010/03/moose-100-is-released.html
+        - title : Moose 1.00 is Released
+          url   : http://stevan-little.blogspot.com/2010/03/moose-100-is-released.html
     - year     : 2009
       articles :
-          - title : David McLaughlin experiments with extending Moose for MooseX::ChainedAccessors
-            url   : http://www.dmclaughlin.com/2009/05/15/chained-accessors-in-moose/
-          - title : Shawn M Moore explains parameterized roles
-            url   : http://blog.sartak.org/2009/05/parameterized-roles.html
+        - title : David McLaughlin experiments with extending Moose for MooseX::ChainedAccessors
+          url   : http://www.dmclaughlin.com/2009/05/15/chained-accessors-in-moose/
+        - title : Shawn M Moore explains parameterized roles
+          url   : http://blog.sartak.org/2009/05/parameterized-roles.html
     - year     : 2008
       articles :
-          - title : chomatic suggests Moose and Mouse in his Beginners Introduction to Object-Oriented Programming with Perl article
-            url   : http://broadcast.oreilly.com/2008/11/beginners-introduction-to-obje.html
+        - title : chomatic suggests Moose and Mouse in his Beginners Introduction to Object-Oriented Programming with Perl article
+          url   : http://broadcast.oreilly.com/2008/11/beginners-introduction-to-obje.html
     - year     : 2007
       articles :
-          - title : Max Kanat-Alexander (of Bugzilla fame) has some nice things to say about Moose
-            url   : http://avatraxiom.livejournal.com/70947.html
+        - title : Max Kanat-Alexander (of Bugzilla fame) has some nice things to say about Moose
+          url   : http://avatraxiom.livejournal.com/70947.html
     - year     : 2006
       articles :
-          - title : Class::MOP Review (OnLAMP)
-            url   : http://www.oreillynet.com/onlamp/blog/2006/06/cpan_module_review_classmop.html
-
-
+        - title : Class::MOP Review (OnLAMP)
+          url   : http://www.oreillynet.com/onlamp/blog/2006/06/cpan_module_review_classmop.html
+- name     : presentations
+  template : presentations.tt
+  outfile  : presentations.html
+  data     :
+    - year          : 2010
+      presentations :
+        - title : Stevan Little's talk at OPW
+          url   : http://iinteractive.com/moose/hosted-presentations/2009/Untitled-12-slides/index.html
+    - year          : 2009
+      presentations :
+        - title : Shawn M Moore's Intro to Moose at Frozen Perl
+          url   : http://sartak.org/talks/frozen-perl-2009/moose/
+    - year          : 2008
+      presentations :
+        - title : sunnavy's Moose talk at Beijing Perl Workshop
+          url   : http://www.iinteractive.com/moose/hosted-presentations/2008/sunnavy-Beijing-Perl-Workshop.pdf
+    - year          : 2007
+      presentations :
+        - title : Yuval Kogman's Object Meta Programming at YAPC::EU
+          url   : http://www.iinteractive.com/moose/hosted-presentations/2007/nothingmuch-YAPC-EU
+    - year          : 2006
+      presentations :
+        - title : Stevan Little's Moose talk at YAPC::NA
+          url   : http://www.iinteractive.com/moose/slides/start.html
 
 
 

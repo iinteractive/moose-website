@@ -30,6 +30,9 @@ msgstr "Download"
 msgid "nav support"
 msgstr "Support"
 
+msgid "nav presentations"
+msgstr "Presentations"
+
 # about
 
 msgid "about header"
@@ -115,7 +118,10 @@ msgstr "Moose Consulting"
 msgid "support consulting body"
 msgstr "Several companies and individuals provide Moose consulting, here are a few."
 
+# presentations
 
+msgid "presentations header"
+msgstr "Presentations About Moose"
 
 
 
