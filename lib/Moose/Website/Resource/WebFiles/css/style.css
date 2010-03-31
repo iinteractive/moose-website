@@ -1,0 +1,130 @@
+
+BODY {
+    font-family : Ariel, Helvetica, sans-serif;
+    font-size   : 10pt;
+    margin      : 0px;
+    color       : #666666;
+}
+
+h1 {
+    font-family  : Arial Black;
+    font-size    : 48pt;
+    margin       : 0px;
+    line-height  : 0.7em;
+    background   : #336699;
+    color        : #ffffff;
+    padding-left : 70px;
+    padding-top  : 15px;
+}
+
+h1.home {
+    font-size    : 72pt;
+    padding-top  : 70px;
+}
+
+h2 {
+    font-size      : 14pt;
+    margin         : 0px;
+    line-height    : 1em;
+    color          : #336699;
+    padding-left   : 75px;
+    padding-top    : 25px;
+    padding-bottom : 20px;
+    background     : #ffffff;
+    font-style     : oblique;
+}
+
+.nav {
+    border-bottom  : 1px solid #6699CC;
+    border-top     : 10px solid #6699CC;
+}
+
+ul.menu {
+    padding-left : 70px;
+    margin-top   : 0px;
+}
+
+ul.menu > li {
+    list-style-type : none;
+    float           : left;
+    padding-left    : 12px;
+    padding-right   : 12px;
+    padding-top     : 10px;
+    padding-bottom  : 10px;
+    font-size       : 1.2em;
+}
+
+ul.menu > li.active {
+    color      : #003366;
+    background : #6699CC;
+}
+
+ul.menu > li.inactive {
+    color           : #336699;
+}
+
+ul.menu > li a {
+    color           : #336699;
+    text-decoration : none;
+}
+
+ul.menu > li a:hover {
+    color           : #003366;
+    text-decoration : underline;
+}
+
+.content {
+    position     : relative;
+    left         : 75px;
+    padding-top  : 20px;
+    width        : 500px;
+}
+
+.content h2 {
+    font-size     : 16pt;
+    line-height   : 1em;
+    color         : #336699;
+    padding       : 0px;
+    margin-bottom : 10px;
+    background    : #ffffff;
+}
+
+.content h3 {
+    font-size     : 12pt;
+    margin        : 0px;
+    color         : #336699;
+    line-height   : 1em;
+}
+
+.home_content {
+    position     : relative;
+    left         : 75px;
+    padding-top  : 10px;
+    width        : 500px;
+    font-size    : 1.2em;
+}
+
+.home_footer {
+    position       : relative;
+    left           : 75px;
+    color          : #aaaaaa;
+    font-size      : 0.8em;
+    width          : 500px;
+    border-top     : 1px solid #aaaaaa;
+    padding-bottom : 40px;
+}
+
+.footer {
+    margin-top     : 20px;
+    border-top     : 1px solid #aaaaaa;
+    padding-left   : 75px;
+    color          : #aaaaaa;
+    font-size      : 0.8em;
+    padding-bottom : 40px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+

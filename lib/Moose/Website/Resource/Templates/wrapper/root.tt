@@ -1,0 +1,9 @@
+<html>
+<head>
+<title>[% loc('moose') %] - [% loc('moose subtitle') %]</title>
+<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+[% content %]
+</body>
+</html>

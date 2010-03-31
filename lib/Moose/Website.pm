@@ -5,7 +5,10 @@ use MooseX::Types::Path::Class;
 use Path::Class;
 use Template;
 use YAML::XS 'LoadFile';
+
 use Moose::Website::I18N;
+use Moose::Website::Resource::Templates;
+use Moose::Website::Resource::WebFiles;
 
 our $VERSION   = '0.01';
 our $AUTHORITY = 'cpan:STEVAN';
@@ -19,6 +22,12 @@ has 'outdir' => (
     required => 1,
 );
 
+has 'locale' => (
+    is      => 'ro',
+    isa     => 'Str',
+    default => sub { 'en' },
+);
+
 has 'page_file' => (
     is       => 'ro',
     isa      => 'Path::Class::File',
@@ -28,24 +37,33 @@ has 'page_file' => (
     }
 );
 
-has 'template_root' => (
-    is       => 'ro',
-    isa      => 'Path::Class::Dir',
-    coerce   => 1,
-    default  => sub {
-        file(__FILE__)->parent->parent->parent->subdir('templates')
+# ....
+
+has 'template_resource' => (
+    traits  => [ 'NoGetopt' ],
+    is      => 'ro',
+    isa     => 'Moose::Website::Resource::Templates',
+    lazy    => 1,
+    default => sub {
+        Moose::Website::Resource::Templates->new
+    },
+    handles  => {
+        'template_root' => 'dir'
     }
 );
 
-has 'locale' => (
+has 'web_file_resource' => (
+    traits  => [ 'NoGetopt' ],
     is      => 'ro',
-    isa     => 'Str',
-    default => sub { 'en' },
+    isa     => 'Moose::Website::Resource::WebFiles',
+    lazy    => 1,
+    default => sub {
+        Moose::Website::Resource::WebFiles->new
+    },
 );
 
-# ....
-
 has 'i18n' => (
+    traits  => [ 'NoGetopt' ],
     is      => 'ro',
     isa     => 'Object',
     lazy    => 1,
@@ -105,6 +123,9 @@ sub run {
             $outfile
         ) || confess $self->tt->error;
     }
+
+    $self->log( "Copying web resources to " . $self->outdir );
+    $self->web_file_resource->copy( to => $self->outdir );
 }
 
 sub build_template_params {

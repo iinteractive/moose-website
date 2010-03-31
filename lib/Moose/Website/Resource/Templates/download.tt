@@ -2,9 +2,9 @@
 
     <h2>[% loc('download header') %]</h2>
 
-    <h3>[% loc('download cpan header') %]<h3>
+    <h3>[% loc('download cpan header') %]</h3>
 
-    <p>[% loc('downlaod cpan body') %]<p>
+    <p>[% loc('download cpan body') %]</p>
 
     <ul>
         [% FOREACH module IN current_page.data.CPAN %]
@@ -12,9 +12,9 @@
         [% END %]
     </ul>
 
-    <h3>[% loc('download git header') %]<h3>
+    <h3>[% loc('download git header') %]</h3>
 
-    <p>[% loc('downlaod git body') %]<p>
+    <p>[% loc('download git body') %]</p>
 
     <ul>
         <li>[% loc('download git public') %] &mdash; [% current_page.data.git.public %]</li>

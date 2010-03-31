@@ -4,9 +4,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "global page title"
-msgstr "Moose - A Post Modern Object System for Perl"
-
 msgid "moose"
 msgstr "Moose"
 
@@ -123,9 +120,13 @@ msgstr "Several companies and individuals provide Moose consulting, here are a f
 msgid "presentations header"
 msgstr "Presentations About Moose"
 
+# footer
 
+msgid "footer copyright"
+msgstr "Copyright &copy; 2006 &mdash; 2010 Infinity Interactive"
 
-
+msgid "footer terms"
+msgstr "This library is free software; you can redistribute it and/or modify it under the same terms as Perl itself."
 
 
 

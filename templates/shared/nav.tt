@@ -1,5 +1,0 @@
-<ul>
-    [% FOREACH page IN pages %]
-    <li><a href="[% page.outfile %]">[% loc('nav ' _ page.name) %]</a></li>
-    [% END %]
-</ul>

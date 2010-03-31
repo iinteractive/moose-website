@@ -1,0 +1,2 @@
+<p>[% loc('footer copyright') %]</p>
+<p>[% loc('footer terms') %]</p>
