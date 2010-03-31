@@ -1,7 +1,9 @@
 [% WRAPPER 'wrapper/root.tt' %]
     <h1 class="home">[% loc('moose') %]</h1>
     <h2>[% loc('moose subtitle') %]</h2>
-    [% INCLUDE 'shared/nav.tt' %]
+    <div class="home_nav">
+        [% INCLUDE 'shared/nav.tt' %]
+    </div>
     <div class="home_content">
         <p>[% loc('home body') %]</p>
     </div>

@@ -11,36 +11,46 @@ a {
 }
 
 h1 {
-    font-family  : Arial Black;
-    font-size    : 54pt;
-    margin       : 0px;
-    line-height  : 0.7em;
-    background   : #336699;
-    color        : #ffffff;
-    padding-left : 70px;
-    padding-top  : 15px;
+    font-family    : Arial Black;
+    font-size      : 54pt;
+    margin         : 0px;
+    line-height    : 0.8em;
+    background     : #2d4b4c;
+    color          : #ffffff;
+    padding-left   : 70px;
+    padding-top    : 15px;
+    letter-spacing : -7px;
+    text-shadow    : -3px 0 4px #333333;
 }
 
 h1.home {
-    font-size    : 72pt;
-    padding-top  : 70px;
+    font-size      : 110pt;
+    padding-top    : 85px;
+    padding-left   : 62px;
+    letter-spacing : -15px;
 }
 
 h2 {
     font-size      : 14pt;
     margin         : 0px;
     line-height    : 1em;
-    color          : #336699;
+    color          : #7f5939;
+    background     : #e5cd7d;
     padding-left   : 75px;
-    padding-top    : 25px;
-    padding-bottom : 20px;
-    background     : #ffffff;
+    padding-top    : 20px;
+    padding-bottom : 15px;
     font-style     : oblique;
 }
 
+.home_nav {
+    border-bottom  : 1px dotted #bd9962;
+    border-top     : 10px solid #bd9962;
+}
+
 .nav {
-    border-bottom  : 1px solid #6699CC;
-    border-top     : 10px solid #6699CC;
+    border-bottom  : 1px dotted #bd9962;
+    border-top     : 10px solid #bd9962;
+    background     : #FFF5CD;
 }
 
 ul.menu {
@@ -59,21 +69,21 @@ ul.menu > li {
 }
 
 ul.menu > li.active {
-    color      : #003366;
-    background : #6699CC;
+    color      : #7f5939;
+    background : #e5cd7d;
 }
 
 ul.menu > li.inactive {
-    color           : #336699;
+    color      : #7f5939;
 }
 
 ul.menu > li a {
-    color           : #336699;
+    color           : #7f5939;
     text-decoration : none;
 }
 
 ul.menu > li a:hover {
-    color           : #003366;
+    color           : #7f5939;
     text-decoration : underline;
 }
 
@@ -87,7 +97,7 @@ ul.menu > li a:hover {
 .content h2 {
     font-size     : 16pt;
     line-height   : 1em;
-    color         : #336699;
+    color         : #7f5939;
     padding       : 0px;
     margin-bottom : 10px;
     background    : #ffffff;
@@ -96,16 +106,19 @@ ul.menu > li a:hover {
 .content h3 {
     font-size     : 12pt;
     margin        : 0px;
-    color         : #336699;
+    color         : #7f5939;
     line-height   : 1em;
 }
 
 .home_content {
-    position     : relative;
-    left         : 75px;
+    padding-left : 75px;
     padding-top  : 10px;
-    width        : 500px;
     font-size    : 1.2em;
+    background   : -webkit-gradient(linear, 0% 0%, 0% 70%, from(#FFF5CD), to(#ffffff));
+}
+
+.home_content p {
+    width : 500px;
 }
 
 pre {

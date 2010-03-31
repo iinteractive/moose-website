@@ -5,7 +5,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "moose"
-msgstr "Moose"
+msgstr "moose"
 
 msgid "moose subtitle"
 msgstr "A Post Modern Object System for Perl"

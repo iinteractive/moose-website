@@ -1,6 +1,8 @@
 [% WRAPPER 'wrapper/root.tt' %]
     <h1>[% loc('moose') %]</h1>
-    [% INCLUDE 'shared/nav.tt' %]
+    <div class="nav">
+        [% INCLUDE 'shared/nav.tt' %]
+    </div>
     <div class="content">
         [% content %]
     </div>
