@@ -1,7 +1,7 @@
 [% WRAPPER 'wrapper/sub_page.tt' %]
 
     <h2>[% loc('presentations header') %]</h2>
-
+    <p>[% loc('presentations body') %]</p>
     <ul>
     [% FOREACH item IN current_page.data %]
         <li>

@@ -3,6 +3,7 @@
     <h2>[% loc('support header') %]</h2>
 
     <h3>[% loc('support irc header') %]</h3>
+    <p>[% loc('support irc body') %]</p>
     <ul>
         [% FOREACH channel IN current_page.data.irc %]
             <li>[% channel %]</li>
@@ -10,9 +11,12 @@
     </ul>
 
     <h3>[% loc('support mailing list header') %]</h3>
-    <a href="mailto:[% current_page.data.mailing_list.address %]">[% loc('support moose mailing list') %]</a>
-    <br/>
-    <a href="[% current_page.data.mailing_list.archives %]">[% loc('support moose mailing list archives') %]</a>
+    <p>[% loc('support mailing list body') %]</p>
+    <p>
+        <a href="mailto:[% current_page.data.mailing_list.address %]">[% loc('support moose mailing list') %]</a>
+        <br/>
+        <a href="[% current_page.data.mailing_list.archives %]">[% loc('support moose mailing list archives') %]</a>
+    </p>
 
     <h3>[% loc('support training header') %]</h3>
     <p>[% loc('support training body') %]</p>
@@ -31,6 +35,7 @@
     </ul>
 
     <h3>[% loc('support misc header') %]</h3>
+    <p>[% loc('support misc body') %]</p>
     <ul>
         [% FOREACH item IN current_page.data.misc %]
             <li><a href="[% item.url %]">[% loc('support ' _ item.name) %]</a></li>

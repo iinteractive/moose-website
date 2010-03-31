@@ -3,9 +3,8 @@
     <h2>[% loc('moose subtitle') %]</h2>
     [% INCLUDE 'shared/nav.tt' %]
     <div class="home_content">
-        <p>[% loc('about body') %]</p>
+        <p>[% loc('home body') %]</p>
     </div>
-    <br/>
     <br/>
     <div class="home_footer">
         [% INCLUDE 'shared/footer.tt' %]

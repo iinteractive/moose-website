@@ -3,6 +3,9 @@
     <h2>[% loc('about header') %]</h2>
     <p>[% loc('about body') %]</p>
 
+    <h3>[% loc('about new to moose header') %]</h3>
+    <p>[% loc('about new to moose body') %]</p>
+
     <h3>[% loc('about company list header') %]</h3>
     <p>[% loc('about company list body') %]</p>
 
