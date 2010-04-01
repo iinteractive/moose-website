@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>[% loc('moose') %] - [% loc('moose subtitle') %]</title>
+<title>[% loc('moose page title') %]</title>
 <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>

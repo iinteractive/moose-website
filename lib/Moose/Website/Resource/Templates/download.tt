@@ -8,7 +8,7 @@
 
     <ul>
         [% FOREACH module IN current_page.data.CPAN %]
-        <li><a href="[% module.url %]">[% module.name %]</a></li>
+        <li><a target="_blank" href="[% module.url %]">[% module.name %]</a> &mdash; [% loc("download info " _ module.name) %]</li>
         [% END %]
     </ul>
 
@@ -18,10 +18,9 @@
 
     <ul>
         <li>[% loc('download git public') %] &mdash; [% current_page.data.git.public %]</li>
-
         <li>[% loc('download git commiter') %] &mdash; [% current_page.data.git.commiter %]</li>
-
-        <li><a href="[% current_page.data.git.web_view %]">[% loc('download git web view') %]</a></li>
+        <li><a target="_blank" href="[% current_page.data.git.web_view %]">[% loc('download git web view') %]</a></li>
+        <li><a target="_blank" href="[% current_page.data.git.github %]">[% loc('download github mirror') %]</a></li>
     </ul>
 
 

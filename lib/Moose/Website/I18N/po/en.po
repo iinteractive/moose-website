@@ -4,11 +4,14 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "moose"
+msgid "header moose"
 msgstr "moose"
 
-msgid "moose subtitle"
+msgid "header moose subtitle"
 msgstr "A Post Modern Object System for Perl"
+
+msgid "moose page title"
+msgstr "Moose - A post modern object system for Perl"
 
 # nav
 
@@ -45,6 +48,7 @@ msgstr "About Moose"
 msgid "about body"
 msgstr ""
 "<p>Moose is an extension of the Perl 5 object system. The main goal of Moose is to make Perl 5 Object Oriented programming easier, more consistent and less tedious. With Moose you can to think more about what you want to do and less about the mechanics of OOP.</p>"
+"<p>Here is a sample of what Moose looks like.</p>"
 "<pre>"
 "package Point;\n"
 "use Moose;\n"
@@ -94,13 +98,27 @@ msgid "download cpan header"
 msgstr "CPAN"
 
 msgid "download cpan body"
-msgstr "Moose is available for download from the CPAN."
+msgstr "Moose is available for download from the CPAN, Perl's world-wide mirrored module distribution platform. Below is a number of links to Moose and it's related modules. <a target='_blank' href='http://cpants.perl.org/dist/used_by/Moose'>Here is a list</a> of other CPAN modules that use Moose."
+
+msgid "download info Moose"
+msgstr "The core Moose distribution"
+
+msgid "download info Class::MOP"
+msgstr "The underlying meta object protocol upon which Moose is built"
+
+msgid "download info Task::Kensho"
+msgstr "A collection of excellent Moose extensions"
+
+msgid "download info MooseX::"
+msgstr "The Moose extensions"
 
 msgid "download git header"
 msgstr "Git"
 
 msgid "download git body"
-msgstr "Here is the information about the Moose git repositories."
+msgstr ""
+"<p>Moose is developed using the <a target='_blank' href='http://git-scm.com/'>Git</a> source control system. Moose is very open project and we are always willing to take contributions from others. The <a target='_blank' href='http://search.cpan.org/dist/Moose/lib/Moose/Manual/Contributing.pod'>Moose::Manual::Contributing</a> outlines our specific contribution policies and tells you how get started with our workflow.</p>"
+"<p>Here is a visualization of the <a target='_blank' href='http://www.youtube.com/watch?v=Gwq10W0RaHQ&hd=1'>Moose</a> and <a target='_blank' href='http://www.youtube.com/watch?v=HlJDnvNSfJo&hd=1'>Class::MOP</a> git repositories over time.</p>"
 
 msgid "download git public"
 msgstr "Git Public Repo URL"
@@ -110,6 +128,9 @@ msgstr "Git URL for Commiters"
 
 msgid "download git web view"
 msgstr "Git Web View"
+
+msgid "download github mirror"
+msgstr "Github Mirror"
 
 # support
 
@@ -164,7 +185,7 @@ msgid "articles header"
 msgstr "Articles About Moose"
 
 msgid "articles body"
-msgstr "Below are a list of articles and blog posts written about Moose."
+msgstr "Below are a list of articles and blog posts written about Moose, this is by no means a comprehensive list. The <a href='_blank' href='http://ironman.enlightenedperl.org/'>Perl Iron Man</a> blog feed quite often has Moose related blog posts."
 
 # presentations
 

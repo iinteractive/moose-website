@@ -15,12 +15,13 @@ h1 {
     font-size      : 54pt;
     margin         : 0px;
     line-height    : 0.8em;
-    background     : #307AA7;
     color          : #ffffff;
     padding-left   : 70px;
     padding-top    : 15px;
     letter-spacing : -7px;
     text-shadow    : -3px 0 4px #333333;
+    background     : url('../images/header_bg.jpg') no-repeat;
+    border-bottom  : 1px solid #333333;
 }
 
 h1.home {
@@ -29,7 +30,7 @@ h1.home {
     padding-left   : 62px;
     letter-spacing : -15px;
     background     : #ffffff;
-    background     : url('../images/header_bg.jpg') no-repeat;
+    background     : url('../images/header_home_bg.jpg') no-repeat;
 }
 
 h2 {
@@ -129,6 +130,44 @@ pre {
     border      : 1px dotted #aaaaaa;
     color       : #333333;
 }
+
+ul.articles {
+    list-style-type : none;
+    padding-left    : 0px;
+}
+
+ul.presentations {
+    list-style-type : none;
+    padding-left    : 0px;
+}
+
+li.year {
+    font-size       : 14pt;
+    font-weight     : bold;
+}
+
+li.year > ul {
+    padding-top    : 10px;
+    padding-bottom : 10px;
+}
+
+li.article {
+    list-style-type : circle;
+    font-size       : 10pt;
+    font-weight     : normal;
+}
+
+li.article_set {
+    font-size       : 10pt;
+    font-weight     : bold;
+}
+
+li.presentation {
+    list-style-type : circle;
+    font-size       : 10pt;
+    font-weight     : normal;
+}
+
 
 .home_footer {
     position       : relative;

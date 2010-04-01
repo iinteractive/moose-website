@@ -2,13 +2,13 @@
 
     <h2>[% loc('presentations header') %]</h2>
     <p>[% loc('presentations body') %]</p>
-    <ul>
+    <ul class="presentations">
     [% FOREACH item IN current_page.data %]
-        <li>
+        <li class="year">
             [% loc(item.year) %]
             <ul>
                 [% FOREACH presentation IN item.presentations %]
-                    <li><a href="[% presentation.url %]">[% presentation.title %]</a></li>
+                    <li class="presentation"><a target="_blank" href="[% presentation.url %]">[% presentation.title %]</a></li>
                 [% END %]
             </ul>
         </li>
