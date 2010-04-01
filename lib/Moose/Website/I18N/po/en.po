@@ -34,8 +34,8 @@ msgstr "Presentations"
 
 msgid "home body"
 msgstr ""
-"<p>Moose is a <a href='http://www.perl.com/pub/a/1999/03/pm.html'>postmodern object system</a> for Perl 5 that takes the tedium out of writing object-oriented Perl. It borrows all the best features from Perl 6, CLOS (LISP), Smalltalk, Java, BETA, OCaml, Ruby and more, while still keeping true to its Perl 5 roots.</p>"
-"<p>Moose is 100% production ready and in heavy use in a number of systems and growing every day. Try it today!</p>"
+"<p>Moose is a <a target='_blank' href='http://www.perl.com/pub/a/1999/03/pm.html'>postmodern object system</a> for Perl 5 that takes the tedium out of writing object-oriented Perl. It borrows all the best features from Perl 6, CLOS (LISP), Smalltalk, Java, BETA, OCaml, Ruby and more, while still keeping true to its Perl 5 roots.</p>"
+"<p>Moose is 100% production ready and in heavy use in a number of systems and growing every day. <a target='_blank' href='http://search.cpan.org/dist/Moose'>Try it today!</a></p>"
 
 # about
 
@@ -76,7 +76,7 @@ msgstr "New to Moose?"
 
 msgid "about new to moose body"
 msgstr ""
-"<p>If you're new to Moose, the best place to start is the <a href='http://search.cpan.org/dist/Moose/lib/Moose/Manual.pm'>Moose::Manual</a> docs, followed by the <a href='http://search.cpan.org/dist/Moose/lib/Moose/Cookbook.pm'>Moose::Cookbook</a>. The intro will show you what Moose is, and how it makes Perl 5 OO better.</p>"
+"<p>If you're new to Moose, the best place to start is the <a target='_blank' href='http://search.cpan.org/dist/Moose/lib/Moose/Manual.pod'>Moose::Manual</a> docs, followed by the <a target='_blank' href='http://search.cpan.org/dist/Moose/lib/Moose/Cookbook.pod'>Moose::Cookbook</a>. The intro will show you what Moose is, and how it makes Perl 5 OO better.</p>"
 "<p>The cookbook recipes on Moose basics will get you up to speed with many of Moose's features quickly. Once you have an idea of what Moose can do, you can use the API documentation to get more detail on features which interest you.</p>"
 
 msgid "about company list header"

@@ -3,11 +3,11 @@ BODY {
     font-family : Ariel, Helvetica, sans-serif;
     font-size   : 10pt;
     margin      : 0px;
-    color       : #666666;
+    color       : #333333;
 }
 
 a {
-    color : #333333;
+    color : #666666;
 }
 
 h1 {
@@ -15,7 +15,7 @@ h1 {
     font-size      : 54pt;
     margin         : 0px;
     line-height    : 0.8em;
-    background     : #2d4b4c;
+    background     : #307AA7;
     color          : #ffffff;
     padding-left   : 70px;
     padding-top    : 15px;
@@ -25,32 +25,33 @@ h1 {
 
 h1.home {
     font-size      : 110pt;
-    padding-top    : 85px;
+    padding-top    : 80px;
     padding-left   : 62px;
     letter-spacing : -15px;
+    background     : #ffffff;
+    background     : url('../images/header_bg.jpg') no-repeat;
 }
 
 h2 {
     font-size      : 14pt;
     margin         : 0px;
     line-height    : 1em;
-    color          : #7f5939;
-    background     : #e5cd7d;
+    color          : #ffffff;
+    background     : #307AA7;
     padding-left   : 75px;
     padding-top    : 20px;
     padding-bottom : 15px;
-    font-style     : oblique;
 }
 
 .home_nav {
-    border-bottom  : 1px dotted #bd9962;
-    border-top     : 10px solid #bd9962;
+    border-bottom  : 1px dotted #C22E24;
+    border-top     : 10px solid #C22E24;
 }
 
 .nav {
-    border-bottom  : 1px dotted #bd9962;
-    border-top     : 10px solid #bd9962;
-    background     : #FFF5CD;
+    border-bottom  : 1px dotted #C22E24;
+    border-top     : 10px solid #C22E24;
+    background     : #F2E6AA;
 }
 
 ul.menu {
@@ -69,21 +70,21 @@ ul.menu > li {
 }
 
 ul.menu > li.active {
-    color      : #7f5939;
-    background : #e5cd7d;
+    color      : #ffffff;
+    background : #C22E24;
 }
 
 ul.menu > li.inactive {
-    color      : #7f5939;
+    color      : #C22E24;
 }
 
 ul.menu > li a {
-    color           : #7f5939;
+    color           : #C22E24;
     text-decoration : none;
 }
 
 ul.menu > li a:hover {
-    color           : #7f5939;
+    color           : #C22E24;
     text-decoration : underline;
 }
 
@@ -97,7 +98,7 @@ ul.menu > li a:hover {
 .content h2 {
     font-size     : 16pt;
     line-height   : 1em;
-    color         : #7f5939;
+    color         : #C22E24;
     padding       : 0px;
     margin-bottom : 10px;
     background    : #ffffff;
@@ -106,7 +107,7 @@ ul.menu > li a:hover {
 .content h3 {
     font-size     : 12pt;
     margin        : 0px;
-    color         : #7f5939;
+    color         : #C22E24;
     line-height   : 1em;
 }
 
@@ -114,7 +115,7 @@ ul.menu > li a:hover {
     padding-left : 75px;
     padding-top  : 10px;
     font-size    : 1.2em;
-    background   : -webkit-gradient(linear, 0% 0%, 0% 70%, from(#FFF5CD), to(#ffffff));
+    background   : url('../images/bg.gif') repeat-x;
 }
 
 .home_content p {
