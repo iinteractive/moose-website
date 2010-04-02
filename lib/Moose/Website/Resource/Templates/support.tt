@@ -1,28 +1,31 @@
-[% WRAPPER 'wrapper/sub_page.tt' %]
+[% WRAPPER 'wrapper/root.tt' %]
 
-    <h2>[% loc('support header') %]</h2>
+    <p>[% loc('support body') %]</p>
 
     <h3>[% loc('support irc header') %]</h3>
     <p>[% loc('support irc body') %]</p>
-    <ul>
-        [% FOREACH channel IN current_page.data.irc %]
-            <li>[% channel %]</li>
-        [% END %]
-    </ul>
+    <p>
+        <ul>
+            [% FOREACH channel IN current_page.data.irc %]
+                <li>[% channel %]</li>
+            [% END %]
+        </ul>
+    </p>
 
     <h3>[% loc('support mailing list header') %]</h3>
     <p>[% loc('support mailing list body') %]</p>
-    <ul>
-        <li><a href="mailto:[% current_page.data.mailing_list.address %]">[% loc('support moose mailing list') %]</a></li>
-        <li><a target="_blank" href="[% current_page.data.mailing_list.archive %]">[% loc('support moose mailing list archives') %]</a></li>
-    </ul>
-
+    <p>
+        <ul>
+            <li><a href="mailto:[% current_page.data.mailing_list.address %]">[% loc('support moose mailing list') %]</a></li>
+            <li><a href="[% current_page.data.mailing_list.archive %]">[% loc('support moose mailing list archives') %]</a></li>
+        </ul>
+    </p>
 <!--
     <h3>[% loc('support training header') %]</h3>
     <p>[% loc('support training body') %]</p>
     <ul>
         [% FOREACH item IN current_page.data.training %]
-            <li><a target="_blank" href="[% item.url %]">[% item.name %]</a></li>
+            <li><a href="[% item.url %]">[% item.name %]</a></li>
         [% END %]
     </ul>
 
@@ -30,17 +33,19 @@
     <p>[% loc('support consulting body') %]</p>
     <ul>
         [% FOREACH item IN current_page.data.consulting %]
-            <li><a target="_blank" href="[% item.url %]">[% item.name %]</a></li>
+            <li><a href="[% item.url %]">[% item.name %]</a></li>
         [% END %]
     </ul>
 -->
 
     <h3>[% loc('support misc header') %]</h3>
     <p>[% loc('support misc body') %]</p>
-    <ul>
-        [% FOREACH item IN current_page.data.misc %]
-            <li><a target="_blank" href="[% item.url %]">[% loc('support ' _ item.name) %]</a></li>
-        [% END %]
-    </ul>
+    <p>
+        <ul>
+            [% FOREACH item IN current_page.data.misc %]
+                <li><a href="[% item.url %]">[% loc('support ' _ item.name) %]</a></li>
+            [% END %]
+        </ul>
+    </p>
 
 [% END %]
