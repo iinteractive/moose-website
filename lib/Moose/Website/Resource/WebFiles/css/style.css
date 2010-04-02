@@ -78,7 +78,6 @@ ul.menu > li a:hover {
 .content {
     padding-left : 75px;
     padding-top  : 20px;
-    padding-bottom : 20px;
     font-size    : 1.2em;
     background   : url('../images/gradient.gif') repeat-x;
 }
@@ -141,7 +140,7 @@ li.presentation {
 }
 
 .footer {
-    margin-top     : 20px;
+    margin-top     : 30px;
     border-top     : 1px solid #aaaaaa;
     padding-left   : 75px;
     color          : #aaaaaa;
