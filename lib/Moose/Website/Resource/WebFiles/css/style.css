@@ -18,10 +18,10 @@ h1 {
     color             : #ffffff;
     text-shadow       : -3px 0 4px #333333;
     border-bottom     : 1px solid #333333;
-    font-size         : 110pt;
-    padding-top       : 80px;
-    padding-left      : 62px;
-    letter-spacing    : -15px;
+    font-size         : 100pt;
+    padding-top       : 32px;
+    padding-left      : 70px;
+    letter-spacing    : -13px;
     background-repeat : no-repeat;
 }
 
@@ -31,7 +31,7 @@ h2 {
     line-height    : 1em;
     color          : #ffffff;
     background     : #307AA7;
-    padding-left   : 75px;
+    padding-left   : 78px;
     padding-top    : 20px;
     padding-bottom : 15px;
 }
