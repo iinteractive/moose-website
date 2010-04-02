@@ -112,7 +112,7 @@ msgstr "A collection of excellent Moose extensions"
 msgid "download info Task::Kensho"
 msgstr "A collection of excellent Modern Perl modules"
 
-msgid "download info MooseX::"
+msgid "download info MooseX::*"
 msgstr "The Moose extensions"
 
 msgid "download git header"
