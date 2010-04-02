@@ -307,7 +307,7 @@
         - title : Stevan Little's Moose talk at YAPC::NA
           url   : http://www.iinteractive.com/moose/slides/start.html
         - title : Sam Vilain's Moose talk at OSDC Melbourne
-          title : http://utsl.gen.nz/talks/moose/start.htm
+          url   : http://utsl.gen.nz/talks/moose/start.htm
     - year          : Perl Mongers Groups
       presentations :
         - url   : http://www.slideshare.net/Ovid/refactoring-with-roles-1298185
