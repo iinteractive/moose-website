@@ -106,8 +106,11 @@ msgstr "The core Moose distribution"
 msgid "download info Class::MOP"
 msgstr "The underlying meta object protocol upon which Moose is built"
 
-msgid "download info Task::Kensho"
+msgid "download info Task::Moose"
 msgstr "A collection of excellent Moose extensions"
+
+msgid "download info Task::Kensho"
+msgstr "A collection of excellent Modern Perl modules"
 
 msgid "download info MooseX::"
 msgstr "The Moose extensions"
@@ -117,7 +120,7 @@ msgstr "Git"
 
 msgid "download git body"
 msgstr ""
-"<p>Moose is developed using the <a target='_blank' href='http://git-scm.com/'>Git</a> source control system. Moose is very open project and we are always willing to take contributions from others. The <a target='_blank' href='http://search.cpan.org/dist/Moose/lib/Moose/Manual/Contributing.pod'>Moose::Manual::Contributing</a> outlines our specific contribution policies and tells you how get started with our workflow.</p>"
+"<p>Moose is developed using the <a target='_blank' href='http://git-scm.com/'>Git</a> source control system. Moose is a very open project and we are always willing to take contributions from others. The <a target='_blank' href='http://search.cpan.org/dist/Moose/lib/Moose/Manual/Contributing.pod'>Moose::Manual::Contributing</a> outlines our specific contribution policies and tells you how get started with our workflow.</p>"
 "<p>Here is a visualization of the <a target='_blank' href='http://www.youtube.com/watch?v=Gwq10W0RaHQ&hd=1'>Moose</a> and <a target='_blank' href='http://www.youtube.com/watch?v=HlJDnvNSfJo&hd=1'>Class::MOP</a> git repositories over time.</p>"
 
 msgid "download git public"
