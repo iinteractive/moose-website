@@ -8,7 +8,11 @@
             [% loc(item.year) %]
             <ul>
                 [% FOREACH presentation IN item.presentations %]
-                    <li class="presentation"><a target="_blank" href="[% presentation.url %]">[% presentation.title %]</a></li>
+                    <li class="presentation">
+                        <a target="_blank" href="[% presentation.url %]">[% presentation.title %]</a>
+                        [% IF presentation.video   %] (<a target="_blank" href="[% presentation.video %]">video</a>)[% END %]
+                        [% IF presentation.podcast %] (<a target="_blank" href="[% presentation.podcast %]">podcast</a>)[% END %]
+                    </li>
                 [% END %]
             </ul>
         </li>

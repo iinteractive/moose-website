@@ -233,12 +233,14 @@
       presentations :
         - title : Stevan Little's talk at OPW
           url   : http://iinteractive.com/moose/hosted-presentations/2009/Untitled-12-slides/index.html
-          video :
+          video : http://www.presentingperl.org/opw2010/untitled-no-12/
         - title : Drew Stephens gives a lighting talk on Moose at SHDH 36
           url   : http://www.slideshare.net/dinomite/learning-moose-lightning
           video : http://www.youtube.com/watch?v=wGGDPATfsfo&NR=1
     - year          : 2009
       presentations :
+        - url   : http://www.slideshare.net/Penfold/introduction-to-moose-2437037
+          title : Mike Whitaker's Intro to Moose at Italian Perl Workshop
         - url   : http://sartak.org/talks/frozen-perl-2009/moose/
           title : "Shawn M Moore's Intro to Moose at Frozen Perl"
         - url   : http://yapc10.org/yn2009/talk/2047
@@ -283,7 +285,7 @@
           title : "Stevan Little's Moose talk at OSCON"
         - url   : hosted-presentations/2008/nothingmuch-NPW/practical_moose.html
           title : "Yuval Kogman's Practical Moose at Nordic Perl Workshop"
-        - title : "Yuval Kogman's Practical Moose at YAPC::Asia (video)"
+        - title : "Yuval Kogman's Practical Moose at YAPC::Asia"
           url   : hosted-presentations/2008/nothingmuch-YAPC-Asia/practical_moose.html
           video : http://conferences.yapcasia.org/ya2008/talk/1017
         - url   : hosted-presentations/2008/stevan-YAPC-NA.pdf
