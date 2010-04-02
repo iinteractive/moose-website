@@ -10,7 +10,7 @@
 
     <p>
         <ul>
-            [% FOREACH company IN current_page.data.companies %]
+            [% FOREACH company IN current_page.data.companies.sort('name') %]
                 <li><a href="[% company.url %]">[% company.name %]</a></li>
             [% END %]
         </ul>

@@ -9,8 +9,8 @@
     companies:
       - name : "Yahoo!"
         url  : http://www.yahoo.com
-      - name : "Symatec"
-        url  : http://www.symatec.com
+      - name : "Symantec"
+        url  : http://www.symantec.com
       - name : "Cisco"
         url  : http://www.cisco.com
       - name : "IMDb"
