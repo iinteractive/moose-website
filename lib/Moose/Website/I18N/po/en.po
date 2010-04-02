@@ -8,10 +8,10 @@ msgid "header moose"
 msgstr "moose"
 
 msgid "header moose subtitle"
-msgstr "A Post Modern Object System for Perl"
+msgstr "A Postmodern Object System for Perl"
 
 msgid "moose page title"
-msgstr "Moose - A post modern object system for Perl"
+msgstr "Moose - A postmodern object system for Perl"
 
 # nav
 
