@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 
-use Syntax::Highlight::Perl;
+use Syntax::Highlight::Perl::Improved ':FULL';
 
 my $color_table = {
     'Variable_Scalar'   => 'color:#080;',
@@ -29,7 +29,7 @@ my $color_table = {
     'Line'              => 'color:#000;',
 };
 
-my $formatter = Syntax::Highlight::Perl->new();
+my $formatter = Syntax::Highlight::Perl::Improved->new();
 
 $formatter->define_substitution(
     '<' => '&lt;',
