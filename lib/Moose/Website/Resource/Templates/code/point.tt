@@ -1,0 +1,23 @@
+<pre style="font-size:10pt;color:#336;"><span style="color:#000;">package</span> <span style="color:#900;">Point</span><span style="color:#000;">;</span>
+<span style="color:#000;">use</span> <span style="color:#900;">Moose</span><span style="color:#000;">;</span> <span style="color:#069;font-style:italic;"># automatically turns on strict and warnings</span>
+
+<span style="color:#3A3;">has</span> <span style="color:#00a;">'</span><span style="color:#00a;">x</span><span style="color:#00a;">'</span> <span style="color:#000;">=&gt;</span> <span style="color:#000;">(</span><span style="color:#00a;">is</span> <span style="color:#000;">=&gt;</span> <span style="color:#00a;">'</span><span style="color:#00a;">rw</span><span style="color:#00a;">'</span><span style="color:#000;">,</span> <span style="color:#00a;">isa</span> <span style="color:#000;">=&gt;</span> <span style="color:#00a;">'</span><span style="color:#00a;">Int</span><span style="color:#00a;">'</span><span style="color:#000;">)</span><span style="color:#000;">;</span>
+<span style="color:#3A3;">has</span> <span style="color:#00a;">'</span><span style="color:#00a;">y</span><span style="color:#00a;">'</span> <span style="color:#000;">=&gt;</span> <span style="color:#000;">(</span><span style="color:#00a;">is</span> <span style="color:#000;">=&gt;</span> <span style="color:#00a;">'</span><span style="color:#00a;">rw</span><span style="color:#00a;">'</span><span style="color:#000;">,</span> <span style="color:#00a;">isa</span> <span style="color:#000;">=&gt;</span> <span style="color:#00a;">'</span><span style="color:#00a;">Int</span><span style="color:#00a;">'</span><span style="color:#000;">)</span><span style="color:#000;">;</span>
+
+<span style="color:#000;">sub</span> <span style="color:#980;">clear</span> <span style="color:#000;">{</span>
+    <span style="color:#000;">my</span> <span style="color:#080;">$self</span> <span style="color:#000;">=</span> <span style="color:#300;">shift</span><span style="color:#000;">;</span>
+    <span style="color:#080;">$self</span><span style="color:#000;">-&gt;</span><span style="color:#980;">x</span><span style="color:#000;">(</span><span style="color:#f0f;">0</span><span style="color:#000;">)</span><span style="color:#000;">;</span>
+    <span style="color:#080;">$self</span><span style="color:#000;">-&gt;</span><span style="color:#00a;">y(</span><span style="color:#00a;">0</span><span style="color:#00a;">)</span><span style="color:#000;">;</span>
+<span style="color:#000;">}</span>
+
+<span style="color:#000;">package</span> <span style="color:#900;">Point3D</span><span style="color:#000;">;</span>
+<span style="color:#000;">use</span> <span style="color:#900;">Moose</span><span style="color:#000;">;</span>
+
+<span style="color:#3A3;">extends</span> <span style="color:#00a;">'</span><span style="color:#00a;">Point</span><span style="color:#00a;">'</span><span style="color:#000;">;</span>
+
+<span style="color:#3A3;">has</span> <span style="color:#00a;">'</span><span style="color:#00a;">z</span><span style="color:#00a;">'</span> <span style="color:#000;">=&gt;</span> <span style="color:#000;">(</span><span style="color:#00a;">is</span> <span style="color:#000;">=&gt;</span> <span style="color:#00a;">'</span><span style="color:#00a;">rw</span><span style="color:#00a;">'</span><span style="color:#000;">,</span> <span style="color:#00a;">isa</span> <span style="color:#000;">=&gt;</span> <span style="color:#00a;">'</span><span style="color:#00a;">Int</span><span style="color:#00a;">'</span><span style="color:#000;">)</span><span style="color:#000;">;</span>
+
+<span style="color:#3A3;">after</span> <span style="color:#00a;">'</span><span style="color:#00a;">clear</span><span style="color:#00a;">'</span> <span style="color:#000;">=&gt;</span> <span style="color:#000;">sub</span> <span style="color:#000;">{</span>
+    <span style="color:#000;">my</span> <span style="color:#080;">$self</span> <span style="color:#000;">=</span> <span style="color:#300;">shift</span><span style="color:#000;">;</span>
+    <span style="color:#080;">$self</span><span style="color:#000;">-&gt;</span><span style="color:#980;">z</span><span style="color:#000;">(</span><span style="color:#f0f;">0</span><span style="color:#000;">)</span><span style="color:#000;">;</span>
+<span style="color:#000;">}</span><span style="color:#000;">;</span></pre>

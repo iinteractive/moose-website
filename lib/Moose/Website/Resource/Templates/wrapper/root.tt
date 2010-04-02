@@ -25,7 +25,7 @@ jQuery(document).ready(function($) {
     [% INCLUDE 'shared/footer.tt' %]
 </div>
 <div id="code_sample" style="display:none">
-    [% loc('moose code sample') %]
+[% INCLUDE 'code/point.tt' %]
 </div>
 </body>
 </html>
