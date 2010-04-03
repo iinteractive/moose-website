@@ -170,7 +170,7 @@
           title : "Ovid eschews inheritance in favor of roles"
         - url   : http://www.modernperlbooks.com/mt/2009/04/the-why-of-perl-roles.html
           title : "chromatic on The Why of Perl Roles"
-        - url   : http://chris.prather.org/why-moose-is-post-modern/
+        - url   : http://chris.prather.org/why-moose-is-post-modern.html
           title : "Chris Prather rationalizes Moose's \"post modern\" label"
         - url   : http://jjnapiorkowski.vox.com/library/post/why-i-use-moose-perls-post-modern-object-system.html?_c=feed-atom
           title : "John Napiorkowski on why he uses Moose"
@@ -180,8 +180,6 @@
           title : "Ovid praises role-based refactoring"
         - url   : http://blog.urth.org/2009/04/moose-docs-grant-wrap-up.html
           title : "Dave Rolsky's post-mortem on his Moose documentation grant"
-        - url   : http://blog.jrock.us/articles/Unshortening%20URLs%20with%20Modern%20Perl.pod
-          title : "Jonathan Rockway uses many modern Moose extensions exemplifying Modern Perl"
         - url   : http://use.perl.org/~acme/journal/38554?from=rss
           title : "L&eacute;on Brocard summarizes London.pm's \"What is Moose and why is it the future?\" meeting"
     - year     : 2008
@@ -212,8 +210,6 @@
               title : "Writing a perl REPL part 3 - lexical environments"
             - url   : http://chainsawblues.vox.com/library/post/develrepl-part-4---script-options-rc-files-profiles-and-packaging.html
               title : "Devel::REPL part 4 - script options, rc files and profiles"
-        - url   : http://foo-magazin.de/#d18
-          title : "$foo Perl Magazine Winter 2007 has a Moose article"
         - title    : "Randal Schwartz wrote a series of articles on Moose for Linux Magazine"
           articles :
             - url   : http://www.stonehenge.com/merlyn/LinuxMag/col94.html
@@ -243,6 +239,8 @@
           title : Mike Whitaker's Intro to Moose at Italian Perl Workshop
         - url   : http://sartak.org/talks/frozen-perl-2009/moose/
           title : "Shawn M Moore's Intro to Moose at Frozen Perl"
+        - url   : http://iinteractive.com/moose/hosted-presentations/2009/e-lamp-talk/perl-great-lannguages.xul
+          title : "Stevan Little's talk at Nashville E-Lamp"
         - url   : http://yapc10.org/yn2009/talk/2047
           title : "Dave Rolsky's Introduction to Moose master class at YAPC::NA 2009 (delivered by Shawn Moore and Jonathan Rockway)"
         - url   : http://yapc10.org/yn2009/talk/1967
@@ -275,37 +273,37 @@
       presentations :
         - url   : http://yapc.tv/2008/lpw/mike-whitaker-intro-moose/
           title : "Mike Whitaker's Into to Moose at the London Perl Workshop"
-        - url   : hosted-presentations/2008/sunnavy-Beijing-Perl-Workshop.pdf
+        - url   : http://iinteractive.com/moose/hosted-presentations/2008/sunnavy-Beijing-Perl-Workshop.pdf
           title : "sunnavy's Moose talk at Beijing Perl Workshop"
-        - url   : hosted-presentations/2008/stevan-PPW/moose.xul
+        - url   : http://iinteractive.com/moose/hosted-presentations/2008/stevan-PPW/moose.xul
           title : "Stevan Little's Moose talk at Pittsburgh Perl Workshop"
-        - url   : hosted-presentations/2008/stevan-PPW/moose-manager.xul
+        - url   : http://iinteractive.com/moose/hosted-presentations/2008/stevan-PPW/moose-manager.xul
           title : "Stevan Little's Manager's Guide to Moose at Pittsburgh Perl Workshop"
-        - url   : hosted-presentations/2008/stevan-OSCON/moose.xul
+        - url   : http://iinteractive.com/moose/hosted-presentations/2008/stevan-OSCON/moose.xul
           title : "Stevan Little's Moose talk at OSCON"
-        - url   : hosted-presentations/2008/nothingmuch-NPW/practical_moose.html
+        - url   : http://iinteractive.com/moose/hosted-presentations/2008/nothingmuch-NPW/practical_moose.html
           title : "Yuval Kogman's Practical Moose at Nordic Perl Workshop"
         - title : "Yuval Kogman's Practical Moose at YAPC::Asia"
           url   : hosted-presentations/2008/nothingmuch-YAPC-Asia/practical_moose.html
           video : http://conferences.yapcasia.org/ya2008/talk/1017
         - url   : hosted-presentations/2008/stevan-YAPC-NA.pdf
           title : "Stevan Little's Moose talk at YAPC::NA"
-        - url   : hosted-presentations/2008/nothingmuch-PTPW/practical_moose.html
+        - url   : http://iinteractive.com/moose/hosted-presentations/2008/nothingmuch-PTPW/practical_moose.html
           title : "Yuval Kogman's Practical Moose at Portuguese Perl Workshop"
     - year          : 2007
       presentations :
-        - url   : hosted-presentations/2007/stevan-PPW/roles.xul
+        - url   : http://iinteractive.com/moose/hosted-presentations/2007/stevan-PPW/roles.xul
           title : "Stevan Little's Horizontal Reuse with Moose::Role at Pittsburgh Perl Workshop"
         - url   : ppw_moose_slides/start.html
           title : "Stevan Little's Moose talk at Pittsburgh Perl Workshop"
-        - url   : hosted-presentations/2007/nothingmuch-YAPC-EU
+        - url   : http://iinteractive.com/moose/hosted-presentations/2007/nothingmuch-YAPC-EU
           title : "Yuval Kogman's Object Meta Programming at YAPC::EU"
-        - url   : yapc_eu_2007_slides/start.html
-          title : "Stevan Little's Moose talk at YAPC::EU"
+       #- url   : --
+       #  title : "Stevan Little's Moose talk at YAPC::EU"
     - year          : 2006
       presentations :
-        - title : Stevan Little's Moose talk at YAPC::NA
-          url   : http://www.iinteractive.com/moose/slides/start.html
+        #- title : Stevan Little's Moose talk at YAPC::NA
+        #  url   : http://www.iinteractive.com/moose/slides/start.html
         - title : Sam Vilain's Moose talk at OSDC Melbourne
           url   : http://utsl.gen.nz/talks/moose/start.htm
     - year          : Perl Mongers Groups
@@ -320,15 +318,15 @@
           title : "Doug Treder's Moose talk at Seattle Perl Users Group"
         - url   : http://www.slideshare.net/hakobe/moose
           title : "hakobe's Moose presentation at Kansai.pm"
-        - url     : hosted-presentations/2008/notbenh-PDX.xul
+        - url     : http://iinteractive.com/moose/hosted-presentations/2008/notbenh-PDX.xul
           title   : "Ben Hengst's Moose talk at PDX.pm"
           podcast : http://pdxpm.podasp.com/archive.html
         - url   : http://chris.prather.org/talks/moose-intro-mpls/
           title : "Chris Prather's An Intro to Moose at Minneapolis Perl Mongers"
         - url   : http://houston.pm.org/talks/2007talks/0704Talk/slides/start.html
           title : "Robert Boone's Moose talk at Houston.pm"
-        - url   : perl_ny_seminar_slides/start.html
-          title : "Stevan Little's Moose talk at Perl Seminar, NY"
+       #- url   : http://iinteractive.com/moose/hosted-presentations/2007/perl_ny_seminar_slides/start.html
+       #  title : "Stevan Little's Moose talk at Perl Seminar, NY"
 
 
 
