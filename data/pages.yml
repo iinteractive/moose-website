@@ -228,7 +228,7 @@
     - year          : 2010
       presentations :
         - title : Stevan Little's talk at OPW
-          url   : http://iinteractive.com/moose/hosted-presentations/2009/Untitled-12-slides/index.html
+          url   : http://iinteractive.com/moose/hosted-presentations/2010/stevan+OPW/index.html
           video : http://www.presentingperl.org/opw2010/untitled-no-12/
         - title : Drew Stephens gives a lighting talk on Moose at SHDH 36
           url   : http://www.slideshare.net/dinomite/learning-moose-lightning
@@ -239,7 +239,7 @@
           title : Mike Whitaker's Intro to Moose at Italian Perl Workshop
         - url   : http://sartak.org/talks/frozen-perl-2009/moose/
           title : "Shawn M Moore's Intro to Moose at Frozen Perl"
-        - url   : http://iinteractive.com/moose/hosted-presentations/2009/e-lamp-talk/perl-great-lannguages.xul
+        - url   : http://iinteractive.com/moose/hosted-presentations/2009/e-lamp/perl-great-lannguages.xul
           title : "Stevan Little's talk at Nashville E-Lamp"
         - url   : http://yapc10.org/yn2009/talk/2047
           title : "Dave Rolsky's Introduction to Moose master class at YAPC::NA 2009 (delivered by Shawn Moore and Jonathan Rockway)"
@@ -247,7 +247,7 @@
           title : "Devin Austin's Intro to Moose at YAPC::NA 2009"
         - url   : http://sartak.org/talks/yapc-na-2009/extending-moose/
           title : "Shawn Moore's Extending Moose for Applications at YAPC::NA 2009"
-        - url   : http://yapc10.org/yn2009/talk/1941
+        - url   : http://iinteractive.com/moose/hosted-presentations/2009/YAPC-NA/moose.xul
           title : "Stevan Little's To Moose or Not To Moose at YAPC::NA 2009"
         - url   : http://yapc10.org/yn2009/talk/1984
           title : "Hans Dieter Pearcey's Code Reuse with Moose at YAPC::NA 2009"
@@ -284,26 +284,24 @@
         - url   : http://iinteractive.com/moose/hosted-presentations/2008/nothingmuch-NPW/practical_moose.html
           title : "Yuval Kogman's Practical Moose at Nordic Perl Workshop"
         - title : "Yuval Kogman's Practical Moose at YAPC::Asia"
-          url   : hosted-presentations/2008/nothingmuch-YAPC-Asia/practical_moose.html
+          url   : http://iinteractive.com/moose/hosted-presentations/2008/nothingmuch-YAPC-Asia/practical_moose.html
           video : http://conferences.yapcasia.org/ya2008/talk/1017
-        - url   : hosted-presentations/2008/stevan-YAPC-NA.pdf
+        - url   : http://iinteractive.com/moose/hosted-presentations/2008/stevan-YAPC-NA.pdf
           title : "Stevan Little's Moose talk at YAPC::NA"
         - url   : http://iinteractive.com/moose/hosted-presentations/2008/nothingmuch-PTPW/practical_moose.html
           title : "Yuval Kogman's Practical Moose at Portuguese Perl Workshop"
     - year          : 2007
       presentations :
-        - url   : http://iinteractive.com/moose/hosted-presentations/2007/stevan-PPW/roles.xul
+        - url   : http://iinteractive.com/moose/hosted-presentations/2007/stevan-PPW/roles/roles.xul
           title : "Stevan Little's Horizontal Reuse with Moose::Role at Pittsburgh Perl Workshop"
-        - url   : ppw_moose_slides/start.html
+        - url   : http://iinteractive.com/moose/hosted-presentations/2007/stevan-PPW/moose/start.html
           title : "Stevan Little's Moose talk at Pittsburgh Perl Workshop"
-        - url   : http://iinteractive.com/moose/hosted-presentations/2007/nothingmuch-YAPC-EU
+        - url   : http://iinteractive.com/moose/hosted-presentations/2007/nothingmuch-YAPC-EU/slides/start.html
           title : "Yuval Kogman's Object Meta Programming at YAPC::EU"
-       #- url   : --
-       #  title : "Stevan Little's Moose talk at YAPC::EU"
     - year          : 2006
       presentations :
-        #- title : Stevan Little's Moose talk at YAPC::NA
-        #  url   : http://www.iinteractive.com/moose/slides/start.html
+        - title : Stevan Little's Moose talk at YAPC::NA
+          url   : http://iinteractive.com/moose/hosted-presentations/2006/stevan_YAPC/start.html
         - title : Sam Vilain's Moose talk at OSDC Melbourne
           url   : http://utsl.gen.nz/talks/moose/start.htm
     - year          : Perl Mongers Groups
@@ -325,8 +323,6 @@
           title : "Chris Prather's An Intro to Moose at Minneapolis Perl Mongers"
         - url   : http://houston.pm.org/talks/2007talks/0704Talk/slides/start.html
           title : "Robert Boone's Moose talk at Houston.pm"
-       #- url   : http://iinteractive.com/moose/hosted-presentations/2007/perl_ny_seminar_slides/start.html
-       #  title : "Stevan Little's Moose talk at Perl Seminar, NY"
 
 
 
