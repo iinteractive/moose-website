@@ -87,7 +87,7 @@ msgstr "Git"
 msgid "download git body"
 msgstr ""
 "<p>Moose is developed using the <a href='http://git-scm.com/'>Git</a> source control system. Moose is a very open project and we are always willing to take contributions from others. The <a href='http://search.cpan.org/dist/Moose/lib/Moose/Manual/Contributing.pod'>Moose::Manual::Contributing</a> outlines our specific contribution policies and tells you how get started with our workflow.</p>"
-"<p>Here is a visualization of the <a href='http://www.youtube.com/watch?v=Gwq10W0RaHQ&hd=1'>Moose</a> and <a href='http://www.youtube.com/watch?v=HlJDnvNSfJo&hd=1'>Class::MOP</a> git repositories over time.</p>"
+"<p>Here is an interesting visualization of the activity in the <a href='http://www.youtube.com/watch?v=Gwq10W0RaHQ&hd=1'>Moose</a> and <a href='http://www.youtube.com/watch?v=HlJDnvNSfJo&hd=1'>Class::MOP</a> git repositories on the occasion of their 1.0 release.</p>"
 
 msgid "download git public"
 msgstr "Git Public Repo URL"
@@ -104,7 +104,7 @@ msgstr "Github Mirror"
 # support
 
 msgid "support body"
-msgstr "Moose is a community driven project and there are a number of places in which you can find help and support. You can also use some of community based help sites like <a href='http://www.perlmonks.org'>PerlMonks</a> and <a href='http://www.stackoverflow.com'>Stack Overflow</a>."
+msgstr "Moose is a community driven project and there are a number of places in which you can find help and support. Below are listed the offical IRC channels and mailing lists, but help can also be found on community based help sites like <a href='http://www.perlmonks.org'>PerlMonks</a> and <a href='http://www.stackoverflow.com'>Stack Overflow</a>."
 
 msgid "support irc header"
 msgstr "IRC Channels"
@@ -151,12 +151,16 @@ msgstr "Several companies and individuals provide Moose consulting, here are a f
 # articles
 
 msgid "articles body"
-msgstr "Below are a list of articles and blog posts written about Moose, this is by no means a comprehensive list. The <a href='http://ironman.enlightenedperl.org/'>Perl Iron Man</a> blog feed quite often has Moose related blog posts."
+msgstr ""
+"<p>Below are a list of articles and blog posts written about Moose, this is by no means a comprehensive list but we have tried to compile interesting and useful ones below. The <a href='http://ironman.enlightenedperl.org/'>Perl Iron Man</a> blog feed quite often has Moose related blog posts.</p>"
+"<p>If you know of an article or blog post that you think should be included, let us know via <a href='support.html'>IRC of the mailing list</a> and we will add it here.</p>"
 
 # presentations
 
 msgid "presentations body"
-msgstr "Below are links to presentations given about Moose at conferences and local Perl Mongers group meetings."
+msgstr ""
+"<p>Below are links to presentations given about Moose at conferences and local Perl Mongers group meetings. When possible the slides are linked to, and on occasion the video when available.</p>"
+"<p>This is by no means a complete listing, so if you know of a presentation that you think should be included, let us know via <a href='support.html'>IRC of the mailing list</a> and we will add it here.</p>"
 
 # footer
 

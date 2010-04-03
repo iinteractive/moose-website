@@ -131,8 +131,9 @@ sub run {
 sub build_template_params {
     my ($self, %params) = @_;
 
-    $params{ pages } = $self->pages;
-    $params{ loc }   = sub { $self->i18n->loc( @_ ) };
+    $params{ pages }  = $self->pages;
+    $params{ loc }    = sub { $self->i18n->loc( @_ ) };
+    $params{ locale } = $self->locale;
 
     \%params;
 }

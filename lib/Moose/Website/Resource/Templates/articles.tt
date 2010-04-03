@@ -9,15 +9,15 @@
                 <ul>
                     [% FOREACH article IN item.articles %]
                         [% IF article.articles %]
-                            <li class="article_set">[% article.title %]
+                            <li class="article_set">[% article.title.$locale %]
                                 <ul>
                                     [% FOREACH sub_article IN article.articles %]
-                                        <li class="article"><a href="[% sub_article.url %]">[% sub_article.title %]</a></li>
+                                        <li class="article"><a href="[% sub_article.url %]">[% sub_article.title.$locale %]</a></li>
                                     [% END %]
                                 </ul>
                             </li>
                         [% ELSE %]
-                            <li class="article"><a href="[% article.url %]">[% article.title %]</a></li>
+                            <li class="article"><a href="[% article.url %]">[% article.title.$locale %]</a></li>
                         [% END %]
                     [% END %]
                 </ul>
