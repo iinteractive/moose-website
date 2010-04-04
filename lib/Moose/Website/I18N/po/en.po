@@ -153,7 +153,7 @@ msgstr "Several companies and individuals provide Moose consulting, here are a f
 msgid "articles body"
 msgstr ""
 "<p>Below are a list of articles and blog posts written about Moose, this is by no means a comprehensive list but we have tried to compile interesting and useful ones below. The <a href='http://ironman.enlightenedperl.org/'>Perl Iron Man</a> blog feed quite often has Moose related blog posts.</p>"
-"<p>If you know of an article or blog post that you think should be included, let us know via <a href='support.html'>IRC of the mailing list</a> and we will add it here.</p>"
+"<p>If you know of an article or blog post that you think should be included, let us know via <a href='support.html'>IRC or the mailing list</a> and we will add it here.</p>"
 
 # presentations
 
