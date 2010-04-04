@@ -160,7 +160,7 @@ msgstr ""
 msgid "presentations body"
 msgstr ""
 "<p>Below are links to presentations given about Moose at conferences and local Perl Mongers group meetings. When possible the slides are linked to, and on occasion the video when available.</p>"
-"<p>This is by no means a complete listing, so if you know of a presentation that you think should be included, let us know via <a href='support.html'>IRC of the mailing list</a> and we will add it here.</p>"
+"<p>This is by no means a complete listing, so if you know of a presentation that you think should be included, let us know via <a href='support.html'>IRC or the mailing list</a> and we will add it here.</p>"
 
 # footer
 
