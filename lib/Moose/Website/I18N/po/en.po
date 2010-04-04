@@ -104,7 +104,7 @@ msgstr "Github Mirror"
 # support
 
 msgid "support body"
-msgstr "Moose is a community driven project and there are a number of places in which you can find help and support. Below are listed the offical IRC channels and mailing lists, but help can also be found on community based help sites like <a href='http://www.perlmonks.org'>PerlMonks</a> and <a href='http://www.stackoverflow.com'>Stack Overflow</a>."
+msgstr "Moose is a community driven project and there are a number of places in which you can find help and support. Below are listed the official IRC channels and mailing lists, but help can also be found on community based help sites like <a href='http://www.perlmonks.org'>PerlMonks</a> and <a href='http://www.stackoverflow.com'>Stack Overflow</a>."
 
 msgid "support irc header"
 msgstr "IRC Channels"
