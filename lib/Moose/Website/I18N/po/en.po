@@ -87,7 +87,7 @@ msgstr "Git"
 msgid "download git body"
 msgstr ""
 "<p>Moose is developed using the <a href='http://git-scm.com/'>Git</a> source control system. Moose is a very open project and we are always willing to take contributions from others. The <a href='http://search.cpan.org/dist/Moose/lib/Moose/Manual/Contributing.pod'>Moose::Manual::Contributing</a> outlines our specific contribution policies and tells you how get started with our workflow.</p>"
-"<p>Here is an interesting visualization of the activity in the <a href='http://www.youtube.com/watch?v=Gwq10W0RaHQ&hd=1'>Moose</a> and <a href='http://www.youtube.com/watch?v=HlJDnvNSfJo&hd=1'>Class::MOP</a> git repositories on the occasion of their 1.0 release.</p>"
+"<p>Here are some interesting video visualizations of the activity in the <a href='http://www.youtube.com/watch?v=Gwq10W0RaHQ&hd=1'>Moose</a> and <a href='http://www.youtube.com/watch?v=HlJDnvNSfJo&hd=1'>Class::MOP</a> git repositories on the occasion of their 1.0 release. These visualizations were created with <a href='http://code.google.com/p/gource/wiki/Videos'>Gource</a>.</p>"
 
 msgid "download git public"
 msgstr "Git Public Repo URL"
