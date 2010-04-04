@@ -275,7 +275,7 @@
       presentations :
         - title :
             en : Stevan Little's talk at OPW
-          url   : http://iinteractive.com/moose/hosted-presentations/2010/stevan+OPW/index.html
+          url   : http://iinteractive.com/moose/hosted-presentations/2010/stevan_OPW/index.html
           video : http://www.presentingperl.org/opw2010/untitled-no-12/
         - title :
             en : Drew Stephens gives a lighting talk on Moose at SHDH 36
@@ -298,7 +298,7 @@
         - url   : http://yapc10.org/yn2009/talk/1967
           title :
             en : "Devin Austin's Intro to Moose at YAPC::NA 2009"
-        - url   : http://sartak.org/talks/yapc-na-2009/extending-moose/
+        - url   : http://sartak.org/talks/yapc-na-2009/extending-moose/extending-moose.pdf
           title :
             en : "Shawn Moore's Extending Moose for Applications at YAPC::NA 2009"
         - url   : http://iinteractive.com/moose/hosted-presentations/2009/YAPC-NA/moose.xul
