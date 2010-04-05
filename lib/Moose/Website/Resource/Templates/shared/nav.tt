@@ -1,12 +1,11 @@
 <div class="nav">
-    <ul class="menu">
+    <table cellspacing="0" cellpadding="0" border="0" class="menu"><tr>
         [% FOREACH page IN pages %]
             [% IF page.name == current_page.name %]
-                <li class="active">[% loc('nav ' _ page.name) %]</li>
+                <td class="active">[% loc('nav ' _ page.name) %]</td>
             [% ELSE %]
-                <li class="inactive"><a href="[% page.outfile %]">[% loc('nav ' _ page.name) %]</a></li>
+                <td class="inactive"><a href="[% page.outfile %]">[% loc('nav ' _ page.name) %]</a></td>
             [% END %]
         [% END %]
-    </ul>
-    <br class="clearfix" />
+    </tr></table>
 </div>

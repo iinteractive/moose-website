@@ -41,12 +41,12 @@ h2 {
     border-top     : 10px solid #C22E24;
 }
 
-ul.menu {
+.menu {
     padding-left : 70px;
     margin-top   : 0px;
 }
 
-ul.menu > li {
+.menu td {
     list-style-type : none;
     float           : left;
     padding-left    : 12px;
@@ -56,21 +56,21 @@ ul.menu > li {
     font-size       : 1.2em;
 }
 
-ul.menu > li.active {
+.menu td.active {
     color      : #ffffff;
     background : #C22E24;
 }
 
-ul.menu > li.inactive {
+.menu td.inactive {
     color      : #C22E24;
 }
 
-ul.menu > li a {
+.menu td a {
     color           : #C22E24;
     text-decoration : none;
 }
 
-ul.menu > li a:hover {
+.menu td a:hover {
     color           : #C22E24;
     text-decoration : underline;
 }
