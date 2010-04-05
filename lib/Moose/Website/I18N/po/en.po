@@ -59,12 +59,12 @@ msgid "about company list header"
 msgstr "Companies that use Moose"
 
 msgid "about company list body"
-msgstr "Moose is used by a large number of companies around the world, here are a few of them."
+msgstr "<p>Moose is used by a large number of companies around the world, here are a few of them.</p>"
 
 # download
 
 msgid "download body"
-msgstr "Moose is available for download from the CPAN, Perl's world-wide mirrored module distribution platform. Below is a number of links to Moose and it's related modules. <a href='http://cpants.perl.org/dist/used_by/Moose'>Here is a list</a> of other CPAN modules that use Moose."
+msgstr "<p>Moose is available for download from the CPAN, Perl's world-wide mirrored module distribution platform. Below is a number of links to Moose and it's related modules. <a href='http://cpants.perl.org/dist/used_by/Moose'>Here is a list</a> of other CPAN modules that use Moose.</p>"
 
 msgid "download info Moose"
 msgstr "The core Moose distribution"
@@ -104,25 +104,25 @@ msgstr "Github Mirror"
 # support
 
 msgid "support body"
-msgstr "Moose is a community driven project and there are a number of places in which you can find help and support. Below are listed the official IRC channels and mailing lists, but help can also be found on community based help sites like <a href='http://www.perlmonks.org'>PerlMonks</a> and <a href='http://www.stackoverflow.com'>Stack Overflow</a>. You can also refer to the official <a href='http://search.cpan.org/dist/Moose/lib/Moose/Manual/Support.pod'>Moose::Manual::Support</a> documentation for more details."
+msgstr "<p>Moose is a community driven project and there are a number of places in which you can find help and support. Below are listed the official IRC channels and mailing lists, but help can also be found on community based help sites like <a href='http://www.perlmonks.org'>PerlMonks</a> and <a href='http://www.stackoverflow.com'>Stack Overflow</a>. You can also refer to the official <a href='http://search.cpan.org/dist/Moose/lib/Moose/Manual/Support.pod'>Moose::Manual::Support</a> documentation for more details.</p>"
 
 msgid "support irc header"
 msgstr "IRC Channels"
 
 msgid "support irc body"
-msgstr "The quickest way to get Moose support is to engage the community on IRC."
+msgstr "<p>The quickest way to get Moose support is to engage the community on IRC.</p>"
 
 msgid "support mailing list header"
 msgstr "Mailing List"
 
 msgid "support mailing list body"
-msgstr "The Moose mailing lists can be an excellent way to get your questions answered."
+msgstr "<p>The Moose mailing lists can be an excellent way to get your questions answered.</p>"
 
 msgid "support misc header"
 msgstr "Misc."
 
 msgid "support misc body"
-msgstr "Here are a couple other items which are useful that you might like."
+msgstr "<p>Here are a couple other items which are useful that you might like.</p>"
 
 msgid "support moose mailing list"
 msgstr "Moose mailing list"
@@ -135,18 +135,6 @@ msgstr "Moose TextMate Bundle"
 
 msgid "support quickref card"
 msgstr "Moose QuickRef Card"
-
-msgid "support training header"
-msgstr "Moose Training"
-
-msgid "support training body"
-msgstr "Several companies and individuals provide Moose training, here are a few."
-
-msgid "support consulting header"
-msgstr "Moose Consulting"
-
-msgid "support consulting body"
-msgstr "Several companies and individuals provide Moose consulting, here are a few."
 
 # articles
 

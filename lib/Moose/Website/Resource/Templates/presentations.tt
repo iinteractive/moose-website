@@ -1,23 +1,21 @@
 [% WRAPPER 'wrapper/root.tt' %]
 
-    <p>[% loc('presentations body') %]</p>
-    <p>
-        <ul class="presentations">
-        [% FOREACH item IN current_page.data %]
-            <li class="year">
-                [% loc(item.year) %]
-                <ul>
-                    [% FOREACH presentation IN item.presentations %]
-                        <li class="presentation">
-                            <a href="[% presentation.url %]">[% presentation.title.$locale %]</a>
-                            [% IF presentation.video   %] (<a href="[% presentation.video %]">video</a>)[% END %]
-                            [% IF presentation.podcast %] (<a href="[% presentation.podcast %]">podcast</a>)[% END %]
-                        </li>
-                    [% END %]
-                </ul>
-            </li>
-        [% END %]
-        </ul>
-    </p>
+    [% loc('presentations body') %]
+    <ul class="presentations">
+    [% FOREACH item IN current_page.data %]
+        <li class="year">
+            [% loc(item.year) %]
+            <ul>
+                [% FOREACH presentation IN item.presentations %]
+                    <li class="presentation">
+                        <a href="[% presentation.url %]">[% presentation.title.$locale %]</a>
+                        [% IF presentation.video   %] (<a href="[% presentation.video %]">video</a>)[% END %]
+                        [% IF presentation.podcast %] (<a href="[% presentation.podcast %]">podcast</a>)[% END %]
+                    </li>
+                [% END %]
+            </ul>
+        </li>
+    [% END %]
+    </ul>
 
 [% END %]

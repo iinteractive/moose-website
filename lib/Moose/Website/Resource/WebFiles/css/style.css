@@ -42,7 +42,8 @@ h2 {
 }
 
 .menu {
-    padding-left : 70px;
+    position     : relative;
+    left         : 70px;
     margin-top   : 0px;
 }
 
@@ -101,18 +102,16 @@ pre {
     color       : #333333;
 }
 
-ul {
-    width : 550px;
-}
-
 ul.articles {
     list-style-type : none;
     padding-left    : 0px;
+    width : 550px;
 }
 
 ul.presentations {
     list-style-type : none;
     padding-left    : 0px;
+    width : 550px;
 }
 
 li.year {

@@ -95,18 +95,6 @@
     mailing_list :
       address : moose@perl.org
       archive : http://news.gmane.org/gmane.comp.lang.perl.moose
-    training :
-      - name : Infinity Interactive
-        url  : http://www.iinteractive.com/moose/training
-      - name : Shadowcat Systems
-        url  : http://www.shadowcat.co.uk/training
-      - name : Dave Rolsky, Inc.
-        url  : http://www.rolsky.com/training_the_moose
-    consulting :
-      - name : Infinity Interactive
-        url  : http://www.iinteractive.com/moose/consulting
-      - name : Shadowcat Systems
-        url  : http://www.shadowcat.co.uk/consulting
     misc :
       - name : textmate bundle
         url  : http://github.com/perigrin/perl-moose.tmbundle

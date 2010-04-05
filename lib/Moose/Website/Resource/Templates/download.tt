@@ -1,23 +1,19 @@
 [% WRAPPER 'wrapper/root.tt' %]
 
-    <p>[% loc('download body') %]</p>
-    <p>
-        <ul>
-            [% FOREACH module IN current_page.data.CPAN %]
-            <li><a href="[% module.url %]">[% module.name %]</a> &mdash; [% loc("download info " _ module.name) %]</li>
-            [% END %]
-        </ul>
-    </p>
+    [% loc('download body') %]
+    <ul>
+    [% FOREACH module IN current_page.data.CPAN %]
+        <li><a href="[% module.url %]">[% module.name %]</a> &mdash; [% loc("download info " _ module.name) %]</li>
+    [% END %]
+    </ul>
 
     <h3>[% loc('download git header') %]</h3>
-    <p>[% loc('download git body') %]</p>
-    <p>
-        <ul>
-            <li>[% loc('download git public') %] &mdash; [% current_page.data.git.public %]</li>
-            <li>[% loc('download git commiter') %] &mdash; [% current_page.data.git.commiter %]</li>
-            <li><a href="[% current_page.data.git.web_view %]">[% loc('download git web view') %]</a></li>
-            <li><a href="[% current_page.data.git.github %]">[% loc('download github mirror') %]</a></li>
-        </ul>
-    </p>
+    [% loc('download git body') %]
+    <ul>
+        <li>[% loc('download git public') %] &mdash; [% current_page.data.git.public %]</li>
+        <li>[% loc('download git commiter') %] &mdash; [% current_page.data.git.commiter %]</li>
+        <li><a href="[% current_page.data.git.web_view %]">[% loc('download git web view') %]</a></li>
+        <li><a href="[% current_page.data.git.github %]">[% loc('download github mirror') %]</a></li>
+    </ul>
 
 [% END %]

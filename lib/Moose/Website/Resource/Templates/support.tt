@@ -1,51 +1,28 @@
 [% WRAPPER 'wrapper/root.tt' %]
 
-    <p>[% loc('support body') %]</p>
+    [% loc('support body') %]
 
     <h3>[% loc('support irc header') %]</h3>
-    <p>[% loc('support irc body') %]</p>
-    <p>
-        <ul>
-            [% FOREACH channel IN current_page.data.irc %]
-                <li>[% channel %]</li>
-            [% END %]
-        </ul>
-    </p>
+    [% loc('support irc body') %]
+    <ul>
+    [% FOREACH channel IN current_page.data.irc %]
+        <li>[% channel %]</li>
+    [% END %]
+    </ul>
 
     <h3>[% loc('support mailing list header') %]</h3>
-    <p>[% loc('support mailing list body') %]</p>
-    <p>
-        <ul>
-            <li><a href="mailto:[% current_page.data.mailing_list.address %]">[% loc('support moose mailing list') %]</a></li>
-            <li><a href="[% current_page.data.mailing_list.archive %]">[% loc('support moose mailing list archives') %]</a></li>
-        </ul>
-    </p>
-<!--
-    <h3>[% loc('support training header') %]</h3>
-    <p>[% loc('support training body') %]</p>
+    [% loc('support mailing list body') %]
     <ul>
-        [% FOREACH item IN current_page.data.training %]
-            <li><a href="[% item.url %]">[% item.name %]</a></li>
-        [% END %]
+        <li><a href="mailto:[% current_page.data.mailing_list.address %]">[% loc('support moose mailing list') %]</a></li>
+        <li><a href="[% current_page.data.mailing_list.archive %]">[% loc('support moose mailing list archives') %]</a></li>
     </ul>
-
-    <h3>[% loc('support consulting header') %]</h3>
-    <p>[% loc('support consulting body') %]</p>
-    <ul>
-        [% FOREACH item IN current_page.data.consulting %]
-            <li><a href="[% item.url %]">[% item.name %]</a></li>
-        [% END %]
-    </ul>
--->
 
     <h3>[% loc('support misc header') %]</h3>
-    <p>[% loc('support misc body') %]</p>
-    <p>
-        <ul>
-            [% FOREACH item IN current_page.data.misc %]
-                <li><a href="[% item.url %]">[% loc('support ' _ item.name) %]</a></li>
-            [% END %]
-        </ul>
-    </p>
+    [% loc('support misc body') %]
+    <ul>
+    [% FOREACH item IN current_page.data.misc %]
+        <li><a href="[% item.url %]">[% loc('support ' _ item.name) %]</a></li>
+    [% END %]
+    </ul>
 
 [% END %]
