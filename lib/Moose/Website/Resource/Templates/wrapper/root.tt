@@ -26,8 +26,5 @@ jQuery(document).ready(function($) {
 <div class="footer">
     [% INCLUDE 'shared/footer.tt' %]
 </div>
-<div id="code_sample" style="display:none">
-[% INCLUDE 'code/point.tt' %]
-</div>
 </body>
 </html>
