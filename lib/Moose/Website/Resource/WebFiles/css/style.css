@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 BODY {
-    font-family : Ariel, Helvetica, sans-serif;
+    font-family : Arial, Helvetica, sans-serif;
     font-size   : 10pt;
     margin      : 0px;
     color       : #333333;
@@ -13,7 +13,7 @@ a {
 }
 
 h1 {
-    font-family       : Arial Black;
+    font-family       : Arial Black, sans-serif;
     margin            : 0px;
     line-height       : 0.8em;
     color             : #ffffff;
@@ -96,7 +96,7 @@ h2 {
 }
 
 pre {
-    font-family : Monaco, Courier;
+    font-family : Monaco, Courier, monospace;
     font-size   : 9pt;
     padding     : 10px;
     border      : 1px dotted #aaaaaa;
