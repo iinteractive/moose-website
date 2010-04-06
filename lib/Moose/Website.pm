@@ -103,7 +103,9 @@ has 'template_config' => (
     is      => 'ro',
     isa     => 'HashRef',
     lazy    => 1,
-    default => sub { +{} },
+    default => sub { +{
+        ENCODING => 'UTF-8',
+    } },
 );
 
 sub log { shift; warn @_, "\n" }
@@ -120,7 +122,8 @@ sub run {
         $self->tt->process(
             $page->{template},
             $self->build_template_params( current_page => $page ),
-            $outfile
+            $outfile,
+            { binmode => ':encoding(UTF-8)' },
         ) || confess $self->tt->error;
     }
 

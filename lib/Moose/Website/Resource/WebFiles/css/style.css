@@ -1,6 +1,7 @@
+@charset "UTF-8";
 
 BODY {
-    font-family : Ariel, Helvetica, sans-serif;
+    font-family : Arial, Helvetica, sans-serif;
     font-size   : 10pt;
     margin      : 0px;
     color       : #333333;
@@ -12,7 +13,7 @@ a {
 }
 
 h1 {
-    font-family       : Arial Black;
+    font-family       : Arial Black, sans-serif;
     margin            : 0px;
     line-height       : 0.8em;
     color             : #ffffff;
@@ -23,6 +24,7 @@ h1 {
     padding-left      : 70px;
     letter-spacing    : -13px;
     background-repeat : no-repeat;
+    text-transform    : lowercase;
 }
 
 h2 {
@@ -94,8 +96,10 @@ h2 {
     line-height   : 1em;
 }
 
-pre {
-    font-family : Monaco, Courier;
+#code_sample code {
+    display     : block;
+    white-space : pre;
+    font-family : Monaco, Courier, monospace;
     font-size   : 9pt;
     padding     : 10px;
     border      : 1px dotted #aaaaaa;
