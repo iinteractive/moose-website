@@ -11,7 +11,7 @@
     [% loc('download git body') %]
     <ul>
         <li>[% loc('download git public') %] — [% current_page.data.git.public %]</li>
-        <li>[% loc('download git commiter') %] — [% current_page.data.git.commiter %]</li>
+        <li>[% loc('download git committer') %] — [% current_page.data.git.committer %]</li>
         <li><a href="[% current_page.data.git.web_view %]">[% loc('download git web view') %]</a></li>
         <li><a href="[% current_page.data.git.github %]">[% loc('download github mirror') %]</a></li>
     </ul>

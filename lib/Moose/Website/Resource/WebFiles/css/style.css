@@ -95,7 +95,9 @@ h2 {
     line-height   : 1em;
 }
 
-pre {
+#code_sample code {
+    display     : block;
+    white-space : pre;
     font-family : Monaco, Courier, monospace;
     font-size   : 9pt;
     padding     : 10px;

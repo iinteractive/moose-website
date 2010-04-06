@@ -48,6 +48,9 @@ my $stylesheet = XML::LibXSLT->new->parse_stylesheet(
     XML::LibXML->load_xml(string => <<''));
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xhtml="http://www.w3.org/1999/xhtml" version="1.0">
+    <xsl:template match="xhtml:abbr"/>
+    <xsl:template match="xhtml:acronym"/>
+    <xsl:template match="xhtml:code"/> <!-- filter computerese -->
     <xsl:template match="@* | node()"> <!-- apply identity function to rest of nodes -->
         <xsl:copy>
             <xsl:apply-templates select="@* | node()"/>
@@ -74,22 +77,96 @@ done_testing($file_counter);
 
 __DATA__
 ## personal names
+Brocard
+Bunce's
+# Pierce Cawley
+Cawley's
+Champoux
+chromatic
+# Sam Crawley
+Crawley
+cuny's
+Doran
+franck
+Grünauer
+hakobe's
+hanekomu
+Hengst's
+# Kanat-Alexander
+Kanat
+Kogman's
+Léon
+Napiorkowski
+Pearcey's
+Prather
+Prather's
+Ragwitz
+Rockway
+Rolsky's
+Stevan
+sunnavy's
+Treder's
+trombik
+Vecchi
+Vilain's
+Yanick
+Yuval
 
 ## proper names
+BizRate
+Cisco
+Cloudtone
+Endeworks
+GitHub
+Gource
+IMDb
+# Kansai.pm
+Kansai
+LinuxMag
+MedTouch
+MusicBrainz
+OCaml
+Omni
+OnLAMP
+PerlMonks
+Pobox
+Shadowcat
+Shopzilla
+SimplyClick
+Simula
+SocialText
+Symantec
+Takkle
+Tamarou
+TextMate
+ValueClick
 
 ## Moose-specific
 
 ## computerese
+parameterized
 
 ## other jargon
 
 ## neologisms
+blog
+podcast
 
 ## compound
+# post-mortem
+mortem
+# PDX.pm
+PDX
+# London.pm's
+pm's
 
 ## slang
 
 ## things that should be in the dictionary, but are not
+Bioinformatics
+Committers
+refactoring
+Refactoring
 
 ## single foreign words
 

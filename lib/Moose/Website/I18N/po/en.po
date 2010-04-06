@@ -37,14 +37,14 @@ msgstr "Presentations"
 
 msgid "home body"
 msgstr ""
-"<p>Moose is a <a href='http://www.perl.com/pub/a/1999/03/pm.html'>postmodern object system</a> for Perl 5 that takes the tedium out of writing object-oriented Perl. It borrows all the best features from Perl 6, CLOS (LISP), Smalltalk, Java, BETA, OCaml, Ruby and more, while still keeping true to its Perl 5 roots.</p>"
+"<p>Moose is a <a href='http://www.perl.com/pub/a/1999/03/pm.html'>postmodern object system</a> for Perl 5 that takes the tedium out of writing object-oriented Perl. It borrows all the best features from Perl 6, <acronym title='Common Lisp Object System'>CLOS</acronym> (Lisp), Smalltalk, Java, BETA, OCaml, Ruby and more, while still keeping true to its Perl 5 roots.</p>"
 "<p>Moose is 100% production ready and in heavy use in a number of systems and growing every day. <a href='http://search.cpan.org/dist/Moose'>Try it today!</a></p>"
 
 # about
 
 msgid "about body"
 msgstr ""
-"<p>Moose is an extension of the Perl 5 object system. The main goal of Moose is to make Perl 5 Object Oriented programming easier, more consistent and less tedious. With Moose you can to think more about what you want to do and less about the mechanics of OOP.</p>"
+"<p>Moose is an extension of the Perl 5 object system. The main goal of Moose is to make Perl 5 Object Oriented programming easier, more consistent and less tedious. With Moose you can to think more about what you want to do and less about the mechanics of <acronym title='object-oriented programming'>OOP</acronym>.</p>"
 "<p><a href='#code_sample' rel='facebox'>Click here to see a sample of what Moose looks like</a>.</p>"
 
 msgid "about new to moose header"
@@ -52,8 +52,8 @@ msgstr "New to Moose?"
 
 msgid "about new to moose body"
 msgstr ""
-"<p>If you're new to Moose, the best place to start is the <a href='http://search.cpan.org/dist/Moose/lib/Moose/Manual.pod'>Moose::Manual</a> docs, followed by the <a href='http://search.cpan.org/dist/Moose/lib/Moose/Cookbook.pod'>Moose::Cookbook</a>. The intro will show you what Moose is, and how it makes Perl 5 OO better.</p>"
-"<p>The cookbook recipes on Moose basics will get you up to speed with many of Moose's features quickly. Once you have an idea of what Moose can do, you can use the API documentation to get more detail on features which interest you.</p>"
+"<p>If you're new to Moose, the best place to start is the <a href='http://search.cpan.org/dist/Moose/lib/Moose/Manual.pod'><code>Moose::Manual</code></a> docs, followed by the <a href='http://search.cpan.org/dist/Moose/lib/Moose/Cookbook.pod'><code>Moose::Cookbook</code></a>. The intro will show you what Moose is, and how it makes Perl 5 <acronym title='object orientation'>OO</acronym> better.</p>"
+"<p>The cookbook recipes on Moose basics will get you up to speed with many of Moose's features quickly. Once you have an idea of what Moose can do, you can use the <acronym title='application programming interface'>API</acronym> documentation to get more detail on features which interest you.</p>"
 
 msgid "about company list header"
 msgstr "Companies that use Moose"
@@ -64,21 +64,21 @@ msgstr "<p>Moose is used by a large number of companies around the world, here a
 # download
 
 msgid "download body"
-msgstr "<p>Moose is available for download from the CPAN, Perl's world-wide mirrored module distribution platform. Below is a number of links to Moose and it's related modules. <a href='http://cpants.perl.org/dist/used_by/Moose'>Here is a list</a> of other CPAN modules that use Moose.</p>"
+msgstr "<p>Moose is available for download from the <acronym title='Comprehensive Perl Archive Network'>CPAN</acronym>, Perl's world-wide mirrored module distribution platform. Below is a number of links to Moose and it's related modules. <a href='http://cpants.perl.org/dist/used_by/Moose'>Here is a list</a> of other <acronym title='Comprehensive Perl Archive Network'>CPAN</acronym> modules that use Moose.</p>"
 
 msgid "download info Moose"
 msgstr "The core Moose distribution"
 
-msgid "download info Class::MOP"
+msgid "download info <code>Class::MOP</code>"
 msgstr "The underlying meta object protocol upon which Moose is built"
 
-msgid "download info Task::Moose"
+msgid "download info <code>Task::Moose</code>"
 msgstr "A collection of excellent Moose extensions"
 
-msgid "download info Task::Kensho"
+msgid "download info <code>Task::Kensho</code>"
 msgstr "A collection of excellent Modern Perl modules"
 
-msgid "download info MooseX::*"
+msgid "download info <code>MooseX::*</code>"
 msgstr "The Moose extensions"
 
 msgid "download git header"
@@ -86,31 +86,31 @@ msgstr "Git"
 
 msgid "download git body"
 msgstr ""
-"<p>Moose is developed using the <a href='http://git-scm.com/'>Git</a> source control system. Moose is a very open project and we are always willing to take contributions from others. The <a href='http://search.cpan.org/dist/Moose/lib/Moose/Manual/Contributing.pod'>Moose::Manual::Contributing</a> outlines our specific contribution policies and tells you how get started with our workflow.</p>"
-"<p>Here are some interesting video visualizations of the activity in the <a href='http://www.youtube.com/watch?v=Gwq10W0RaHQ&amp;hd=1'>Moose</a> and <a href='http://www.youtube.com/watch?v=HlJDnvNSfJo&amp;hd=1'>Class::MOP</a> git repositories on the occasion of their 1.0 release. These visualizations were created with <a href='http://code.google.com/p/gource/wiki/Videos'>Gource</a>.</p>"
+"<p>Moose is developed using the <a href='http://git-scm.com/'>Git</a> source control system. Moose is a very open project and we are always willing to take contributions from others. The <a href='http://search.cpan.org/dist/Moose/lib/Moose/Manual/Contributing.pod'><code>Moose::Manual::Contributing</code></a> outlines our specific contribution policies and tells you how get started with our work-flow.</p>"
+"<p>Here are some interesting video visualizations of the activity in the <a href='http://www.youtube.com/watch?v=Gwq10W0RaHQ&amp;hd=1'>Moose</a> and <a href='http://www.youtube.com/watch?v=HlJDnvNSfJo&amp;hd=1'><code>Class::MOP</code></a> git repositories on the occasion of their 1.0 release. These visualizations were created with <a href='http://code.google.com/p/gource/wiki/Videos'>Gource</a>.</p>"
 
 msgid "download git public"
-msgstr "Git Public Repo URL"
+msgstr "Git Public Repository URL"
 
-msgid "download git commiter"
-msgstr "Git URL for Commiters"
+msgid "download git committer"
+msgstr "Git URL for Committers"
 
 msgid "download git web view"
 msgstr "Git Web View"
 
 msgid "download github mirror"
-msgstr "Github Mirror"
+msgstr "GitHub Mirror"
 
 # support
 
 msgid "support body"
-msgstr "<p>Moose is a community driven project and there are a number of places in which you can find help and support. Below are listed the official IRC channels and mailing lists, but help can also be found on community based help sites like <a href='http://www.perlmonks.org'>PerlMonks</a> and <a href='http://www.stackoverflow.com'>Stack Overflow</a>. You can also refer to the official <a href='http://search.cpan.org/dist/Moose/lib/Moose/Manual/Support.pod'>Moose::Manual::Support</a> documentation for more details.</p>"
+msgstr "<p>Moose is a community driven project and there are a number of places in which you can find help and support. Below are listed the official <acronym title='Internet relay chat'>IRC</acronym> channels and mailing lists, but help can also be found on community based help sites like <a href='http://www.perlmonks.org'>PerlMonks</a> and <a href='http://www.stackoverflow.com'>Stack Overflow</a>. You can also refer to the official <a href='http://search.cpan.org/dist/Moose/lib/Moose/Manual/Support.pod'><code>Moose::Manual::Support</code></a> documentation for more details.</p>"
 
 msgid "support irc header"
-msgstr "IRC Channels"
+msgstr "<acronym title='Internet relay chat'>IRC</acronym> Channels"
 
 msgid "support irc body"
-msgstr "<p>The quickest way to get Moose support is to engage the community on IRC.</p>"
+msgstr "<p>The quickest way to get Moose support is to engage the community on <acronym title='Internet relay chat'>IRC</acronym>.</p>"
 
 msgid "support mailing list header"
 msgstr "Mailing List"
@@ -134,21 +134,21 @@ msgid "support textmate bundle"
 msgstr "Moose TextMate Bundle"
 
 msgid "support quickref card"
-msgstr "Moose QuickRef Card"
+msgstr "Moose Quick Reference Card"
 
 # articles
 
 msgid "articles body"
 msgstr ""
 "<p>Below are a list of articles and blog posts written about Moose, this is by no means a comprehensive list but we have tried to compile interesting and useful ones below. The <a href='http://ironman.enlightenedperl.org/'>Perl Iron Man</a> blog feed quite often has Moose related blog posts.</p>"
-"<p>If you know of an article or blog post that you think should be included, let us know via <a href='support.html'>IRC or the mailing list</a> and we will add it here.</p>"
+"<p>If you know of an article or blog post that you think should be included, let us know via <a href='support.html'><acronym title='Internet relay chat'>IRC</acronym> or the mailing list</a> and we will add it here.</p>"
 
 # presentations
 
 msgid "presentations body"
 msgstr ""
 "<p>Below are links to presentations given about Moose at conferences and local Perl Mongers group meetings. When possible the slides are linked to, and on occasion the video when available.</p>"
-"<p>This is by no means a complete listing, so if you know of a presentation that you think should be included, let us know via <a href='support.html'>IRC or the mailing list</a> and we will add it here.</p>"
+"<p>This is by no means a complete listing, so if you know of a presentation that you think should be included, let us know via <a href='support.html'><acronym title='Internet relay chat'>IRC</acronym> or the mailing list</a> and we will add it here.</p>"
 
 # footer
 
