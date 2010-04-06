@@ -24,6 +24,7 @@ h1 {
     padding-left      : 70px;
     letter-spacing    : -13px;
     background-repeat : no-repeat;
+    text-transform    : lowercase;
 }
 
 h2 {
