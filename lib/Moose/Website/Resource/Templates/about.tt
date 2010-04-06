@@ -9,12 +9,13 @@
     <h3>[% loc('about new to moose header') %]</h3>
     [% loc('about new to moose body') %]
 
-    <h3>[% loc('about company list header') %]</h3>
-    [% loc('about company list body') %]
+    <a name="organizations"></a>
+    <h3>[% loc('about organization list header') %]</h3>
+    [% loc('about organization list body') %]
 
     <ul>
-    [% FOREACH company IN current_page.data.companies.sort('name') %]
-        <li><a href="[% company.url %]">[% company.name %]</a></li>
+    [% FOREACH org IN current_page.data.organizations.sort('name') %]
+        <li><a href="[% org.url %]">[% org.name %]</a></li>
     [% END %]
     </ul>
 [% END %]

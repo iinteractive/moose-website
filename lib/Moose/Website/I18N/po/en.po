@@ -55,11 +55,11 @@ msgstr ""
 "<p>If you're new to Moose, the best place to start is the <a href='http://search.cpan.org/dist/Moose/lib/Moose/Manual.pod'><code>Moose::Manual</code></a> docs, followed by the <a href='http://search.cpan.org/dist/Moose/lib/Moose/Cookbook.pod'><code>Moose::Cookbook</code></a>. The intro will show you what Moose is, and how it makes Perl 5 <acronym title='object orientation'>OO</acronym> better.</p>"
 "<p>The cookbook recipes on Moose basics will get you up to speed with many of Moose's features quickly. Once you have an idea of what Moose can do, you can use the <acronym title='application programming interface'>API</acronym> documentation to get more detail on features which interest you.</p>"
 
-msgid "about company list header"
-msgstr "Companies that use Moose"
+msgid "about organization list header"
+msgstr "Organizations that use Moose"
 
-msgid "about company list body"
-msgstr "<p>Moose is used by a large number of companies around the world, here are a few of them.</p>"
+msgid "about organization list body"
+msgstr "<p>Moose is used by a large number of organizations around the world, here are a few of them.</p>"
 
 # download
 

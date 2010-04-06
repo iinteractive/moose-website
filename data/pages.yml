@@ -6,7 +6,7 @@
   template : about.tt
   outfile  : about.html
   data     :
-    companies:
+    organizations:
       - name : "Yahoo!"
         url  : http://www.yahoo.com
       - name : "Symantec"

@@ -19,8 +19,11 @@ my $self = Local::Moose::Website::Build->new(
     requires => {
         'Locale::Maketext::Lexicon'  => 0,
         Moose                        => 0,
+        'MooseX::Params::Validate'   => 0, 
+        'MooseX::Role::Parameterized'=> 0, 
         'MooseX::Types::Path::Class' => 0,
         'Path::Class'                => 0,
+        'Resource::Pack'             => 0,   # http://github.com/stevan/Resource-Pack
         Template                     => 0,
         'YAML::XS'                   => 0,
     },
