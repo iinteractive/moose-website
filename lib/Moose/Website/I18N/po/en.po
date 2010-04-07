@@ -44,7 +44,7 @@ msgstr ""
 
 msgid "about body"
 msgstr ""
-"<p>Moose is an extension of the Perl 5 object system. The main goal of Moose is to make Perl 5 Object Oriented programming easier, more consistent and less tedious. With Moose you can to think more about what you want to do and less about the mechanics of <acronym title='object-oriented programming'>OOP</acronym>.</p>"
+"<p>Moose is an extension of the Perl 5 object system. The main goal of Moose is to make Perl 5 Object Oriented programming easier, more consistent and less tedious. With Moose you can think more about what you want to do and less about the mechanics of <acronym title='object-oriented programming'>OOP</acronym>.</p>"
 "<p><a href='#code_sample' rel='facebox'>Click here to see a sample of what Moose looks like</a>.</p>"
 
 msgid "about new to moose header"
