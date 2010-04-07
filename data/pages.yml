@@ -375,6 +375,9 @@
         - title :
             en : Sam Vilain's Moose talk at <acronym title="Open Source Developers' Conference">OSDC</acronym> Melbourne
           url   : http://utsl.gen.nz/talks/moose/start.htm
+        - title :
+            en : Sam Vilain gives the very first Moose talk at <acronym title='Yet Another Perl Conference - Europe'>YAPC::EU</acronym>
+          url   : http://www.yapceurope.org/2006/talk/item/63.html
     - year          : Perl Mongers Groups
       presentations :
         - url   : http://www.slideshare.net/Ovid/refactoring-with-roles-1298185
