@@ -95,6 +95,7 @@ Hengst's
 # Kanat-Alexander
 Kanat
 Kogman's
+Kuri's
 Léon
 Napiorkowski
 Pearcey's
@@ -102,12 +103,14 @@ Prather
 Prather's
 Ragwitz
 Rockway
+Rodighiero
 Rolsky's
 Stevan
 sunnavy's
 Treder's
 trombik
 Vecchi
+Vilain
 Vilain's
 Yanick
 Yuval
@@ -116,6 +119,7 @@ Yuval
 BizRate
 Cisco
 Cloudtone
+DoctorBase
 Endeworks
 GitHub
 Gource

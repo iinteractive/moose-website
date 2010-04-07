@@ -129,10 +129,10 @@
           articles :
             - url   : http://www.catalyzed.org/2009/06/a-gentle-introduction-to-moose.html
               title :
-                en : The original english version
+                en : The original English version
             - url   : http://www.perl.it/blog/archives/000641.html
               title :
-                en : "The italian translation by Stefano Rodighiero and perl.it"
+                en : "The Italian translation by Stefano Rodighiero and Perl.it"
         - url   : http://chris.prather.org/a-little-bit-of-history.md.html
           title :
             en : "Chris Prather compares <code>MooseX::Declare</code> to Simula 67"
