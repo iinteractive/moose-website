@@ -1,4 +1,4 @@
-package Moose::Website::Resource::WebFiles;
+package Moose::Website::Resource::jQuery;
 use Moose;
 
 our $VERSION   = '0.01';
@@ -6,10 +6,10 @@ our $AUTHORITY = 'cpan:STEVAN';
 
 with 'Resource::Pack' => {
     traits => [
-        'Resource::Pack::Dir'
-    ],
-    depends_on => [
-        'Moose::Website::Resource::jQuery'
+        'Resource::Pack::URL' => {
+            url     => 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js',
+            sub_dir => 'js'
+        }
     ]
 };
 
@@ -23,11 +23,11 @@ __END__
 
 =head1 NAME
 
-Moose::Website::Resource::WebFiles - A Moosey solution to this problem
+Moose::Website::Resource::jQuery - A Moosey solution to this problem
 
 =head1 SYNOPSIS
 
-  use Moose::Website::Resource::WebFiles;
+  use Moose::Website::Resource::jQuery;
 
 =head1 DESCRIPTION
 

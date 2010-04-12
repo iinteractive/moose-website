@@ -128,7 +128,7 @@ sub run {
     }
 
     $self->log( "Copying web resources to " . $self->outdir );
-    $self->web_file_resource->copy( to => $self->outdir );
+    $self->web_file_resource->copy( to => $self->outdir, include_deps => 1 );
 }
 
 sub build_template_params {
