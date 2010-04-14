@@ -1,0 +1,226 @@
+# Lars Dɪᴇᴄᴋᴏᴡ 迪拉斯 <daxim@cpan.org>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"PO-Revision-Date: 2010-04-08 21:11+0200\n"
+"Last-Translator: Lars Dɪᴇᴄᴋᴏᴡ 迪拉斯 <daxim@cpan.org>\n"
+"Language-Team: German <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgid "header moose"
+msgstr "Moose"
+
+msgid "header moose subtitle"
+msgstr "Ein postmodernes Objektsystem für Perl"
+
+msgid "moose page title"
+msgstr "Moose - Ein postmodernes Objektsystem für Perl"
+
+# nav
+msgid "nav home"
+msgstr "Hauptseite"
+
+msgid "nav about"
+msgstr "Über"
+
+msgid "nav articles"
+msgstr "Artikel"
+
+msgid "nav download"
+msgstr "Download"
+
+msgid "nav support"
+msgstr "Hilfe"
+
+msgid "nav presentations"
+msgstr "Vorträge"
+
+# home
+msgid "home body"
+msgstr ""
+"<p>Moose ist ein <a href='http://www.perl.com/pub/a/1999/03/pm.html'>"
+"postmodernes Objektsystem</a> für Perl 5, das keine Langeweile beim "
+"Programmieren von objektorientiertem Perl aufkommen lässt. Es beinhaltet die "
+"besten Merkmale von Perl 6, <acronym title='Common Lisp Object System'>CLOS<"
+"/acronym> (Lisp), Smalltalk, Java, BETA, OCaml, Ruby und weiteren, bleibt "
+"aber seinen Wurzeln in Perl 5 treu.</p>"
+"<p>Moose ist 100%ig für den Produktionseinsatz bereit und wird in einer "
+"Vielzahl von Systemen verwendet und täglich werden es mehr. <a "
+"href='http://search.cpan.org/dist/Moose'>Probiere es jetzt aus!</a></p>"
+
+# about
+msgid "about body"
+msgstr ""
+"<p>Moose ist eine Erweiterung des Objektsystems von Perl 5. Das "
+"Hauptanliegen von Moose ist es, objektorientierte Programmierung in Perl 5 "
+"einfacher, konsistenter und kurzweiliger zu machen. Mit Moose kann man mehr "
+"darüber nachdenken, was man erreichen will und weniger über die Eigenheiten "
+"der <acronym title='objektorientierten Programmierung'>OOP</acronym>.</p> "
+"<p><a href='#code_sample' rel='facebox'>Moose-Beispielcode</a></p>"
+
+msgid "about new to moose header"
+msgstr "Einführung in Moose"
+
+msgid "about new to moose body"
+msgstr ""
+"<p>Wenn du Moose noch nicht kennst, fange am besten mit der Dokumentation in "
+"<a href='http://search.cpan.org/dist/Moose/lib/Moose/Manual.pod'><code> "
+"Moose::Manual</code></a> an, gefolgt von <a href='http://search.cpan."
+"org/dist/Moose/lib/Moose/Cookbook.pod'><code>Moose::Cookbook</code></a>. Die "
+"Einführung demonstriert, was Moose ist und wie es die <acronym "
+"title='Objektorientierung'>OO</acronym> von Perl 5 verbessert.</p> "
+"<p>Die Rezepte im Kochbuch über die Grundlagen von Moose machen dich schnell "
+"mit vielen Merkmalen von Moose vertraut. Wenn du eine Vorstellung davon "
+"bekommen hast, was man mit Moose machen kann, kannst du die <acronym "
+"title='application programming interface'>API</acronym>-Dokumentation "
+"benutzen, um die Details von interessanten Merkmalen nachzuschlagen.</p>"
+
+msgid "about organization list header"
+msgstr "Organisationen, die Moose benutzen"
+
+msgid "about organization list body"
+msgstr ""
+"<p>Moose wird von einer großen Anzahl von Organisation auf der ganzen Welt "
+"verwendet, einige von ihnen sind:</p>"
+
+# download
+msgid "download body"
+msgstr ""
+"<p>Moose und verwandte Module sind über <acronym title='Comprehensive Perl "
+"Archive Network'>CPAN</acronym>, der weltweiten gespiegelten Plattform für "
+"Perl zur Verteilung von Modulen, verfügbar. Moose wird auch <a "
+"href='http://cpants.perl.org/dist/used_by/Moose'>von anderen <acronym "
+"title='Comprehensive Perl Archive Network'>CPAN</acronym>-Modulen verwendet<"
+"/a>.</p>"
+
+msgid "download info Moose"
+msgstr "Die Moose-Hauptdistribution"
+
+msgid "download info <code>Class::MOP</code>"
+msgstr "Das Metaobjektprotokoll, auf welchem Moose aufbaut"
+
+msgid "download info <code>Task::Moose</code>"
+msgstr "Eine Sammlung hervorragender Erweiterungen für Moose"
+
+msgid "download info <code>Task::Kensho</code>"
+msgstr "Eine Sammlung hervorragender moderner Perl-Module"
+
+msgid "download info <code>MooseX::*</code>"
+msgstr "Die Moose-Erweiterungen"
+
+msgid "download git header"
+msgstr "Git"
+
+msgid "download git body"
+msgstr ""
+"<p>Moose wird mit Hilfe der <a href='http://git-scm.com/'>"
+"Git-Versionsverwaltung</a> entwickelt. Moose ist ein sehr offenes Projekt "
+"und wir sind immer bereit, andere mitwirken zu lassen. <a "
+"href='http://search.cpan.org/dist/Moose/lib/Moose/Manual/Contributing.pod'><"
+"code>Moose::Manual::Contributing</code></a> stellt unsere speziellen "
+"Richtlinien zur Mitwirkung, und wie man mit unserem Arbeitsablauf anfängt, "
+"dar.</p>"
+"<p><a href='http://search.cpan.org/~apocal/'>Apocalypse</a> hat <a "
+"href='http://www.youtube.com/watch?v=Gwq10W0RaHQ&amp;hd=1'>die Aktivität im "
+"Git-Repository von Moose</a> und <a href='http://www.youtube."
+"com/watch?v=HlJDnvNSfJo&amp;hd=1'><code>Class::MOP</code></a> zur "
+"Veröffentlichung ihrer 1.0-Versionen visualisiert. Diese Darstellungen "
+"wurden mit <a href='http://code.google.com/p/gource/wiki/Videos'>Gource</a> "
+"erzeugt.</p>"
+
+msgid "download git public"
+msgstr "URL des öffentlichen Git-Repositorys"
+
+msgid "download git committer"
+msgstr "Git-URL für Beitragende"
+
+msgid "download git web view"
+msgstr "Git-Webansicht"
+
+msgid "download github mirror"
+msgstr "Kopie auf GitHub"
+
+# support
+msgid "support body"
+msgstr ""
+"<p>Moose ist ein Gemeinschaftsprojekt und du kannst dir Hilfe und "
+"Unterstützung von den offiziellen <acronym title='Internet relay chat'>IRC<"
+"/acronym>-Kanälen und Mailinglisten, aber auch von gemeinschaftlichen "
+"Hilfeangeboten wie <a href='http://www.perlmonks.org'>PerlMonks</a> und <a "
+"href='http://www.stackoverflow.com'>Stack Overflow</a> holen. Du kannst auch "
+"die offizielle Dokumentation in <a href='http://search.cpan."
+"org/dist/Moose/lib/Moose/Manual/Support.pod'><code>Moose::Manual::Support<"
+"/code></a> für weitere Details heranziehen.</p>"
+
+msgid "support irc header"
+msgstr "<acronym title='Internet relay chat'>IRC</acronym>-Kanäle"
+
+msgid "support irc body"
+msgstr ""
+"<p>Am schnellsten bekommt man Hilfe zu Moose, indem man die Gemeinschaft im "
+"<acronym title='Internet relay chat'>IRC</acronym> in Anspruch nimmt.</p>"
+
+msgid "support mailing list header"
+msgstr "Mailingliste"
+
+msgid "support mailing list body"
+msgstr ""
+"<p>Die Moose-Mailingliste kann ein hervorragender Ort sein, deine Fragen "
+"beantwortet zu bekommen.</p>"
+
+msgid "support misc header"
+msgstr "Sonstiges"
+
+msgid "support misc body"
+msgstr "<p>Vielleicht sind einige andere Dinge nützlich.</p>"
+
+msgid "support moose mailing list"
+msgstr "Moose-Mailingliste"
+
+msgid "support moose mailing list archives"
+msgstr "Archiv der Moose-Mailingliste"
+
+msgid "support textmate bundle"
+msgstr "TextMate-Bündel für Moose"
+
+msgid "support quickref card"
+msgstr "Schnellreferenzkarte für Moose"
+
+# articles
+msgid "articles body"
+msgstr ""
+"<p>Viele interessante und nützliche Artikel und Blogeinträge werden über "
+"Moose geschrieben. Das <a href='http://ironman.enlightenedperl.org/'>Blog <i "
+"xml:lang='en'>Perl Iron Man</i></a> hat ziemlich oft Moose-bezogene Einträge."
+"</p> "
+"<p>Wenn du einen Artikel oder Blogeintrag kennst, der eingebunden werden "
+"sollte, <a href='support.html'>gib uns über <acronym title='Internet relay "
+"chat'>IRC</acronym> oder die Mailingliste Bescheid</a> und wir fügen ihn "
+"hier hinzu.</p>"
+
+# presentations
+msgid "presentations body"
+msgstr ""
+"<p>Benutzer von Moose tragen bei Konferenzen und örtlichen "
+"Perlmonger-Gruppentreffen vor.</p> "
+"<p>Wenn du einen Vortrag kennst, der eingebunden werden sollte, <a "
+"href='support.html'>gib uns über <acronym title='Internet relay chat'>IRC<"
+"/acronym> oder die Mailingliste Bescheid</a> und wir fügen ihn hier hinzu.<"
+"/p>"
+
+# footer
+msgid "footer copyright"
+msgstr ""
+"Copyright © <a href='http://www.iinteractive.com'>Infinity Interactive</a>, "
+"2006 – 2010"
+
+msgid "footer terms"
+msgstr ""
+"Diese Programmbibliothek ist Freie Software, du darfst sie unter denselben "
+"Bedingungen wie von Perl weiter verteilen und/oder verändern."
+
+
