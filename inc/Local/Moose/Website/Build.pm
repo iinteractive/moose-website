@@ -6,7 +6,8 @@ sub ACTION_code {
     my ($self) = @_;
     my $out = $self->destdir;
     make_path($out);
-    system $^X, 'bin/build_site.pl', '--outdir', $out;
+    system $^X, 'bin/build_site.pl', '--outdir', $out,
+      '--locale', $self->notes('locale');
     $self->add_to_cleanup($out);
     $self->depends_on('config_data');
     return;

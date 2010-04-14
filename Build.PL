@@ -15,12 +15,13 @@ my $self = Local::Moose::Website::Build->new(
         'Test::More'    => 0,
         'XML::LibXML'   => 0,
         'XML::LibXSLT'  => 0,
+        'YAML::XS'      => 0,
     },
     requires => {
         'Locale::Maketext::Lexicon'  => 0,
         Moose                        => 0,
-        'MooseX::Params::Validate'   => 0, 
-        'MooseX::Role::Parameterized'=> 0, 
+        'MooseX::Params::Validate'   => 0,
+        'MooseX::Role::Parameterized'=> 0,
         'MooseX::Types::Path::Class' => 0,
         'Path::Class'                => 0,
         'Resource::Pack'             => 0,   # http://github.com/stevan/Resource-Pack
@@ -28,8 +29,8 @@ my $self = Local::Moose::Website::Build->new(
         'YAML::XS'                   => 0,
     },
 );
-die "perldoc Build.PL\n" unless $self->destdir;
-
+die "perldoc Build.PL\n" unless $self->destdir && $self->args('locale');
+$self->notes('locale' => $self->args('locale'));
 $self->create_build_script;
 
 __END__
@@ -38,6 +39,6 @@ __END__
 
 =head1 SYNOPSIS
 
-    perl Build.PL --destdir=out
+    perl Build.PL --destdir=out --locale=en
     ./Build test
     ./Build distclean
