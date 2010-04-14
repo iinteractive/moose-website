@@ -339,7 +339,7 @@
       presentations :
         - url   : http://yapc.tv/2008/lpw/mike-whitaker-intro-moose/
           title :
-            en : "Mike Whitaker's Into to Moose at the London Perl Workshop"
+            en : "Mike Whitaker's Intro to Moose at the London Perl Workshop"
         - url   : http://iinteractive.com/moose/hosted-presentations/2008/sunnavy-Beijing-Perl-Workshop.pdf
           title :
             en : "sunnavy's Moose talk at Beijing Perl Workshop"
