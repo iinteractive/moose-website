@@ -4,7 +4,7 @@
     <ul class="presentations">
     [% FOREACH item IN current_page.data %]
         <li class="year">
-            [% loc(item.year) %]
+            [% loc('presentations ' _ item.year) %]
             <ul>
                 [% FOREACH presentation IN item.presentations %]
                     <li class="presentation">

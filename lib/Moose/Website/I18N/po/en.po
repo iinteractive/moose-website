@@ -153,6 +153,24 @@ msgstr "video"
 msgid "presentations podcast label"
 msgstr "podcast"
 
+msgid "presentations 2006"
+msgstr "2006"
+
+msgid "presentations 2007"
+msgstr "2007"
+
+msgid "presentations 2008"
+msgstr "2008"
+
+msgid "presentations 2009"
+msgstr "2009"
+
+msgid "presentations 2010"
+msgstr "2010"
+
+msgid "presentations Perl Mongers Groups"
+msgstr "Perl Mongers Groups"
+
 # footer
 
 msgid "footer copyright"
