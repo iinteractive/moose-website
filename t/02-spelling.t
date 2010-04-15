@@ -330,6 +330,7 @@ de:
 
 ## anderer Jargon
 - Perlmonger
+- Podcast
 
 ## Neologismen
 

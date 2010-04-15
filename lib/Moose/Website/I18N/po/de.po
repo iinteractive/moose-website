@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2010-04-08 21:11+0200\n"
+"PO-Revision-Date: 2010-04-15 19:25+0200\n"
 "Last-Translator: Lars Dɪᴇᴄᴋᴏᴡ 迪拉斯 <daxim@cpan.org>\n"
 "Language-Team: German <>\n"
 "MIME-Version: 1.0\n"
@@ -211,6 +211,37 @@ msgstr ""
 "href='support.html'>gib uns über <acronym title='Internet relay chat'>IRC<"
 "/acronym> oder die Mailingliste Bescheid</a> und wir fügen ihn hier hinzu.<"
 "/p>"
+
+# presentations
+msgid "presentations video label"
+msgstr "Video"
+
+# presentations
+msgid "presentations podcast label"
+msgstr "Podcast"
+
+# presentations
+msgid "presentations 2006"
+msgstr "2006"
+
+# presentations
+msgid "presentations 2007"
+msgstr "2007"
+
+# presentations
+msgid "presentations 2008"
+msgstr "2008"
+
+# presentations
+msgid "presentations 2009"
+msgstr "2009"
+
+# presentations
+msgid "presentations 2010"
+msgstr "2010"
+
+msgid "presentations Perl Mongers Groups"
+msgstr "Perlmonger-Gruppen"
 
 # footer
 msgid "footer copyright"
