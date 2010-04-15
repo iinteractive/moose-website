@@ -4,7 +4,7 @@
             [% IF page.name == current_page.name %]
                 <td class="active">[% loc('nav ' _ page.name) %]</td>
             [% ELSE %]
-                <td class="inactive"><a href="[% page.outfile %]">[% loc('nav ' _ page.name) %]</a></td>
+                <td class="inactive"><a href="[% IF 'index.html' == page.outfile %]./[% ELSE %][% page.outfile %][% END %]">[% loc('nav ' _ page.name) %]</a></td>
             [% END %]
         [% END %]
     </tr></table>
