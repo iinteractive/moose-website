@@ -1,21 +1,37 @@
 package Moose::Website::Resource::WebFiles;
 use Moose;
+use Resource::Pack;
+
+use Moose::Website::Resource::jQuery;
 
 our $VERSION   = '0.01';
 our $AUTHORITY = 'cpan:STEVAN';
 
-with 'Resource::Pack' => {
-    traits => [
-        'Resource::Pack::Dir'
-    ],
-    depends_on => [
-        'Moose::Website::Resource::jQuery'
-    ]
-};
+extends 'Resource::Pack::Resource';
+
+has '+name' => (default => 'webfiles');
+
+sub BUILD {
+    my $self = shift;
+
+    resource $self => as {
+        install_from(Path::Class::File->new(__FILE__)->parent
+                                                     ->subdir('WebFiles'));
+
+        resource(Moose::Website::Resource::jQuery->new);
+
+        dir 'css';
+        dir 'images';
+        dir js => (
+            dir          => 'js',
+            dependencies => ['jquery/core'],
+        );
+    };
+}
 
 __PACKAGE__->meta->make_immutable;
 
-no Moose; 1;
+no Moose; no Resource::Pack; 1;
 
 __END__
 

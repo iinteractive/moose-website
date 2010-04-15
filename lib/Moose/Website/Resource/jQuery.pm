@@ -1,21 +1,26 @@
 package Moose::Website::Resource::jQuery;
 use Moose;
+use Resource::Pack;
 
 our $VERSION   = '0.01';
 our $AUTHORITY = 'cpan:STEVAN';
 
-with 'Resource::Pack' => {
-    traits => [
-        'Resource::Pack::URL' => {
-            url     => 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js',
-            sub_dir => 'js'
-        }
-    ]
-};
+extends 'Resource::Pack::Resource';
+
+has '+name' => (default => 'jquery');
+
+sub BUILD {
+    my $self = shift;
+
+    resource $self => as {
+        install_to 'js';
+        url core => 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js';
+    };
+}
 
 __PACKAGE__->meta->make_immutable;
 
-no Moose; 1;
+no Moose; no Resource::Pack; 1;
 
 __END__
 

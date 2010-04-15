@@ -47,10 +47,11 @@ has 'template_resource' => (
     default => sub {
         Moose::Website::Resource::Templates->new
     },
-    handles  => {
-        'template_root' => 'dir'
-    }
 );
+
+sub template_root {
+    shift->template_resource->fetch('template_dir')->install_from_absolute;
+}
 
 has 'web_file_resource' => (
     traits  => [ 'NoGetopt' ],
@@ -58,7 +59,7 @@ has 'web_file_resource' => (
     isa     => 'Moose::Website::Resource::WebFiles',
     lazy    => 1,
     default => sub {
-        Moose::Website::Resource::WebFiles->new
+        Moose::Website::Resource::WebFiles->new(install_to => shift->outdir)
     },
 );
 
@@ -128,7 +129,7 @@ sub run {
     }
 
     $self->log( "Copying web resources to " . $self->outdir );
-    $self->web_file_resource->copy( to => $self->outdir, include_deps => 1 );
+    $self->web_file_resource->install;
 }
 
 sub build_template_params {

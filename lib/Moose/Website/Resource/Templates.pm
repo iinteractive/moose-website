@@ -1,18 +1,30 @@
 package Moose::Website::Resource::Templates;
 use Moose;
+use Resource::Pack;
 
 our $VERSION   = '0.01';
 our $AUTHORITY = 'cpan:STEVAN';
 
-with 'Resource::Pack' => {
-    traits => [
-        'Resource::Pack::Dir'
-    ]
-};
+extends 'Resource::Pack::Resource';
+
+has '+name' => (default => 'templates');
+
+sub BUILD {
+    my $self = shift;
+
+    resource $self => as {
+        install_from(Path::Class::File->new(__FILE__)->parent
+                                                     ->subdir('Templates'));
+        dir template_dir => (
+            dir        => '.',
+            install_as => '',
+        );
+    };
+}
 
 __PACKAGE__->meta->make_immutable;
 
-no Moose; 1;
+no Moose; no Resource::Pack; 1;
 
 __END__
 
