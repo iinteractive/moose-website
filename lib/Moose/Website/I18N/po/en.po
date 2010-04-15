@@ -147,6 +147,12 @@ msgid "presentations body"
 msgstr "<p>Moose users give presentations at conferences and local Perl Mongers group meetings.</p>"
 "<p>If you know of a presentation that you think should be included, <a href='support.html'>let us know via <acronym title='Internet relay chat'>IRC</acronym> or the mailing list</a> and we will add it here.</p>"
 
+msgid "presentations video label"
+msgstr "video"
+
+msgid "presentations podcast label"
+msgstr "podcast"
+
 # footer
 
 msgid "footer copyright"
