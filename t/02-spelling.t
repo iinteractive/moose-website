@@ -364,7 +364,7 @@ de:
 - Blogeintrag
 - Blogeinträge
 - Endbericht
-- Expertenunterricht
+- Expertenschulung
 - Gemeinschaftsprojekt
 - Gruppentreffen
 - Hauptdistribution

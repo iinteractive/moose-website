@@ -351,7 +351,7 @@
         - url   : http://yapc10.org/yn2009/talk/2047
           title :
             en : "Dave Rolsky's Introduction to Moose master class at <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2009 (delivered by Shawn Moore and Jonathan Rockway)"
-            de : "Dave Rolskys Expertenunterricht Einführung in Moose auf der <acronym title='Yet Another Perl Conference - North America' xml:lang='en'>YAPC::NA</acronym> 2009 (Vortrag durch Shawn Moore und Jonathan Rockway)"
+            de : "Dave Rolskys Expertenschulung Einführung in Moose auf der <acronym title='Yet Another Perl Conference - North America' xml:lang='en'>YAPC::NA</acronym> 2009 (Vortrag durch Shawn Moore und Jonathan Rockway)"
         - url   : http://yapc10.org/yn2009/talk/1967
           title :
             en : "Devin Austin's Intro to Moose at <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2009"
@@ -383,7 +383,7 @@
         - url   : http://conferences.yapcasia.org/ya2009/talk/2192
           title :
             en : "Shawn Moore's Moose master class at <acronym title='Yet Another Perl Conference'>YAPC</acronym>::Asia 2009"
-            de : "Shawn Moores Expertenunterricht über Moose auf der <span xml:lang='en'><acronym title='Yet Another Perl Conference'>YAPC</acronym>::Asia</span> 2009"
+            de : "Shawn Moores Expertenschulung über Moose auf der <span xml:lang='en'><acronym title='Yet Another Perl Conference'>YAPC</acronym>::Asia</span> 2009"
         - url   : http://conferences.yapceurope.org/ipw2009/talk/2371
           title :
             en : "Mike Whitaker's Introduction to Moose at the Italian Perl Workshop"
