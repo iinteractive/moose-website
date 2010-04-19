@@ -2,7 +2,7 @@ package Moose::Website::Resource::WebFiles;
 use Moose;
 use Resource::Pack;
 
-use Moose::Website::Resource::jQuery;
+use Resource::Pack::jQuery;
 
 our $VERSION   = '0.01';
 our $AUTHORITY = 'cpan:STEVAN';
@@ -18,13 +18,16 @@ sub BUILD {
         install_from(Path::Class::File->new(__FILE__)->parent
                                                      ->subdir('WebFiles'));
 
-        resource(Moose::Website::Resource::jQuery->new);
+        resource(Resource::Pack::jQuery->new(
+            version    => '1.4.2',
+            install_to => 'js',
+        ));
 
         dir 'css';
         dir 'images';
         dir js => (
             dir          => 'js',
-            dependencies => ['jquery/core'],
+            dependencies => ['jquery/js'],
         );
     };
 }

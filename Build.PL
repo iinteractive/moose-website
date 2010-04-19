@@ -24,7 +24,8 @@ my $self = Local::Moose::Website::Build->new(
         'MooseX::Role::Parameterized'=> 0,
         'MooseX::Types::Path::Class' => 0,
         'Path::Class'                => 0,
-        'Resource::Pack'             => 0,   # http://github.com/stevan/Resource-Pack
+        'Resource::Pack'             => 0.02,
+        'Resource::Pack::jQuery'     => 0,
         Template                     => 0,
         'YAML::XS'                   => 0,
     },
