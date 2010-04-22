@@ -110,6 +110,10 @@
   data     :
     - year     : 2010
       articles :
+        - url   : http://blogs.perl.org/users/jt_smith/2010/04/the-second-age-of-perl.html
+          title :
+            en : JT Smith declares The Second Age of Perl
+            de : JT Smith erklärt der Second Age of Perl
         - url   : http://stevan-little.blogspot.com/2010/03/moose-100-is-released.html
           title :
             en : Moose 1.00 is Released
