@@ -329,8 +329,12 @@
     - year          : 2010
       presentations :
         - title :
-            en : Stevan Little's talk at <acronym title="Oasis Perl workshop">OPW</acronym>
-            de : Vortrag von Stevan Little beim <acronym title="Oasis Perl workshop" xml:lang="en">OPW</acronym>
+            en : Shawn Moore's "NonHierachical OOP" talk at <acronym title="Open Source Developers'' Conference - Taiwan">osdc.tw</acronym>
+            de : Vortrag von Shawn Moore beim <acronym title="Open Source Developers'' Conference - Taiwan">osdc.tw</acronym>
+          url   : http://sartak.org/talks/osdc.tw-2010/nonhierarchical-oop/nonhierarchical-oop.pdf
+        - title :
+            en : Stevan Little's talk at <acronym title="Orlando Perl workshop">OPW</acronym>
+            de : Vortrag von Stevan Little beim <acronym title="Orlando Perl workshop" xml:lang="en">OPW</acronym>
           url   : http://iinteractive.com/moose/hosted-presentations/2010/stevan_OPW/index.html
           video : http://www.presentingperl.org/opw2010/untitled-no-12/
         - title :
