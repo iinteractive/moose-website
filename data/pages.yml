@@ -69,6 +69,8 @@
         url  : "http://doctorbase.com/"
       - name : "Lexy"
         url  : "http://www.lexy.com/"
+      - name : "University of Nebraska CLAB (UNO/UNMC)"
+        url  : "http://clab.ist.unomaha.edu/"
 - name     : download
   template : download.tt
   outfile  : download.html
