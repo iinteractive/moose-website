@@ -331,6 +331,10 @@
     - year          : 2010
       presentations :
         - title :
+            en : Jesse Luehrs's "Extending Moose" talk at <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2010
+            de : Vortrag von Jesse Luehrs beim <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2010
+          url   : http://tozt.net/talks/extending_moose_yapc_na_2010/
+        - title :
             en : Shawn Moore's "NonHierachical OOP" talk at <acronym title="Open Source Developers'' Conference - Taiwan">osdc.tw</acronym>
             de : Vortrag von Shawn Moore beim <acronym title="Open Source Developers'' Conference - Taiwan">osdc.tw</acronym>
           url   : http://sartak.org/talks/osdc.tw-2010/nonhierarchical-oop/nonhierarchical-oop.pdf
