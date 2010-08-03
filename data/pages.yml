@@ -71,6 +71,8 @@
         url  : "http://www.lexy.com/"
       - name : "University of Nebraska CLAB (UNO/UNMC)"
         url  : "http://clab.ist.unomaha.edu/"
+      - name : "Int80"
+        url  : "http://int80.biz/"
 - name     : download
   template : download.tt
   outfile  : download.html
