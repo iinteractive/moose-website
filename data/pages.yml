@@ -101,7 +101,7 @@
       - '<a href="irc://irc.perl.org/moose">#moose@irc.perl.org</a>'
       - '<a href="irc://irc.perl.org/moose-dev">#moose-dev@irc.perl.org</a>'
     mailing_list :
-      address : moose@perl.org
+      address : http://lists.perl.org/list/moose.html
       archive : http://news.gmane.org/gmane.comp.lang.perl.moose
     misc :
       - name : textmate bundle

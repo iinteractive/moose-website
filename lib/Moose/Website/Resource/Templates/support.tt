@@ -13,7 +13,7 @@
     <h3>[% loc('support mailing list header') %]</h3>
     [% loc('support mailing list body') %]
     <ul>
-        <li><a href="mailto:[% current_page.data.mailing_list.address %]">[% loc('support moose mailing list') %]</a></li>
+        <li><a href="[% current_page.data.mailing_list.address %]">[% loc('support moose mailing list') %]</a></li>
         <li><a href="[% current_page.data.mailing_list.archive %]">[% loc('support moose mailing list archives') %]</a></li>
     </ul>
 
