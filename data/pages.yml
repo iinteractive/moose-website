@@ -63,8 +63,8 @@
         url  : http://www.current.com/
       - name : "The Genome Center at Washington University"
         url  : http://genome.wustl.edu/
-      - name : "Bioinformatics Group at <acronym title='University College London'>UCL</acronym>"
-        url  : http://bioinf.cs.ucl.ac.uk/
+      - name : "CATH: Protein Structure Classification Database at <acronym title='University College London'>UCL</acronym>"
+        url  : http://www.cathdb.info/
       - name : "DoctorBase"
         url  : "http://doctorbase.com/"
       - name : "Lexy"
@@ -332,6 +332,11 @@
   data     :
     - year          : 2010
       presentations :
+        - title :
+            en : Stevan Little's keynote at <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2010
+            de : Vortrag von Stevan Little beim <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2010
+          url   : http://www.iinteractive.com/yapc/slides.html
+          video : http://www.presentingperl.org/yn2010/modern-perl/
         - title :
             en : Jesse Luehrs's "Extending Moose" talk at <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2010
             de : Vortrag von Jesse Luehrs beim <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2010
