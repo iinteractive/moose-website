@@ -73,6 +73,8 @@
         url  : "http://clab.ist.unomaha.edu/"
       - name : "Int80"
         url  : "http://int80.biz/"
+- name     : blog
+  outfile  : http://blog.moose.perl.org/
 - name     : download
   template : download.tt
   outfile  : download.html

@@ -24,6 +24,9 @@ msgstr "Moose - Ein postmodernes Objektsystem für Perl"
 msgid "nav home"
 msgstr "Hauptseite"
 
+msgid "nav blog"
+msgstr "Blog"
+
 msgid "nav about"
 msgstr "Über"
 

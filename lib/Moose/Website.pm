@@ -116,6 +116,8 @@ sub run {
 
     foreach my $page ( @{ $self->pages } ) {
 
+        next unless exists $page->{template};
+
         my $outfile = $self->outdir->file( $page->{outfile} )->stringify;
 
         $self->log( "Writing page " . $page->{name} . " to $outfile using template " . $page->{template} );
