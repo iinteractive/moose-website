@@ -116,6 +116,30 @@
   data     :
     - year     : 2010
       articles :
+        - url   : http://www.modernperlbooks.com/mt/2010/09/the-right-approach-to-deprecation.html
+          title :
+            en: chromatic discusses the Moose deprecation policy
+            de: chromatic discusses the Moose deprecation policy
+        - url   : http://blog.woobling.org/2010/09/moose-has-won.html
+          title :
+            en : Yuval Kogman declares "Moose has won".
+            de : Yuval Kogman erklärt "Moose has won".
+        - url   : http://www.morungos.com/node/90
+          title :
+            en : Stuart Watt talks about how Perl and LISP are both "language survivors"
+            de : Stuart Watt talks about how Perl and LISP are both "language survivors"
+        - url   : http://www.modernperlbooks.com/mt/2010/09/what-you-can-and-cannot-teach-about-encapsulation.html
+          title :
+            en : chromatic talks about Encapsulation and Moose
+            de : chromatic talks about Encapsulation and Moose
+        - url   : http://perlgeek.de/blog-en/perl-tips/what-is-modern-perl.html
+          title :
+            en : Moritz Lenz asks What is "Modern Perl"?
+            de : Moritz Lenz asks What is "Modern Perl"?
+        - url   : http://www.catalyzed.org/2010/04/moosexappcmd-and-your-command-line-apps.html
+          title :
+            en : Devin Austin talks about MooseX::App::Cmd
+            de : Devin Austin talks about MooseX::App::Cmd
         - url   : http://blogs.perl.org/users/jt_smith/2010/04/the-second-age-of-perl.html
           title :
             en : JT Smith declares The Second Age of Perl
