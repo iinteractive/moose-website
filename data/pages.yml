@@ -109,7 +109,7 @@
       - name : textmate bundle
         url  : http://github.com/perigrin/perl-moose.tmbundle
       - name : quickref card
-        url  : http://users.ox.ac.uk/~oliver/data/files/moose-quick-ref.pdf
+        url  : http://gorwits.me.uk/data/files/moose-quick-ref.pdf
 - name     : articles
   template : articles.tt
   outfile  : articles.html
