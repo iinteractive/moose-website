@@ -120,8 +120,26 @@
   template : articles.tt
   outfile  : articles.html
   data     :
+    - year     : 2011
+      articles :
+        - url   : http://blog.moose.perl.org/2011/01/the-moose-ecosystem.html
+          title :
+            en : A discussion of the Moose Ecosystem on our blog
+            de : A discussion of the Moose Ecosystem on our blog
+        - url   : http://blogs.perl.org/users/preaction/2011/01/whats-new-in-webgui-80-1---psgiplack.html
+          title :
+            en : The WebGUI folks talk about version 8.0 (which uses Moose)
+            de : The WebGUI folks talk about version 8.0 (which uses Moose)
+        - url   : http://www.modernperlbooks.com/mt/2011/01/the-parametric-role-of-my-mvc-plugin-system.html
+          title :
+            en: chromatic discusses Parameterized roles with Moose
+            de: chromatic discusses Parameterized roles with Moose
     - year     : 2010
       articles :
+        - url   : http://blogs.perl.org/users/jt_smith/2010/10/why-the-lacuna-expanse-is-good-for-perl.html
+          title :
+            en: JT Smith talks about Lacuna Expanse (which uses Moose)
+            de: JT Smith talks about Lacuna Expanse (which uses Moose)
         - url   : http://www.modernperlbooks.com/mt/2010/09/the-right-approach-to-deprecation.html
           title :
             en: chromatic discusses the Moose deprecation policy
