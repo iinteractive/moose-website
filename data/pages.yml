@@ -73,6 +73,12 @@
         url  : "http://clab.ist.unomaha.edu/"
       - name : "Int80"
         url  : "http://int80.biz/"
+      - name : "AirG"
+        url  : "http://corp.airg.com"
+      - name : "Matsch Systems"
+        url  : "http://www.matsch.com"
+      - name : "Cold Hard Code"
+        url  : "http://www.coldhardcode.com"
 - name     : blog
   outfile  : http://blog.moose.perl.org/
 - name     : download
