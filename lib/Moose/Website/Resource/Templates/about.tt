@@ -12,7 +12,7 @@
     <h3 id="organizations">[% loc('about organization list header') %]</h3>
     [% loc('about organization list body') %]
 
-    <ul>
+    <ul xml:lang="en">
     [% FOREACH org IN current_page.data.organizations.sort('name') %]
         <li><a href="[% org.url %]">[% org.name %]</a></li>
     [% END %]

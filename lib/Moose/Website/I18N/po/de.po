@@ -84,7 +84,7 @@ msgstr ""
 "<p>Moose ist auch in einigen Büchern prominent vertreten:</p>"
 "<ul>"
 "<li><a href='http://www.onyxneon.com/books/modern_perl/index.html'>Modern Perl</a></li>"
-"<li><a href='http://apress.com/book/view/1430223650'>The Definitive Guide to Catalyst</a></li>"
+"<li><a href='http://apress.com/book/view/1430223650' xml:lang='en'>The Definitive Guide to Catalyst</a></li>"
 "</ul>"
 
 msgid "about organization list header"
