@@ -125,49 +125,49 @@
         - url   : http://blog.moose.perl.org/2011/01/the-moose-ecosystem.html
           title :
             en : A discussion of the Moose Ecosystem on our blog
-            de : A discussion of the Moose Ecosystem on our blog
+            de : Eine Erörterung des Moose-Ökosystems in unserem Blog
         - url   : http://blogs.perl.org/users/preaction/2011/01/whats-new-in-webgui-80-1---psgiplack.html
           title :
             en : The WebGUI folks talk about version 8.0 (which uses Moose)
-            de : The WebGUI folks talk about version 8.0 (which uses Moose)
+            de : die WebGUI-Leute reden über Version 8.0, die Moose benutzt
         - url   : http://www.modernperlbooks.com/mt/2011/01/the-parametric-role-of-my-mvc-plugin-system.html
           title :
             en: chromatic discusses Parameterized roles with Moose
-            de: chromatic discusses Parameterized roles with Moose
+            de: chromatic erörtert parameterisierte Rollen mit Moose
     - year     : 2010
       articles :
         - url   : http://blogs.perl.org/users/jt_smith/2010/10/why-the-lacuna-expanse-is-good-for-perl.html
           title :
             en: JT Smith talks about Lacuna Expanse (which uses Moose)
-            de: JT Smith talks about Lacuna Expanse (which uses Moose)
+            de: JT Smith redet über Lacuna Expanse, das Moose benutzt
         - url   : http://www.modernperlbooks.com/mt/2010/09/the-right-approach-to-deprecation.html
           title :
             en: chromatic discusses the Moose deprecation policy
-            de: chromatic discusses the Moose deprecation policy
+            de: chromatic erörtert die Richtlinien zur Antiquierung in Moose
         - url   : http://blog.woobling.org/2010/09/moose-has-won.html
           title :
             en : Yuval Kogman declares "Moose has won".
-            de : Yuval Kogman erklärt "Moose has won".
+            de : Yuval Kogman stellt fest, dass Moose gewonnen hat.
         - url   : http://www.morungos.com/node/90
           title :
             en : Stuart Watt talks about how Perl and LISP are both "language survivors"
-            de : Stuart Watt talks about how Perl and LISP are both "language survivors"
+            de : Stuart Watt redet darüber, wie Perl und LISP überleben
         - url   : http://www.modernperlbooks.com/mt/2010/09/what-you-can-and-cannot-teach-about-encapsulation.html
           title :
             en : chromatic talks about Encapsulation and Moose
-            de : chromatic talks about Encapsulation and Moose
+            de : chromatic redet über Datenkapselung und Moose
         - url   : http://perlgeek.de/blog-en/perl-tips/what-is-modern-perl.html
           title :
             en : Moritz Lenz asks What is "Modern Perl"?
-            de : Moritz Lenz asks What is "Modern Perl"?
+            de : 'Moritz Lenz fragt: Was ist "modernes Perl"?'
         - url   : http://www.catalyzed.org/2010/04/moosexappcmd-and-your-command-line-apps.html
           title :
             en : Devin Austin talks about MooseX::App::Cmd
-            de : Devin Austin talks about MooseX::App::Cmd
+            de : Devin Austin redet über MooseX::App::Cmd
         - url   : http://blogs.perl.org/users/jt_smith/2010/04/the-second-age-of-perl.html
           title :
             en : JT Smith declares The Second Age of Perl
-            de : JT Smith erklärt der Second Age of Perl
+            de : JT Smith verkündet die zweite Perl-Ära
         - url   : http://stevan-little.blogspot.com/2010/03/moose-100-is-released.html
           title :
             en : Moose 1.00 is Released
@@ -384,16 +384,16 @@
       presentations :
         - title :
             en : Stevan Little's keynote at <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2010
-            de : Vortrag von Stevan Little beim <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2010
+            de : Vortrag von Stevan Little auf der <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2010
           url   : http://www.iinteractive.com/yapc/slides.html
           video : http://www.presentingperl.org/yn2010/modern-perl/
         - title :
             en : Jesse Luehrs's "Extending Moose" talk at <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2010
-            de : Vortrag von Jesse Luehrs beim <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2010
+            de : Vortrag von Jesse Luehrs auf der <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2010
           url   : http://tozt.net/talks/extending_moose_yapc_na_2010/
         - title :
             en : Shawn Moore's "NonHierachical OOP" talk at <acronym title="Open Source Developers'' Conference - Taiwan">osdc.tw</acronym>
-            de : Vortrag von Shawn Moore beim <acronym title="Open Source Developers'' Conference - Taiwan">osdc.tw</acronym>
+            de : Vortrag von Shawn Moore auf der <acronym title="Open Source Developers'' Conference - Taiwan">osdc.tw</acronym>
           url   : http://sartak.org/talks/osdc.tw-2010/nonhierarchical-oop/nonhierarchical-oop.pdf
         - title :
             en : Stevan Little's talk at <acronym title="Orlando Perl workshop">OPW</acronym>
