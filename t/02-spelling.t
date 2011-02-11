@@ -96,12 +96,16 @@ en:
 - Grünauer
 - hakobe's
 - hanekomu
+- JT
 - Hengst's
 # Kanat-Alexander
 - Kanat
+- Kogman
 - Kogman's
 - Kuri's
+- Lenz
 - Léon
+- Luehrs's
 - Napiorkowski
 - Pearcey's
 - Prather
@@ -121,7 +125,10 @@ en:
 - Yuval
 
 ## proper names
+- AirG
 - BizRate
+- CATH
+- CLAB
 - Cisco
 - Cloudtone
 - DoctorBase
@@ -132,6 +139,7 @@ en:
 # Kansai.pm
 - Kansai
 - LinuxMag
+- Matsch
 - MedTouch
 - MusicBrainz
 - OCaml
@@ -148,16 +156,21 @@ en:
 - Takkle
 - Tamarou
 - TextMate
+- UNMC
+- UNO
 - ValueClick
+- WebGUI
 
 ## Moose-specific
 
 ## computerese
+- Parameterized
 - parameterized
 
 ## other jargon
 
 ## neologisms
+- Blog
 - blog
 - podcast
 
@@ -185,6 +198,7 @@ de:
 
 ## Personennamen
 - Apocalypse
+- Austin
 - Austins
 - Barry
 - Boones
@@ -209,15 +223,20 @@ de:
 - hanekomu
 - Hengsts
 - Jay
+- Jesse
 - Jonathan
+- JT
 - Kanat
+- Kogman
 - Kogmans
 - Kuri
 - Larry
 - Léon
+- Luehrs
 - Little
 - Littles
 - Marcel
+- Moritz
 - McLaughlin
 - Mike
 - Napiorkowski
@@ -235,9 +254,11 @@ de:
 - Rolskys
 - Schwartz
 - Shawn
+- Smith
 - Stefano
 - Stephens
 - Stevan
+- Stuart
 - sunnavys
 - Tomas
 - Treders
@@ -253,69 +274,32 @@ de:
 - Yuval
 
 ## Eigennamen
-- at
-- Advantage
 - Beijing
-- Best
-- Bioinformatics
-- BizRate
-- Capitol
 - Catalyst
-- Cisco
-- Cloudtone
-- Corporation
-- Current
-- DoctorBase
 - Doodle
-- Endeworks
+- Expanse
 - Frozen
 - Git
 - GitHub
 - Gource
-- Group
-- Hearst
 - Houston
-- IMDb
 - Infinity
 - Interactive
 - Kansai
-- Lexy
+- Lacuna
 - LinuxMag
-- Magazines
-- MedTouch
 - Melbourne
-- MusicBrainz
-- Napster
 - Nashville
 - Oasis
 - OCaml
-- Omni
 - OnLAMP
-- Open
 - Overflow
 - PerlMonks
 - Pittsburgh
-- Pobox
-- Practical
 - Ruby
-- Shadowcat
-- Shopzilla
-- SimplyClick
 - Simula
-- SocialText
-- Studios
-- Symantec
-- Takkle
-- Tamarou
 - TextMate
-- The
-- University
-- ValueClick
-- Yahoo
-# net-a-porter.com
-- com
-- net
-- porter
+- WebGUI
 
 ## Moose-spezifisch
 - Metaobjektprotokoll
@@ -360,9 +344,11 @@ de:
 ## Umgangssprache
 
 ## nicht im Wörterbuch, aber sollte drin stehen
+- Antiquierung
 - Blog
 - Blogeintrag
 - Blogeinträge
+- Datenkapselung
 - Endbericht
 - Expertenschulung
 - Gemeinschaftsprojekt

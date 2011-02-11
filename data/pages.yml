@@ -162,8 +162,8 @@
             de : 'Moritz Lenz fragt: Was ist "modernes Perl"?'
         - url   : http://www.catalyzed.org/2010/04/moosexappcmd-and-your-command-line-apps.html
           title :
-            en : Devin Austin talks about MooseX::App::Cmd
-            de : Devin Austin redet über MooseX::App::Cmd
+            en : Devin Austin talks about <code>MooseX::App::Cmd</code>
+            de : Devin Austin redet über <code>MooseX::App::Cmd</code>
         - url   : http://blogs.perl.org/users/jt_smith/2010/04/the-second-age-of-perl.html
           title :
             en : JT Smith declares The Second Age of Perl
@@ -392,7 +392,7 @@
             de : Vortrag von Jesse Luehrs auf der <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2010
           url   : http://tozt.net/talks/extending_moose_yapc_na_2010/
         - title :
-            en : Shawn Moore's "NonHierachical OOP" talk at <acronym title="Open Source Developers'' Conference - Taiwan">osdc.tw</acronym>
+            en : Shawn Moore's "Non-hierarchical <acronym title='object-oriented programming'>OOP</acronym>" talk at <acronym title="Open Source Developers'' Conference - Taiwan">osdc.tw</acronym>
             de : Vortrag von Shawn Moore auf der <acronym title="Open Source Developers'' Conference - Taiwan">osdc.tw</acronym>
           url   : http://sartak.org/talks/osdc.tw-2010/nonhierarchical-oop/nonhierarchical-oop.pdf
         - title :
