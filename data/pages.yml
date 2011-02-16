@@ -79,6 +79,10 @@
         url  : "http://www.matsch.com"
       - name : "Cold Hard Code"
         url  : "http://www.coldhardcode.com"
+      - name : "Linkfluence"
+        url  : "http://us.linkfluence.net/"
+      - name : "Tech-X"
+        url  : "http://www.tech-x.com/"
 - name     : blog
   outfile  : http://blog.moose.perl.org/
 - name     : download
@@ -186,6 +190,10 @@
             de : chromatic erörtert, wie Moose hilft, richtigeren Code zu schreiben
     - year     : 2009
       articles :
+        - url   : http://community.livejournal.com/shlomif_tech/38407.html
+          title :
+            en : Shlomif discovers a better way to Moose
+            de : Shlomif discovers a better way to Moose
         - title    :
             en : Jay Kuri's - A gentle introduction to Moose
             de : Jay Kuri - eine behutsame Einführung in Moose
@@ -380,8 +388,18 @@
   template : presentations.tt
   outfile  : presentations.html
   data     :
+    - year          : 2011
+      presentations :
+        - title :
+            en  : SawyerX's FOSDEM 2011 Moose talk
+            de  : SawyerX's FOSDEM 2011 Moose talk
+          url   : http://www.slideshare.net/xSawyer/moose-talk-at-fosdem-2011-perl-devroom
     - year          : 2010
       presentations :
+        - title :
+            en  : Ynon Perek's Perl Object Oriented Programming slides
+            de  : Ynon Perek's Perl Object Oriented Programming slides
+          url   : http://prezi.com/fgdoyw0smyqo/perl-object-oriented-programming/
         - title :
             en : Stevan Little's keynote at <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2010
             de : Vortrag von Stevan Little beim <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2010
