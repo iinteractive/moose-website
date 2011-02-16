@@ -176,6 +176,9 @@ msgstr "2009"
 msgid "presentations 2010"
 msgstr "2010"
 
+msgid "presentations 2011"
+msgstr "2011"
+
 msgid "presentations Perl Mongers Groups"
 msgstr "Perl Mongers Groups"
 

@@ -192,8 +192,8 @@
       articles :
         - url   : http://community.livejournal.com/shlomif_tech/38407.html
           title :
-            en : Shlomif discovers a better way to Moose
-            de : Shlomif discovers a better way to Moose
+            en : Shlomi Fish discovers a better way to Moose
+            de : Shlomi Fish entdeckt, wie man Moose besser benutzt
         - title    :
             en : Jay Kuri's - A gentle introduction to Moose
             de : Jay Kuri - eine behutsame Einführung in Moose
@@ -392,13 +392,13 @@
       presentations :
         - title :
             en  : SawyerX's FOSDEM 2011 Moose talk
-            de  : SawyerX's FOSDEM 2011 Moose talk
+            de  : Vortrag von SawyerX über Moose auf der FOSDEM 2011
           url   : http://www.slideshare.net/xSawyer/moose-talk-at-fosdem-2011-perl-devroom
     - year          : 2010
       presentations :
         - title :
             en  : Ynon Perek's Perl Object Oriented Programming slides
-            de  : Ynon Perek's Perl Object Oriented Programming slides
+            de  : Ynon Pereks Vortragsfolien über objektorientierte Programmierung in Perl
           url   : http://prezi.com/fgdoyw0smyqo/perl-object-oriented-programming/
         - title :
             en : Stevan Little's keynote at <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2010

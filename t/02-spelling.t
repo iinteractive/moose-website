@@ -108,12 +108,15 @@ en:
 - Luehrs's
 - Napiorkowski
 - Pearcey's
+- Perek's
 - Prather
 - Prather's
 - Ragwitz
 - Rockway
 - Rodighiero
 - Rolsky's
+- SawyerX's
+- Shlomi
 - Stevan
 - sunnavy's
 - Treder's
@@ -122,6 +125,7 @@ en:
 - Vilain
 - Vilain's
 - Yanick
+- Ynon
 - Yuval
 
 ## proper names
@@ -133,11 +137,13 @@ en:
 - Cloudtone
 - DoctorBase
 - Endeworks
+- FOSDEM
 - GitHub
 - Gource
 - IMDb
 # Kansai.pm
 - Kansai
+- Linkfluence
 - LinuxMag
 - Matsch
 - MedTouch
@@ -217,6 +223,7 @@ de:
 - Doran
 - Doug
 - Drew
+- Fish
 - franck
 - Grünauer
 - hakobes
@@ -243,6 +250,7 @@ de:
 - Ovid
 - Ovids
 - Pearceys
+- Pereks
 - Piers
 - Prather
 - Prathers
@@ -252,8 +260,10 @@ de:
 - Rodighiero
 - Rolsky
 - Rolskys
+- SawyerX
 - Schwartz
 - Shawn
+- Shlomi
 - Smith
 - Stefano
 - Stephens
@@ -271,6 +281,7 @@ de:
 - Watsons
 - Whitakers
 - Yanick
+- Ynon
 - Yuval
 
 ## Eigennamen
@@ -278,6 +289,7 @@ de:
 - Catalyst
 - Doodle
 - Expanse
+- FOSDEM
 - Frozen
 - Git
 - GitHub
@@ -365,6 +377,7 @@ de:
 - Rollenzusammensetzung
 - Schnellreferenzkarte
 - Skriptoptionen
+- Vortragsfolien
 - Webansicht
 
 ## einzelne Fremdwörter
