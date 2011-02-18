@@ -61,6 +61,7 @@ msgstr ""
 "<ul>"
 "<li><a href='http://www.onyxneon.com/books/modern_perl/index.html'>Modern Perl</a></li>"
 "<li><a href='http://apress.com/book/view/1430223650'>The Definitive Guide to Catalyst</a></li>"
+"<li><a href='http://perlmoderne.fr/'>Perl Moderne</a>"
 "</ul>"
 
 msgid "about organization list header"
