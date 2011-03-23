@@ -126,6 +126,12 @@
   data     :
     - year     : 2011
       articles :
+        - url   : http://blogs.perl.org/users/mark_a_stratman/2011/03/subclassing-tricky-non-moose-classes-dont-do-it.html
+          title :
+            en : Mark A. Stratman shows how to use delegation to work with non-Moose classes
+        - url   : http://blogs.perl.org/users/mark_a_stratman/2011/03/subclassing-tricky-non-moose-classes-constructor-problems.html
+          title :
+            en : Mark A. Stratman discusses subclassing non-Moose classes
         - url   : http://blog.moose.perl.org/2011/01/the-moose-ecosystem.html
           title :
             en : A discussion of the Moose Ecosystem on our blog
