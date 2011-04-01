@@ -129,9 +129,15 @@
         - url   : http://blogs.perl.org/users/mark_a_stratman/2011/03/subclassing-tricky-non-moose-classes-dont-do-it.html
           title :
             en : Mark A. Stratman shows how to use delegation to work with non-Moose classes
+            de : Mark A. Stratman shows how to use delegation to work with non-Moose classes
         - url   : http://blogs.perl.org/users/mark_a_stratman/2011/03/subclassing-tricky-non-moose-classes-constructor-problems.html
           title :
             en : Mark A. Stratman discusses subclassing non-Moose classes
+            de : Mark A. Stratman discusses subclassing non-Moose classes
+        - url   : http://blog.urth.org/2011/03/reviewing-perl-best-practices-chapter-15-objects.html
+          title :
+            en : Dave Rolsky reviews Perl Best Practices, Chapter 15, Objects 7 years later
+            de : Dave Rolsky reviews Perl Best Practices, Chapter 15, Objects 7 years later
         - url   : http://blog.moose.perl.org/2011/01/the-moose-ecosystem.html
           title :
             en : A discussion of the Moose Ecosystem on our blog
@@ -212,6 +218,10 @@
               title :
                 en : "The Italian translation by Stefano Rodighiero and Perl.it"
                 de : "italienische Übersetzung von Stefano Rodighiero und Perl.it"
+            - url  : http://thebio.me/lrr/blog?p=99
+              title :
+                en : "The Spanish translation by Luis M. Rodriguez-R"
+                de : "The Spanish translation by Luis M. Rodriguez-R"
         - url   : http://chris.prather.org/a-little-bit-of-history.md.html
           title :
             en : "Chris Prather compares <code>MooseX::Declare</code> to Simula 67"
