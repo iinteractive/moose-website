@@ -126,6 +126,10 @@
   data     :
     - year     : 2011
       articles :
+        - url   : http://blog.0branch.com/moose-and-type-constraints-0
+          title :
+            en : Marc Simpson starts a series of posts following his experiments with Moose
+            de : Marc Simpson starts a series of posts following his experiments with Moose
         - url   : http://blogs.perl.org/users/mark_a_stratman/2011/03/subclassing-tricky-non-moose-classes-dont-do-it.html
           title :
             en : Mark A. Stratman shows how to use delegation to work with non-Moose classes
