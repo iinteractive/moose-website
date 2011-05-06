@@ -92,8 +92,6 @@
     CPAN:
       - name : Moose
         url  : http://search.cpan.org/dist/Moose/
-      - name : <code>Class::MOP</code>
-        url  : http://search.cpan.org/dist/Class-MOP/
       - name : <code>Task::Moose</code>
         url  : http://search.cpan.org/dist/Task-Moose/
       - name : <code>Task::Kensho</code>
