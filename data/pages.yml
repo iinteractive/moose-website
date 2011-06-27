@@ -83,6 +83,8 @@
         url  : "http://us.linkfluence.net/"
       - name : "Tech-X"
         url  : "http://www.tech-x.com/"
+      - name : "Cantella"
+        url  : "http://www.cantella.com/"
 - name     : blog
   outfile  : http://blog.moose.perl.org/
 - name     : download
