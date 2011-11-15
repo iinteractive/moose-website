@@ -87,6 +87,8 @@
         url  : "http://www.cantella.com/"
       - name : "Dyn"
         url  : "http://dyn.com"
+      - name : "Shutterstock"
+        url  : "http://www.shutterstock.com/"
 - name     : blog
   outfile  : http://blog.moose.perl.org/
 - name     : download
