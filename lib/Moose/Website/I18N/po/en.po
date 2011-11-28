@@ -78,9 +78,6 @@ msgstr "<p>Moose and its related modules are available for download from the <ac
 msgid "download info Moose"
 msgstr "The core Moose distribution"
 
-msgid "download info <code>Class::MOP</code>"
-msgstr "The underlying meta object protocol upon which Moose is built"
-
 msgid "download info <code>Task::Moose</code>"
 msgstr "A collection of excellent Moose extensions"
 

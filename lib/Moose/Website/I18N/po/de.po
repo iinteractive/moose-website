@@ -109,9 +109,6 @@ msgstr ""
 msgid "download info Moose"
 msgstr "Die Moose-Hauptdistribution"
 
-msgid "download info <code>Class::MOP</code>"
-msgstr "Das Metaobjektprotokoll, auf welchem Moose aufbaut"
-
 msgid "download info <code>Task::Moose</code>"
 msgstr "Eine Sammlung hervorragender Erweiterungen für Moose"
 
