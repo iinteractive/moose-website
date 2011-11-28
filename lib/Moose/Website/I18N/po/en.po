@@ -186,7 +186,7 @@ msgstr "Perl Mongers Groups"
 # footer
 
 msgid "footer copyright"
-msgstr "Copyright © <a href='http://www.iinteractive.com'>Infinity Interactive</a>, 2006 – 2010"
+msgstr "Copyright © <a href='http://www.iinteractive.com'>Infinity Interactive</a>, 2006 – 2011"
 
 msgid "footer terms"
 msgstr "This library is free software; you can redistribute it and/or modify it under the same terms as Perl itself."

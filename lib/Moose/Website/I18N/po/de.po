@@ -260,7 +260,7 @@ msgstr "Perlmonger-Gruppen"
 msgid "footer copyright"
 msgstr ""
 "Copyright © <a href='http://www.iinteractive.com'>Infinity Interactive</a>, "
-"2006 – 2010"
+"2006 – 2011"
 
 msgid "footer terms"
 msgstr ""
