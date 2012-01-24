@@ -288,7 +288,7 @@
           title :
             en : "Jay Shirley dotes on <code>MooseX::MultiMethods</code>"
             de : "Jay Shirley schwärmt für <code>MooseX::MultiMethods</code>"
-            es : "Jay Shirley habla bien de <code>MooseX::MultiMethods</code>
+            es : "Jay Shirley habla bien de <code>MooseX::MultiMethods</code>"
         - url   : http://www.modernperlbooks.com/mt/2009/05/perl-roles-versus-duck-typing.html
           title :
             en : "chromatic contrasts roles and duck-typing"
@@ -348,7 +348,7 @@
           title :
             en : "Florian Ragwitz walks through the marriage of <code>MooseX::Types</code> with <code>Lexical::Types</code>"
             de : "Florian Ragwitz besichtigt die Vereinigung von <code>MooseX::Types</code> mit <code>Lexical::Types</code>"
-            es : "Florian Ragwitz explica la unión de <code>MooseX::Types</code> con <code>Lexical::Types</code>
+            es : "Florian Ragwitz explica la unión de <code>MooseX::Types</code> con <code>Lexical::Types</code>"
         - url   : http://use.perl.org/~Ovid/journal/38862
           title :
             en : "Ovid eschews inheritance in favor of roles"
@@ -467,7 +467,7 @@
               title :
                 en : "The Moose is Flying (part 2) (LinuxMag)"
                 de : "Moose hebt ab (Teil 2) (LinuxMag)"
-                es : "Moose está volando (parte 1) (LinuxMag)"
+                es : "Moose está volando (parte 2) (LinuxMag)"
     - year     : 2006
       articles :
         - title :
@@ -502,12 +502,12 @@
         - title :
             en : Jesse Luehrs's "Extending Moose" talk at <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2010
             de : Vortrag von Jesse Luehrs auf der <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2010
-            es : "Extender Moose" de Jesse Luehrs en <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2010
+            es : "\"Extender Moose\" de Jesse Luehrs en <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2010"
           url   : http://tozt.net/talks/extending_moose_yapc_na_2010/
         - title :
             en : Shawn Moore's "Non-hierarchical <acronym title='object-oriented programming'>OOP</acronym>" talk at <acronym title="Open Source Developers'' Conference - Taiwan">osdc.tw</acronym>
             de : Vortrag von Shawn Moore auf der <acronym title="Open Source Developers'' Conference - Taiwan">osdc.tw</acronym>
-            es : "<acronym title='object-oriented programming'>OOP</acronym> no jerárquica" de Shawn Moore en <acronym title="Open Source Developers'' Conference - Taiwan">osdc.tw</acronym>
+            es : "\"<acronym title='object-oriented programming'>OOP</acronym> no jerárquica\" de Shawn Moore en <acronym title=\"Open Source Developers' Conference - Taiwan\">osdc.tw</acronym>"
           url   : http://sartak.org/talks/osdc.tw-2010/nonhierarchical-oop/nonhierarchical-oop.pdf
         - title :
             en : Stevan Little's talk at <acronym title="Orlando Perl workshop">OPW</acronym>
@@ -542,7 +542,7 @@
           title :
             en : "Dave Rolsky's Introduction to Moose master class at <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2009 (delivered by Shawn Moore and Jonathan Rockway)"
             de : "Dave Rolskys Expertenschulung Einführung in Moose auf der <acronym title='Yet Another Perl Conference - North America' xml:lang='en'>YAPC::NA</acronym> 2009 (Vortrag durch Shawn Moore und Jonathan Rockway)"
-            es : "Introducción a Moose de Dave Rolsky en la clase magistral en <acronym title='Yet Another Perl Conference - North America' xml:lang='en'>YAPC::NA</acronym> 2009 (con Shawn Moore y Jonathan Rockway)
+            es : "Introducción a Moose de Dave Rolsky en la clase magistral en <acronym title='Yet Another Perl Conference - North America' xml:lang='en'>YAPC::NA</acronym> 2009 (con Shawn Moore y Jonathan Rockway)"
         - url   : http://yapc10.org/yn2009/talk/1967
           title :
             en : "Devin Austin's Intro to Moose at <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2009"
@@ -557,7 +557,7 @@
           title :
             en : "Stevan Little's To Moose or Not To Moose at <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2009"
             de : "Stevan Littles <i>Moose oder nicht Moose</i> auf der <acronym title='Yet Another Perl Conference - North America' xml:lang='en'>YAPC::NA</acronym> 2009"
-            es : "Stevan Little se pregunta "Usar Moose, o no usar Moose" en <acronym title='Yet Another Perl Conference - North America' xml:lang='en'>YAPC::NA</acronym> 2009"
+            es : "Stevan Little se pregunta \"Usar Moose, o no usar Moose\" en <acronym title='Yet Another Perl Conference - North America' xml:lang='en'>YAPC::NA</acronym> 2009"
         - url   : http://yapc10.org/yn2009/talk/1984
           title :
             en : "Hans Dieter Pearcey's Code Reuse with Moose at <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2009"
@@ -567,7 +567,7 @@
           title :
             en : "Cory Watson's Moose for Managers at <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2009"
             de : "Cory Watsons Moose für Manager auf der <acronym title='Yet Another Perl Conference - North America' xml:lang='en'>YAPC::NA</acronym> 2009"
-            es : "Cory Watson : "Moose para Gerentes en <acronym title='Yet Another Perl Conference - North America' xml:lang='en'>YAPC::NA</acronym> 2009"
+            es : "Cory Watson : \"Moose para Gerentes\" en <acronym title='Yet Another Perl Conference - North America' xml:lang='en'>YAPC::NA</acronym> 2009"
         - url   : http://yapceurope2009.org/ye2009/talk/2096
           title :
             en : "Yuval Kogman's Meta Moose at <acronym title='Yet Another Perl Conference - Europe'>YAPC::EU</acronym> 2009"
