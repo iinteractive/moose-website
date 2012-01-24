@@ -570,14 +570,14 @@
           url   : http://www.iinteractive.com/yapc/slides.html
           video : http://www.presentingperl.org/yn2010/modern-perl/
         - title :
-            en : Jesse Luehrs's "Extending Moose" talk at <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2010
-            de : Vortrag von Jesse Luehrs auf der <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2010
+            en : "Jesse Luehrs's \"Extending Moose\" talk at <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2010"
+            de : "Vortrag von Jesse Luehrs auf der <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2010"
             es : "\"Extender Moose\" de Jesse Luehrs en <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2010"
             nb : Jesse Luehrs "Utvidelse av Moose" foredrag på <acronym title='Yet Another Perl Conference - North America'>YAPC::NA</acronym> 2010
           url   : http://tozt.net/talks/extending_moose_yapc_na_2010/
         - title :
-            en : Shawn Moore's "Non-hierarchical <acronym title='object-oriented programming'>OOP</acronym>" talk at <acronym title="Open Source Developers'' Conference - Taiwan">osdc.tw</acronym>
-            de : Vortrag von Shawn Moore auf der <acronym title="Open Source Developers'' Conference - Taiwan">osdc.tw</acronym>
+            en : "Shawn Moore's \"Non-hierarchical <acronym title=\"object-oriented programming\">OOP</acronym>\" talk at <acronym title=\"Open Source Developers'' Conference - Taiwan\">osdc.tw</acronym>"
+            de : "Vortrag von Shawn Moore auf der <acronym title=\"Open Source Developers'' Conference - Taiwan\">osdc.tw</acronym>"
             es : "\"<acronym title='object-oriented programming'>OOP</acronym> no jerárquica\" de Shawn Moore en <acronym title=\"Open Source Developers' Conference - Taiwan\">osdc.tw</acronym>"
             nb : Shawn Moore's "Non-hierarchical <acronym title='object-oriented programming'>OOP</acronym>" foredrag på <acronym title="Open Source Developers' Conference - Taiwan">osdc.tw</acronym>
           url   : http://sartak.org/talks/osdc.tw-2010/nonhierarchical-oop/nonhierarchical-oop.pdf

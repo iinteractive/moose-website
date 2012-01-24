@@ -1,3 +1,3 @@
-<p><a href="/moose/de" xml:lang="de">deutsch</a> <a href="/moose" xml:lang="en">english</a></p>
+<p><a href="/de" xml:lang="de">deutsch</a> <a href="/" xml:lang="en">english</a> <a href="/es" xml:lang="es">español</a></p>
 <p>[% loc('footer copyright') %]</p>
 <p>[% loc('footer terms') %]</p>
