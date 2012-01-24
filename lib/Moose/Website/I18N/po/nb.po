@@ -1,0 +1,189 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "header moose"
+msgstr "Moose"
+
+msgid "header moose subtitle"
+msgstr "Et Postmoderne Objekt System for Perl"
+
+msgid "moose page title"
+msgstr "Moose - Et Postmoderne Object System for Perl"
+
+# nav
+
+msgid "nav home"
+msgstr "Hjem"
+
+msgid "nav blog"
+msgstr "Blogg"
+
+msgid "nav about"
+msgstr "Om"
+
+msgid "nav articles"
+msgstr "Artikler"
+
+msgid "nav download"
+msgstr "Nedlast"
+
+msgid "nav support"
+msgstr "Kundestøtte"
+
+msgid "nav presentations"
+msgstr "Presentasjoner"
+
+# home
+
+msgid "home body"
+msgstr ""
+"<p>Moose er et <a href='http://www.perl.com/pub/a/1999/03/pm.html'>postmoderne objektsystem</a> for Perl 5 som tar det kjedelige ut av å skrive objekt-orientert Perl. Det låner alle de beste funksjonene fra Perl 6, <acronym title='Common Lisp Object System'>CLOS</acronym> (Lisp), Smalltalk, Java, BETA, OCaml, Ruby og mer, mens det fortsatt er trofast mot dets Perl 5-røtter</p>"
+"<p>Moose er 100% produksjonsklar og i tung bruk i en rekke systemer og vokser hver dag. <a href='http://search.cpan.org/dist/Moose'>Prøv det i dag!</a></p>"
+
+# about
+
+msgid "about body"
+msgstr ""
+"<p>Moose er en forlengelse av Perl 5 objekt systemet. Hovedmålet med Moose er å gjøre Perl 5 objektorientert programmering enklere, mer konsekvent og mindre kjedelig. Med Moose kan du tenke mer på hva du vil gjøre og mindre på mekanikken om<acronym title='object-oriented programming'>OOP</acronym>.</p>"
+"<p><a href='#code_sample' rel='facebox'>Moose code sample</a></p>"
+
+msgid "about new to moose header"
+msgstr "Ny med Moose?"
+
+msgid "about new to moose body"
+msgstr ""
+"<p>Hvis du er ny med Moose, er det bedste sted å starte<a href='http://search.cpan.org/dist/Moose/lib/Moose/Manual.pod'><code>Moose::Manual</code></a> dokumenter, fulgt av<a href='http://search.cpan.org/dist/Moose/lib/Moose/Cookbook.pod'><code>Moose::Cookbook</code></a>. Introduksjonen vil vise deg hva Moose er, og hvordan det gjør Perl 5<acronym title='object orientation'>OO</acronym> bedre.</p>"
+"<p>Kokebøkenes oppskrifter på Moose grunnleggende, vil få deg opp til hastigheten med mange av Moose funksjoner raskt. Når du har en idé om hva Moose kan gjøre, kan du bruke <acronym title='application programming interface'>API</acronym> dokumentasjon for å få flere detaljer om funksjoner som interesserer deg.</p>"
+"<p>Moose er også omtalt fremtredende i et par bøker:</p>"
+"<ul>"
+"<li><a href='http://www.onyxneon.com/books/modern_perl/index.html'>Modern Perl</a></li>"
+"<li><a href='http://apress.com/book/view/1430223650'>The Definitive Guide to Catalyst</a></li>"
+"<li><a href='http://perlmoderne.fr/'>Perl Moderne</a></li>"
+"</ul>"
+
+msgid "about organization list header"
+msgstr "Organisasjoner som bruker Moose"
+
+msgid "about organization list body"
+msgstr "<p>Moose er brukt av et stort antall organisasjoner rundt om i verden, noen av dem er:</p>"
+
+# download
+
+msgid "download body"
+msgstr "<p>Moose og dens tilhørende moduler er tilgjengelige for nedlasting fra<acronym title='Comprehensive Perl Archive Network'>CPAN</acronym>, Perls verdensomspennende speilet modul distribusjon plattform. Moose er også<a href='http://cpants.perl.org/dist/used_by/Moose'>brukt av andre<acronym title='Comprehensive Perl Archive Network'>CPAN</acronym>moduler</a>.</p>"
+
+msgid "download info Moose"
+msgstr "Kjerne distribusjon av Moose"
+
+msgid "download info <code>Task::Moose</code>"
+msgstr "En samling av gode Moose utvidelser"
+
+msgid "download info <code>Task::Kensho</code>"
+msgstr "En samling av gode Moderne Perl-moduler"
+
+msgid "download info <code>MooseX::*</code>"
+msgstr "Moose utvidelsene"
+
+msgid "download git header"
+msgstr "Git"
+
+msgid "download git body"
+msgstr "<p>Moose er utviklet ved hjelp av<a href='http://git-scm.com/'>Git source control system</a>. Moose er et veldig åpent prosjekt og vi er alltid villige til å ta bidrag fra andre. <a href='http://search.cpan.org/dist/Moose/lib/Moose/Manual/Contributing.pod'><code>Moose::Manual::Contributing</code></a> beskriver våre spesifikke bidrags retningslinjer og forteller deg hvordan du kommer i gang med vårt arbeid-flow.</p>"
+"<p><a href='http://search.cpan.org/~apocal/'>Apocalypse</a>visualiserte<a href='http://www.youtube.com/watch?v=Gwq10W0RaHQ&amp;hd=1'>aktiviteten i Git repositories av Moose</a> and <a href='http://www.youtube.com/watch?v=HlJDnvNSfJo&amp;hd=1'><code>Class::MOP</code></a>i anledning av deres 1.0 utgivelse. Disse visualiseringer ble skapt med<a href='http://code.google.com/p/gource/wiki/Videos'>Gource</a>.</p>"
+
+msgid "download git public"
+msgstr "Git Offentlig Database URL"
+
+msgid "download git committer"
+msgstr "Git URL til Committers"
+
+msgid "download git web view"
+msgstr "Git webvisning"
+
+msgid "download github mirror"
+msgstr "GitHub Speil"
+
+# support
+
+msgid "support body"
+msgstr "<p>Moose er et fellesskap drevet prosjekt, og du kan finne hjelp og støtte på de offisielle<acronym title='Internet relay chat'>IRC</acronym> kanaler og e-postlister, men også på community basert hjelpesystem nettsteder som <a href='http://www.perlmonks.org'>PerlMonks</a> and <a href='http://www.stackoverflow.com'>Stack Overflow</a>. Du kan også referere til den offisielle <a href='http://search.cpan.org/dist/Moose/lib/Moose/Manual/Support.pod'><code>Moose::Manual::Support</code></a> dokumentasjonen for mer detalje.</p>"
+
+msgid "support irc header"
+msgstr "<acronym title='Internet relay chat'>IRC</acronym> Kanaler"
+
+msgid "support irc body"
+msgstr "<p>Den raskeste måte å få Moose støtte er å engasjere fellesskapet på <acronym title='Internet relay chat'>IRC</acronym>.</p>"
+
+msgid "support mailing list header"
+msgstr "Mailingliste"
+
+msgid "support mailing list body"
+msgstr "<p>Moose postlisterne kan være en utmerket måte å få svar på spørsmål.</p>"
+
+msgid "support misc header"
+msgstr "Diverse"
+
+msgid "support misc body"
+msgstr "<p>Du kan muligens liker et par andre elementer som er nyttige.</p>"
+
+msgid "support moose mailing list"
+msgstr "Moose mailingliste"
+
+msgid "support moose mailing list archives"
+msgstr "Moose mailingliste arkiv"
+
+msgid "support textmate bundle"
+msgstr "Moose TextMate Pakke"
+
+msgid "support quickref card"
+msgstr "Moose Hurtigreferansekort"
+
+# articles
+
+msgid "articles body"
+msgstr "<p>Mange interessante og nyttige artikler og blogginnlegg er skrevet om Moose.  <a href='http://ironman.enlightenedperl.org/'>Perl Iron Man blog</a> har ganske ofte Moose relaterte innlegg..</p>"
+"<p>Hvis du kjenner til en artikkel eller blogginnlegg som du synes bør være med, <a href='support.html'>gi oss beskjed gjennom <acronym title='Internet relay chat'>IRC</acronym> eller mailinglisten</a> og vi vil legge den inn her.</p>"
+
+# presentations
+
+msgid "presentations body"
+msgstr "<p>Moose brukere gi presentasjoner på konferanser og lokale Perl Mongers gruppemøter.</p>"
+"<p>Hvis du kjenner til en presentasjon som du mener bør inkluderes, <a href='support.html'>gi oss beskjed gjennom <acronym title='Internet relay chat'>IRC</acronym> eller mailinglisten</a> og vi vil legge den inn her.</p>"
+
+msgid "presentations video label"
+msgstr "video"
+
+msgid "presentations podcast label"
+msgstr "podcast"
+
+msgid "presentations 2006"
+msgstr "2006"
+
+msgid "presentations 2007"
+msgstr "2007"
+
+msgid "presentations 2008"
+msgstr "2008"
+
+msgid "presentations 2009"
+msgstr "2009"
+
+msgid "presentations 2010"
+msgstr "2010"
+
+msgid "presentations 2011"
+msgstr "2011"
+
+msgid "presentations Perl Mongers Groups"
+msgstr "Perl Mongers Grupper"
+
+# footer
+
+msgid "footer copyright"
+msgstr "Copyright © <a href='http://www.iinteractive.com'>Infinity Interactive</a>, 2006 - 2011"
+
+msgid "footer terms"
+msgstr "Dette biblioteket er fri software, du kan redistribuere det og/eller modifisere det under de samme vilkår som Perl selv."
