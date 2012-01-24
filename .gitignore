@@ -1,1 +1,7 @@
+/_build/
+/Build
+/MANIFEST
+/MANIFEST.SKIP.bak
+/MYMETA.json
+/MYMETA.yml
 .DS_Store
