@@ -97,13 +97,13 @@
   data     :
     CPAN:
       - name : Moose
-        url  : http://search.cpan.org/dist/Moose/
+        url  : https://metacpan.org/release/Moose
       - name : <code>Task::Moose</code>
-        url  : http://search.cpan.org/dist/Task-Moose/
+        url  : https://metacpan.org/release/Task-Moose/
       - name : <code>Task::Kensho</code>
-        url  : http://search.cpan.org/dist/Task-Kensho/
+        url  : https://metacpan.org/release/Task-Kensho/
       - name : <code>MooseX::*</code>
-        url  : http://search.cpan.org/search?query=MooseX&amp;mode=dist
+        url  : https://metacpan.org/search?q=MooseX
     git:
       public   : <code>git://git.moose.perl.org/Moose.git</code>
       committer: <code>gitmo@git.moose.perl.org:Moose.git</code>
