@@ -41,7 +41,7 @@ msgstr "Presentasjoner"
 msgid "home body"
 msgstr ""
 "<p>Moose er et <a href='http://www.perl.com/pub/a/1999/03/pm.html'>postmoderne objektsystem</a> for Perl 5 som tar det kjedelige ut av å skrive objekt-orientert Perl. Det låner alle de beste funksjonene fra Perl 6, <acronym title='Common Lisp Object System'>CLOS</acronym> (Lisp), Smalltalk, Java, BETA, OCaml, Ruby og mer, mens det fortsatt er trofast mot dets Perl 5-røtter</p>"
-"<p>Moose er 100% produksjonsklar og i tung bruk i en rekke systemer og vokser hver dag. <a href='http://search.cpan.org/dist/Moose'>Prøv det i dag!</a></p>"
+"<p>Moose er 100% produksjonsklar og i tung bruk i en rekke systemer og vokser hver dag. <a href='https://metacpan.org/release/Moose'>Prøv det i dag!</a></p>"
 
 # about
 
@@ -55,7 +55,7 @@ msgstr "Ny med Moose?"
 
 msgid "about new to moose body"
 msgstr ""
-"<p>Hvis du er ny med Moose, er det bedste sted å starte<a href='http://search.cpan.org/dist/Moose/lib/Moose/Manual.pod'><code>Moose::Manual</code></a> dokumenter, fulgt av<a href='http://search.cpan.org/dist/Moose/lib/Moose/Cookbook.pod'><code>Moose::Cookbook</code></a>. Introduksjonen vil vise deg hva Moose er, og hvordan det gjør Perl 5<acronym title='object orientation'>OO</acronym> bedre.</p>"
+"<p>Hvis du er ny med Moose, er det bedste sted å starte<a href='https://metacpan.org/release/Moose/lib/Moose/Manual.pod'><code>Moose::Manual</code></a> dokumenter, fulgt av<a href='https://metacpan.org/release/Moose/lib/Moose/Cookbook.pod'><code>Moose::Cookbook</code></a>. Introduksjonen vil vise deg hva Moose er, og hvordan det gjør Perl 5<acronym title='object orientation'>OO</acronym> bedre.</p>"
 "<p>Kokebøkenes oppskrifter på Moose grunnleggende, vil få deg opp til hastigheten med mange av Moose funksjoner raskt. Når du har en idé om hva Moose kan gjøre, kan du bruke <acronym title='application programming interface'>API</acronym> dokumentasjon for å få flere detaljer om funksjoner som interesserer deg.</p>"
 "<p>Moose er også omtalt fremtredende i et par bøker:</p>"
 "<ul>"
@@ -91,8 +91,8 @@ msgid "download git header"
 msgstr "Git"
 
 msgid "download git body"
-msgstr "<p>Moose er utviklet ved hjelp av<a href='http://git-scm.com/'>Git source control system</a>. Moose er et veldig åpent prosjekt og vi er alltid villige til å ta bidrag fra andre. <a href='http://search.cpan.org/dist/Moose/lib/Moose/Manual/Contributing.pod'><code>Moose::Manual::Contributing</code></a> beskriver våre spesifikke bidrags retningslinjer og forteller deg hvordan du kommer i gang med vårt arbeid-flow.</p>"
-"<p><a href='http://search.cpan.org/~apocal/'>Apocalypse</a>visualiserte<a href='http://www.youtube.com/watch?v=Gwq10W0RaHQ&amp;hd=1'>aktiviteten i Git repositories av Moose</a> and <a href='http://www.youtube.com/watch?v=HlJDnvNSfJo&amp;hd=1'><code>Class::MOP</code></a>i anledning av deres 1.0 utgivelse. Disse visualiseringer ble skapt med<a href='http://code.google.com/p/gource/wiki/Videos'>Gource</a>.</p>"
+msgstr "<p>Moose er utviklet ved hjelp av<a href='http://git-scm.com/'>Git source control system</a>. Moose er et veldig åpent prosjekt og vi er alltid villige til å ta bidrag fra andre. <a href='https://metacpan.org/release/Moose/lib/Moose/Manual/Contributing.pod'><code>Moose::Manual::Contributing</code></a> beskriver våre spesifikke bidrags retningslinjer og forteller deg hvordan du kommer i gang med vårt arbeid-flow.</p>"
+"<p><a href='https://metacpan.org/author/APOCAL'>Apocalypse</a>visualiserte<a href='http://www.youtube.com/watch?v=Gwq10W0RaHQ&amp;hd=1'>aktiviteten i Git repositories av Moose</a> and <a href='http://www.youtube.com/watch?v=HlJDnvNSfJo&amp;hd=1'><code>Class::MOP</code></a>i anledning av deres 1.0 utgivelse. Disse visualiseringer ble skapt med<a href='http://code.google.com/p/gource/wiki/Videos'>Gource</a>.</p>"
 
 msgid "download git public"
 msgstr "Git Offentlig Database URL"
@@ -109,7 +109,7 @@ msgstr "GitHub Speil"
 # support
 
 msgid "support body"
-msgstr "<p>Moose er et fellesskap drevet prosjekt, og du kan finne hjelp og støtte på de offisielle<acronym title='Internet relay chat'>IRC</acronym> kanaler og e-postlister, men også på community basert hjelpesystem nettsteder som <a href='http://www.perlmonks.org'>PerlMonks</a> and <a href='http://www.stackoverflow.com'>Stack Overflow</a>. Du kan også referere til den offisielle <a href='http://search.cpan.org/dist/Moose/lib/Moose/Manual/Support.pod'><code>Moose::Manual::Support</code></a> dokumentasjonen for mer detalje.</p>"
+msgstr "<p>Moose er et fellesskap drevet prosjekt, og du kan finne hjelp og støtte på de offisielle<acronym title='Internet relay chat'>IRC</acronym> kanaler og e-postlister, men også på community basert hjelpesystem nettsteder som <a href='http://www.perlmonks.org'>PerlMonks</a> and <a href='http://www.stackoverflow.com'>Stack Overflow</a>. Du kan også referere til den offisielle <a href='https://metacpan.org/release/Moose/lib/Moose/Manual/Support.pod'><code>Moose::Manual::Support</code></a> dokumentasjonen for mer detalje.</p>"
 
 msgid "support irc header"
 msgstr "<acronym title='Internet relay chat'>IRC</acronym> Kanaler"
