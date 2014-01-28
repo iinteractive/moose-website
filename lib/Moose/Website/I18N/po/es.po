@@ -55,7 +55,7 @@ msgstr "¿Eres nuevo?"
 
 msgid "about new to moose body"
 msgstr ""
-"<p>Si nunca has usado Moose, el mejor lugar para empezar son los documentos del <a href='https://metacpan.org/release/Moose/lib/Moose/Manual.pod'><code>Moose::Manual</code></a>, seguido por el <a href='https://metacpan.org/release/Moose/lib/Moose/Cookbook.pod'><code>Moose::Cookbook (recetario)</code></a>. La introducción te mostrará qué es Moose, y cómo hace la <acronym title='orientación a objetos'>OO</acronym> de Perl 5 más fácil.</p>"
+"<p>Si nunca has usado Moose, el mejor lugar para empezar son los documentos del <a href='https://metacpan.org/pod/Moose::Manual'><code>Moose::Manual</code></a>, seguido por el <a href='https://metacpan.org/pod/Moose::Cookbook'><code>Moose::Cookbook (recetario)</code></a>. La introducción te mostrará qué es Moose, y cómo hace la <acronym title='orientación a objetos'>OO</acronym> de Perl 5 más fácil.</p>"
 "<p>Las recetas del recetario de Moose básico te enseñará rápidamente muchas funciones de Moose. Una vez que tengas una idea de qué puede hacer Moose, puedes usar la documentación del <acronym title='application programming interface (interfaz de programación de aplicaciones)'>API</acronym> para conocer más a detalle las funciones que te interesen.</p>"
 "<p>Moose también aparece en varios libros:</p>"
 "<ul>"
@@ -91,7 +91,7 @@ msgid "download git header"
 msgstr "Git"
 
 msgid "download git body"
-msgstr "<p>Moose es desarrollado usando el <a href='http://git-scm.com/'>sistema de control de versiones Git</a>. Moose es un proyecto muy abierto, y siempre estamos dispuestos a recibir contribuciones de los demás. <a href='https://metacpan.org/release/Moose/lib/Moose/Manual/Contributing.pod'><code>Moose::Manual::Contributing</code></a> describe nuestras políticas de contribución y te explica cómo comenzar con nosotros.</p>"
+msgstr "<p>Moose es desarrollado usando el <a href='http://git-scm.com/'>sistema de control de versiones Git</a>. Moose es un proyecto muy abierto, y siempre estamos dispuestos a recibir contribuciones de los demás. <a href='https://metacpan.org/pod/Moose::Manual::Contributing'><code>Moose::Manual::Contributing</code></a> describe nuestras políticas de contribución y te explica cómo comenzar con nosotros.</p>"
 "<p><a href='https://metacpan.org/author/APOCAL'>Apocalypse</a> visualizó <a href='http://www.youtube.com/watch?v=Gwq10W0RaHQ&amp;hd=1'>la actividad en los repositorios de Git de Moose</a> y <a href='http://www.youtube.com/watch?v=HlJDnvNSfJo&amp;hd=1'><code>Class::MOP</code></a> cuando lanzaron su versión 1.0. Estas visualizaciones fueron creadas con <a href='http://code.google.com/p/gource/wiki/Videos'>Gource</a>.</p>"
 
 msgid "download git public"
@@ -109,7 +109,7 @@ msgstr "Mirror en GitHub"
 # support
 
 msgid "support body"
-msgstr "<p>Moose es un proyecto comunitario, y puedes conseguir ayuda y soporte en los canales oficiales de <acronym title='Internet relay chat'>IRC</acronym> y listas de correo, así como en sitios de ayuda comunitaria como <a href='http://www.perlmonks.org'>PerlMonks</a> y <a href='http://www.stackoverflow.com'>Stack Overflow</a>. También puedes referirte a la documentación oficial en <a href='https://metacpan.org/release/Moose/lib/Moose/Manual/Support.pod'><code>Moose::Manual::Support</code></a> para más detalles.</p>"
+msgstr "<p>Moose es un proyecto comunitario, y puedes conseguir ayuda y soporte en los canales oficiales de <acronym title='Internet relay chat'>IRC</acronym> y listas de correo, así como en sitios de ayuda comunitaria como <a href='http://www.perlmonks.org'>PerlMonks</a> y <a href='http://www.stackoverflow.com'>Stack Overflow</a>. También puedes referirte a la documentación oficial en <a href='https://metacpan.org/pod/Moose::Manual::Support'><code>Moose::Manual::Support</code></a> para más detalles.</p>"
 
 msgid "support irc header"
 msgstr "Canales de <acronym title='Internet relay chat'>IRC</acronym>"
