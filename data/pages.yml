@@ -89,8 +89,6 @@
         url  : "http://dyn.com"
       - name : "Shutterstock"
         url  : "http://www.shutterstock.com/"
-- name     : blog
-  outfile  : http://blog.moose.perl.org/
 - name     : download
   template : download.tt
   outfile  : download.html
@@ -154,12 +152,6 @@
             de : Dave Rolsky reviews Perl Best Practices, Chapter 15, Objects 7 years later
             es : Dave Rolsky da un repaso de "Perl Best Practices", Capítulo 15, Objetos 7 años después
             nb : Dave Rolsky gjennomgår Perl Best Practices, kapittel 15, Objects 7 år senere
-        - url   : http://blog.moose.perl.org/2011/01/the-moose-ecosystem.html
-          title :
-            en : A discussion of the Moose Ecosystem on our blog
-            de : Eine Erörterung des Moose-Ökosystems in unserem Blog
-            es : Una discusión del Ecosistema de Moose en nuestro blog.
-            nb : En diskusjon av Moose Ecosystem på vår blogg
         - url   : http://blogs.perl.org/users/preaction/2011/01/whats-new-in-webgui-80-1---psgiplack.html
           title :
             en : The WebGUI folks talk about version 8.0 (which uses Moose)
